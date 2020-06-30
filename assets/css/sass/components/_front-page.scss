@@ -1,0 +1,291 @@
+    .slider-main{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-image{   
+        background-color: rgba(255, 255, 255, 0);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #ffffff;
+        height: 100vh;
+    }
+
+ 
+    .slider-image-1{
+        background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://static9.depositphotos.com/1258191/1223/i/950/depositphotos_12233276-stock-photo-pharmacist-reaching-for-medicine.jpg);
+        background-color: rgba(255, 255, 255, 0);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        //background-attachment: fixed;
+        color: #ffffff;
+        height: 70vh;
+    }
+    .slider-image-2{
+        background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://static9.depositphotos.com/1258191/1223/i/950/depositphotos_12233276-stock-photo-pharmacist-reaching-for-medicine.jpg);
+    }
+    .slider-image-3{
+        background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://static9.depositphotos.com/1258191/1223/i/950/depositphotos_12233276-stock-photo-pharmacist-reaching-for-medicine.jpg);
+    }
+
+
+
+    .header-sub-text{
+        font-size: 0.8em;
+    }
+
+    .wrap-animation{
+        -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+        -o-animation: fadein 1.5s; /* Opera < 12.1 */
+        animation: fadein 1.5s;
+        animation: fadein 1.5s;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+        
+        // -webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        // animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    @keyframes fadein {
+    from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-15px);}
+    to   { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0);}
+    }
+    /**
+    * ----------------------------------------
+    * animation slide-bottom
+    * ----------------------------------------
+    */
+    /* Firefox < 16 */
+    @-moz-keyframes fadein {
+    from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-15px);}
+    to   { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0);}
+    }
+
+    /* Safari, Chrome and Opera > 12.1 */
+    @-webkit-keyframes fadein {
+    from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-15px);}
+    to   { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0);}
+    }
+
+    /* Internet Explorer */
+    @-ms-keyframes fadein {
+    from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-15px);}
+    to   { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0);}
+    }
+
+    /* Opera < 12.1 */
+    @-o-keyframes fadein {
+    from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-15px);}
+    to   { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0);}
+    }
+
+    .header-message{
+        //padding: 250px 0px 70px;
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        color: #ffffff;
+
+        h1{
+            font-family: Lato;
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -3px;
+            font-style: normal;
+            font-size: 3em;
+        }
+    }
+
+    .title-separator{
+        border-bottom: 3px solid $redDdb;
+    }
+
+    .section-with-background{
+        padding: 4em 0em;
+        color: #ffffff;
+
+        h3{
+            font-size: 2em;
+            font-weight: 700;
+            line-height: 1.3;
+
+            &:after{
+                transform: translateX(-50%);
+                content: '';
+                left: 50%;
+                bottom: 0;
+                position: absolute;
+                width: 100px;
+                height: 1px;
+                background: #ffffff;
+            }
+        }
+        .description-text{
+            margin-top: 2em;
+        }
+
+        p{
+            line-height: 1.5;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.1em;
+            margin-top: 1em;
+        }
+        .service{
+            margin-top: 2em;
+            .far, .fas{
+                font-size: 5em;
+        } 
+            
+        }
+        .icon-text{
+            font-weight: 400;
+            line-height: 1.3;
+            letter-spacing: 1px;
+            font-style: normal;
+            font-size: 0.8em;
+        }
+    }
+
+    .section-main-products{
+        padding: 3em 0em;
+        background-image: url(http://localhost/ddb/wp-content/uploads/2020/06/fondo-productos.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        .portfolio-main-sections-text{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 23%;
+            text-align: center;
+            background: rgba(31, 31, 31, 0.7);
+            transition: height 0.2s ease-out; 
+            color: #ffffff;
+
+            
+        }
+
+        .portfolio-main-sections-img {
+            position: relative;
+            overflow: hidden;
+
+            &:hover > .portfolio-main-sections-text {
+                height: 100%;
+            }
+        }
+       
+
+        h3{
+            font-size: 2em;
+            font-weight: 700;
+            line-height: 1.3;
+
+            &:after{
+                transform: translateX(-50%);
+                content: '';
+                left: 50%;
+                bottom: 0;
+                position: absolute;
+                width: 100px;
+                height: 1px;
+                background: $redDdb;
+            }
+        }
+        p{
+            line-height: 1.5;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.1em;
+            margin-top: 1em;
+        }
+        i{
+            font-size: 5em;
+        }
+        .icon-text{
+            font-weight: 400;
+            line-height: 1.3;
+            letter-spacing: 1px;
+            font-style: normal;
+            font-size: 0.8em;
+        }
+    }
+
+    .section-testimonial{
+        background-color: rgba(255, 255, 255, 0);
+        background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.3) 100%), url(https://wirxpharmacy.com/wp-content/uploads/2019/12/pharmacy-testimonial.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding: 70px 30px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+    .home-products-wraper{
+        margin-top: 3em;
+        a{
+            margin-top: 2em;
+            color: #000000;
+            //background: #b70817a8;
+            img{
+                // opacity: 1;
+                -webkit-transition: .1s ease-in-out;
+                transition: .1s ease-in-out;
+                
+            }
+            &:hover {
+                img {
+                    //opacity: .5;
+                    transform: scale(0.96);
+                    border-radius: 10px;
+                }
+            }
+            &:hover{
+                //transform: scale(0.99);
+                color: $redDdb;
+                text-decoration: none;
+            }
+        }
+    }
+
+@media (max-width:990px) and (min-width:100px) {
+    .header-message-wrap{
+            display: flex;
+            justify-content: center;
+
+        .header-message{
+            padding: 50px 0px 20px;
+            background-position: left top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: auto;
+            text-align: center;
+    
+            h1{
+                font-family: Lato;
+                font-weight: 700;
+                line-height: 1.1;
+                letter-spacing: -3px;
+                font-style: normal;
+                font-size: 3em;
+            }
+        }   
+    }
+    .section-with-background{
+        padding: 3em 1em;
+
+        .service{
+            border: none !important;
+        }
+    }
+}

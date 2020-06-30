@@ -1,0 +1,147 @@
+.hero-image-header{
+    background: $redDdb;
+    background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 100%),url('http://localhost/ddb/wp-content/uploads/2020/06/cabecera3.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    color: #ffffff;
+    //height: 40vh;
+    //margin-bottom: 4em;
+}
+
+.page-hero-text{
+    padding: 50px 0px 70px;
+    background-position: left top;
+    height: auto;
+    h1{
+        font-size: 2.5em;
+        text-transform: uppercase;
+        font-weight: 700;
+        &:after{
+            transform: translateX(-50%);
+            content: '';
+            left: 50%;
+            bottom: 0;
+            position: absolute;
+            width: 10em;
+            height: 2px;
+            background: $redDdb;
+        }
+    }
+}
+
+.page-section-title{
+    font-size: 3rem;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.section-nosotros{
+    text-align: center;
+    color: #858585;
+    img{
+        border-radius: 50%;
+        max-height: 70px;
+    }
+}
+
+.principios-corporativos{
+    background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.3) 100%),url(http://localhost/ddb/wp-content/uploads/2020/06/ground-group-growth-hands-461049.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 70px 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    i{
+        font-size: 3em;
+        color: #ffe000;
+    }
+}
+
+
+.section-gestion-ambiental{
+    background-image: url(http://localhost/ddb/wp-content/uploads/2020/06/politica-ambiental.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-distribucion{
+    .distribution-elements-text{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 35%;
+        text-align: center;
+        background: rgba(31, 31, 31, 0.7);
+        transition: height 0.2s ease-out; 
+        color: #ffffff;
+    }
+    
+    .distribution-elements-img {
+        position: relative;
+        overflow: hidden;
+    
+        &:hover > .distribution-elements-text {
+            height: 100%;
+        }
+    }
+}
+
+.section-compliance{
+    .compliance-elements-text{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 35%;
+        text-align: center;
+        background: rgba(31, 31, 31, 0.7);
+        transition: height 0.2s ease-out; 
+        color: #ffffff;
+    }
+    
+    .compliance-elements-img {
+        position: relative;
+        overflow: hidden;
+    
+        &:hover > .compliance-elements-text {
+            height: 100%;
+        }
+    }
+}
+
+
+.section-trabaja-con-nosotros{
+    p{
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:990px) and (min-width:100px) {
+    .page-hero-text{
+        padding: 100px 0px 70px;
+        background-position: left top;
+        height: auto;
+        h1{
+            font-size: 2em;
+            text-align: center;
+            &:after{
+                width: 5em;
+            }
+        }
+    }    
+}

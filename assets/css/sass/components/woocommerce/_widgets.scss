@@ -1,0 +1,23 @@
+/**
+* --------------Tag List
+*/
+.widget_product_tag_cloud{
+    font-size: 1.5em;
+    list-style: none;
+    
+    .tagcloud{
+        ul{
+            list-style: none;
+            padding-inline-start: 0;
+
+            li{
+                line-height: 1em;
+            }
+        }
+    }
+
+    a{
+        color: $blueDdb;
+    }
+}
+//* --------------Tag List end-----------------

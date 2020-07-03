@@ -43,7 +43,7 @@
                             Transversal 93 # 51-98 
                             Parque Empresarial Puerta del Sol Bodega 18  . Bogotá-Colombia</a>
                     </li>
-                    <li><i class="far fa-clock"></i>Lun-Vie 7am-4pm | Sab 7am-1pm</li>
+                    <li><i class="far fa-clock"></i>Lun-Vie 7am-4pm | Sab 8am-1pm</li>
                     <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
                     <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
                     

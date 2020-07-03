@@ -80,7 +80,7 @@ get_header();?>
     <div class="container">
         <div class="row d-flex justify-content-center text-center">
             <div class="col-md-12 text-center" >
-                <h3>Comercialización y distribución de medicamentos a la medida</h3>
+                <h3>Comercialización y distribución de medicamentos</h3>
             </div>
             <p class="mt-3">
             Nos especializamos en la comercialización y distribución de productos farmacéuticos éticos y genéricos, dispositivos médicos y kits institucionales a entidades estatales y privadas
@@ -102,13 +102,13 @@ get_header();?>
             <div class="col-md-3 text-center border-right border-light service">
                 <i class="fas fa-phone-volume"></i>
                 <div class="mt-3"></div>
-                <h6>LINEA NARANJA</h6>
-                <span class="icon-text">Abastecemos productos de manera inmediata para atención de urgencias vitales</span>   
+                <h6>IMPORTACIÓN Y EXPORTACIÓN</h6>
+                <span class="icon-text">Importación de Vitales no disponibles y exportación de productos farmacéuticos</span>   
             </div>
             <div class="col-md-3 text-center service">
                 <i class="fas fa-globe"></i>
                 <div class="mt-3"></div>
-                <h6>SOMOS ISO 6001</h6>
+                <h6>CERTIFICADO NTC 6001</h6>
                 <span class="icon-text">Acreditados en NTC 6001 desde el 2014 como garantía de la calidad en todos nuestros procesos</span>   
             </div>
         </div>

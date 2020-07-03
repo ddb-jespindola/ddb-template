@@ -36,7 +36,7 @@
 			<div>
 				<span class="pr-3">
 					<i class="far fa-clock"></i>
-					Lun-Vie 7am - 4pm | Sab 7am - 1pm
+					Lun-Vie 7am - 4pm | Sab 8am - 1pm
 				</span>
 				<span class="border-left border-light pl-3 pr-3">
 					<i class="fas fa-phone"></i>	

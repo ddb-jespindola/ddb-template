@@ -83,7 +83,7 @@ get_header();?>
                 <h3>Comercialización y distribución de medicamentos</h3>
             </div>
             <p class="mt-3">
-            Nos especializamos en la comercialización y distribución de productos farmacéuticos éticos y genéricos, dispositivos médicos y kits institucionales a entidades estatales y privadas
+            Nos especializamos en la comercialización y distribución de productos farmacéuticos éticos y genéricos, medicamentos de marca, dispositivos médicos y kits institucionales a entidades estatales y privadas
             </p>
         </div>
         <div class="row">

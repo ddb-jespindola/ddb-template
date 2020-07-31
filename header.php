@@ -68,7 +68,7 @@
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div>
 				<a class="navbar-brand" href="<?php echo home_url(); ?>">
-					<img src="<?php echo(get_site_url() . '/wp-content/uploads/2020/06/deposito-de-drogas-Boyaca-logo.png');?>" alt="" class="nav-logo">
+					<img src="/wp-content/uploads/2020/07/deposito-de-drogas-boyaca-logo.png" alt="" class="nav-logo">
 				</a>
 			</div>
 			

@@ -715,8 +715,8 @@ function _typeof2(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "funct
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\ddb\wp-content\themes\ddb\assets\js\app.js */"./assets/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\ddb\wp-content\themes\ddb\assets\css\sass\main.scss */"./assets/css/sass/main.scss");
+__webpack_require__(/*! C:\laragon\www\ddb\wp-content\themes\ddb-theme\assets\js\app.js */"./assets/js/app.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\ddb\wp-content\themes\ddb-theme\assets\css\sass\main.scss */"./assets/css/sass/main.scss");
 
 
 /***/ })

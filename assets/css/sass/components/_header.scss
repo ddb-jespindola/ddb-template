@@ -16,7 +16,7 @@
     position:absolute;
     left:45%; /* centers the loading animation horizontally one the screen */
     top:45%; /* centers the loading animation vertically one the screen */
-    background-image:url("http://ddb.test/wp-content/uploads/2020/06/spinner.gif");
+    background-image:url("/wp-content/uploads/2020/06/spinner.gif");
     z-index:9999; /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
@@ -24,6 +24,40 @@
     //margin:-10px 0 0 -36px; /* is width and height divided by two */
 }
 /*----------------* Preloader end ------------------------------*/
+
+.hero-image-header{
+    background: $redDdb;
+    background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 100%),url('/wp-content/uploads/2020/07/cabecera3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background-attachment: fixed;
+    color: #ffffff;
+    //height: 40vh;
+    //margin-bottom: 4em;
+}
+
+.page-hero-text{
+    padding: 50px 0px 70px;
+    background-position: left top;
+    height: auto;
+    h1{
+        font-size: 2.5em;
+        text-transform: uppercase;
+        font-weight: 700;
+        &:after{
+            transform: translateX(-50%);
+            content: '';
+            left: 50%;
+            bottom: 0;
+            position: absolute;
+            width: 10em;
+            height: 2px;
+            background: $redDdb;
+        }
+    }
+}
+
 
 @media screen and (min-width: 990px){
     .sticky {
@@ -275,6 +309,7 @@
 }
 
 @media (max-width:990px) and (min-width:100px) {
+    
     .nav-placeholder{
         display: none;
     }

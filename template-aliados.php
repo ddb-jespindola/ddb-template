@@ -14,7 +14,7 @@ get_template_part( 'template-parts/section', 'hero' );
         
         <div class="row border mt-3">
             <div class="col-md-3 text-center pr-2">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/comercializacion.jpg" alt="" class="w-100 pt-2 pb-2">
+                <img src="/wp-content/uploads/2020/07/comercializacion.jpg" alt="" class="w-100 pt-2 pb-2">
             </div>
             <div class="col-md-9 d-flex justify-content-center align-items-center">
                 <div class="mr-3">
@@ -33,7 +33,7 @@ get_template_part( 'template-parts/section', 'hero' );
 
         <div class="row border mt-3">
             <div class="col-md-3 text-center pr-2">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/distribucion.jpg" alt="" class="w-100 pt-2 pb-2">
+                <img src="/wp-content/uploads/2020/07/distribucion.jpg" alt="" class="w-100 pt-2 pb-2">
             </div>
             <div class="col-md-9 d-flex justify-content-center align-items-center">
                 <div class="mr-3">
@@ -49,7 +49,7 @@ get_template_part( 'template-parts/section', 'hero' );
         </div>
         <div class="row border mt-3">
             <div class="col-md-3 text-center pr-2">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/capacitacion.jpg" alt="" class="w-100 pt-2 pb-2">
+                <img src="/wp-content/uploads/2020/07/capacitacion.jpg" alt="" class="w-100 pt-2 pb-2">
             </div>
             <div class="col-md-9 d-flex justify-content-center align-items-center">
                 <div class="mr-3">
@@ -65,7 +65,7 @@ get_template_part( 'template-parts/section', 'hero' );
         </div>
         <div class="row border mt-3">
             <div class="col-md-3 text-center pr-2">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/responsabilidad-social.jpg" alt="" class="w-100 pt-2 pb-2">
+                <img src="/wp-content/uploads/2020/07/responsabilidad-social.jpg" alt="" class="w-100 pt-2 pb-2">
             </div>
             <div class="col-md-9 d-flex justify-content-center align-items-center">
                 <div class="mr-3">

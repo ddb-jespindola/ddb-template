@@ -21,11 +21,11 @@ get_template_part( 'template-parts/section', 'hero' );
             <div class="col-md-6 ">
                 
                 <div>
-                   <img src="http://localhost/ddb/wp-content/uploads/2020/06/trabaja-con-nosotros-1.jpg" alt="" class="w-100">
+                   <img src="/wp-content/uploads/2020/07/trabaja-con-nosotros.jpg" alt="" class="w-100">
                 </div>
             </div>
             <div class="col-md-6">
-                <?php echo do_shortcode('[contact-form-7 id="168" title="Contact form 1"]'); ?>
+                <?php echo do_shortcode('[contact-form-7 id="274" title="Trabaja con nosotros"]'); ?>
             </div>
         </div>
     </div>

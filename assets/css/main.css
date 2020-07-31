@@ -22,7 +22,7 @@
   /* centers the loading animation horizontally one the screen */
   top: 45%;
   /* centers the loading animation vertically one the screen */
-  background-image: url("http://ddb.test/wp-content/uploads/2020/06/spinner.gif");
+  background-image: url("/wp-content/uploads/2020/06/spinner.gif");
   z-index: 9999;
   /* path to your loading animation */
   background-repeat: no-repeat;
@@ -31,6 +31,38 @@
 }
 
 /*----------------* Preloader end ------------------------------*/
+
+.hero-image-header {
+  background: #b70817;
+  background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 100%), url("/wp-content/uploads/2020/07/cabecera3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.page-hero-text {
+  padding: 50px 0px 70px;
+  background-position: left top;
+  height: auto;
+}
+
+.page-hero-text h1 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.page-hero-text h1:after {
+  transform: translateX(-50%);
+  content: "";
+  left: 50%;
+  bottom: 0;
+  position: absolute;
+  width: 10em;
+  height: 2px;
+  background: #b70817;
+}
 
 @media screen and (min-width: 990px) {
   .sticky {
@@ -562,7 +594,7 @@ footer .footer-copyright {
 
 .section-main-products {
   padding: 3em 0em;
-  background-image: url(http://localhost/ddb/wp-content/uploads/2020/06/fondo-productos.jpg);
+  background-image: url(/wp-content/uploads/2020/07/fondo-productos.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -659,6 +691,57 @@ footer .footer-copyright {
   text-decoration: none;
 }
 
+.section-trabaja-con-nosotros {
+  padding: 4em 0em;
+  color: #222;
+}
+
+.section-trabaja-con-nosotros h3 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.section-trabaja-con-nosotros h3:after {
+  transform: translateX(-50%);
+  content: "";
+  left: 50%;
+  bottom: 0;
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: #b70817;
+}
+
+.section-trabaja-con-nosotros .description-text {
+  margin-top: 2em;
+}
+
+.section-trabaja-con-nosotros p {
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1em;
+  margin-top: 0.5em;
+}
+
+.section-trabaja-con-nosotros .service {
+  margin-top: 2em;
+}
+
+.section-trabaja-con-nosotros .service .far,
+.section-trabaja-con-nosotros .service .fas {
+  font-size: 5em;
+}
+
+.section-trabaja-con-nosotros .icon-text {
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-size: 0.8em;
+}
+
 @media (max-width: 990px) and (min-width: 100px) {
   .header-message-wrap {
     display: flex;
@@ -692,39 +775,6 @@ footer .footer-copyright {
   }
 }
 
-.hero-image-header {
-  background: #b70817;
-  background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 100%), url("http://localhost/ddb/wp-content/uploads/2020/06/cabecera3.jpg");
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-attachment: fixed;
-  color: #ffffff;
-}
-
-.page-hero-text {
-  padding: 50px 0px 70px;
-  background-position: left top;
-  height: auto;
-}
-
-.page-hero-text h1 {
-  font-size: 2.5em;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.page-hero-text h1:after {
-  transform: translateX(-50%);
-  content: "";
-  left: 50%;
-  bottom: 0;
-  position: absolute;
-  width: 10em;
-  height: 2px;
-  background: #b70817;
-}
-
 .page-section-title {
   font-size: 3rem;
   letter-spacing: -1px;
@@ -742,12 +792,11 @@ footer .footer-copyright {
 }
 
 .principios-corporativos {
-  background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.3) 100%), url(http://localhost/ddb/wp-content/uploads/2020/06/ground-group-growth-hands-461049.jpg);
+  background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.3) 100%), url(/wp-content/uploads/2020/07/principios-corporativos.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   padding: 70px 30px;
   background-size: cover;
-  background-attachment: fixed;
   color: #ffffff;
 }
 
@@ -757,7 +806,7 @@ footer .footer-copyright {
 }
 
 .section-gestion-ambiental {
-  background-image: url(http://localhost/ddb/wp-content/uploads/2020/06/politica-ambiental.jpg);
+  background-image: url(/wp-content/uploads/2020/07/politica-ambiental_2.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -829,12 +878,9 @@ footer .footer-copyright {
 .wpcf7 {
   font-family: "Open Sans Condensed", arial, sans;
   width: 100%;
-  padding: 30px;
+  padding: 30px 30px 0 0;
   background: #FFFFFF;
   margin: 0em auto;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
 }
 
 .wpcf7 h2 {
@@ -856,6 +902,7 @@ footer .footer-copyright {
 .wpcf7 input[type=time],
 .wpcf7 input[type=url],
 .wpcf7 input[type=password],
+.wpcf7 input[type=tel],
 .wpcf7 textarea,
 .wpcf7 select {
   box-sizing: border-box;
@@ -899,94 +946,139 @@ footer .footer-copyright {
   box-shadow: inset 0px 1px 0px 0px #000000;
 }
 
+.wpcf7 label {
+  width: 100%;
+}
+
+.contact-info p {
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1em;
+  margin-top: 1em;
+}
+
+.contact-info i {
+  font-size: 1em;
+  margin-right: 0.5em;
+  color: #b70817;
+}
+
+.contact-info .icon-text {
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+.contact-info ul {
+  padding-left: 0;
+}
+
+.contact-info li {
+  list-style: none;
+  padding: 0.5em 0em;
+  color: #646464;
+}
+
+.contact-info a {
+  color: #646464;
+}
+
+.contact-info a:hover {
+  color: #b70817;
+  text-decoration: none;
+}
+
 .sprite-etica {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -610px -740px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -610px -740px;
 }
 
 .sprite-cumplimiento-normativo {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -730px -985px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -730px -985px;
 }
 
 .sprite-actuacion {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -855px -245px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -855px -245px;
 }
 
 .sprite-reputacion {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -731px -735px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -731px -735px;
 }
 
 .sprite-buenas-practicas {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -1220px -980px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -1220px -980px;
 }
 
 .sprite-comercializacion {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -490px -370px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -490px -370px;
 }
 
 .sprite-distribucion {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -980px -1600px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -980px -1600px;
 }
 
 .sprite-capacitacion {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -1100px -490px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -1100px -490px;
 }
 
 .sprite-responsabilidad-social {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -1592px 5px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -1592px 5px;
 }
 
 .sprite-tiempo {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -850px -1355px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -850px -1355px;
 }
 
 .sprite-fecha {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -610px 0px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -610px 0px;
 }
 
 .sprite-telefono {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -1100px -1100px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -1100px -1100px;
 }
 
 .sprite-alianza {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -1710px -1230px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -1710px -1230px;
 }
 
 .sprite-inventarios {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -610px -980px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -610px -980px;
 }
 
 .sprite-soporte {
   width: 85px;
   height: 85px;
-  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -855px -735px;
+  background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -855px -735px;
 }
 
 .woocommerce .single-product {
@@ -1174,5 +1266,18 @@ body {
 
 .dgwt-wcas-search-wrapp {
   z-index: 999 !important;
+}
+
+.red-button {
+  background: #b70817;
+  padding: 10px 70px;
+  margin-top: 10px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.red-button:hover {
+  background: #222;
 }
 

@@ -197,3 +197,19 @@ function woo_minimum_order_amount() {
 
     return $text;
 } );
+
+
+/**
+ * Change the placeholder image
+ */
+add_filter('woocommerce_placeholder_img_src', 'custom_woocommerce_placeholder_img_src');
+
+function custom_woocommerce_placeholder_img_src( $src ) {
+	$upload_dir = wp_upload_dir();
+	$uploads = untrailingslashit( $upload_dir['baseurl'] );
+	// replace with path to your image
+	$src = $uploads . '/2020/07/ddb-placeholder.jpg';
+	 
+	return $src;
+}
+

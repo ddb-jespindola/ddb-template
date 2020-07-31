@@ -15,7 +15,7 @@
             <div class="col-md-4">
                 <h5>Certificaciones</h5>
                 <div class="footer-logo">
-                        <img src="<?php echo(get_site_url() . '/wp-content/uploads/2020/06/Bureau-veritas-C0240563.png');?>" alt="" class="footer-logo">
+                        <img src="/wp-content/uploads/2020/06/Bureau-veritas-C0240563.png" alt="" class="footer-logo">
                 </div>
             </div>
             
@@ -32,7 +32,13 @@
                         <a href="">Kits</a>
                     </li>
                     <li>
-                        <a href="">Contacto</a>
+                        <a href="/escribenos">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="/trabaja-con-nosotros/">Trabaja con nosotros</a>
+                    </li>
+                    <li>
+                        <a href="/proteccion-de-datos/">Protección de datos</a>
                     </li>
                 </ul>
             </div>

@@ -9,7 +9,7 @@ get_header();
 get_template_part( 'template-parts/section', 'hero' );
 ?>
 
-<section class="section-gestion-ambiental mt-5 mb-5">
+<section class="section-gestion-ambiental mt-5 mb-5 pb-5">
     <div class="container">
         <div class="row">
             

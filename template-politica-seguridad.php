@@ -14,7 +14,7 @@ get_template_part( 'template-parts/section', 'hero' );
         <div class="row">
             
             <div class="col-md-4">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/politica-seguridad2.jpg" alt="" class="w-100">
+                <img src="/wp-content/uploads/2020/07/politica-seguridad2.jpg" alt="" class="w-100">
             </div>
             <div class="col-md-8 text-justify pr-5 pl-5">
                 <div class="row">

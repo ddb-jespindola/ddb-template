@@ -78,3 +78,16 @@ body{
 .dgwt-wcas-search-wrapp{
     z-index: 999 !important;
 }
+
+.red-button{
+    background: $redDdb;
+    padding: 10px 70px;
+    margin-top: 10px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.5em;
+    //border: 3px solid $blackDdb;
+    &:hover{
+        background: $blackDdb;
+    }
+}

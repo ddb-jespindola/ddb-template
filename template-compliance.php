@@ -75,7 +75,7 @@ get_template_part( 'template-parts/section', 'hero' );
             <div class="col-md-4">
                 <div class="row">
                     <div class="compliance-elements-img">
-                        <img src="http://localhost/ddb/wp-content/uploads/2020/06/practicas-anticorrupcion.jpg" alt="" class="w-100">
+                        <img src="/wp-content/uploads/2020/07/practicas-anticorrupcion.jpg" alt="" class="w-100">
                         <div class="compliance-elements-text d-flex justify-content-center align-items-center">
                             <h5 class="text-white">Prácticas Anticorrupción Prácticas Anticorrupción</h5>
                         </div>
@@ -86,7 +86,7 @@ get_template_part( 'template-parts/section', 'hero' );
             <div class="col-md-4">
                 <div class="row">
                     <div class="compliance-elements-img">
-                        <img src="http://localhost/ddb/wp-content/uploads/2020/06/concurrencia-libre.jpg" alt="" class="w-100">
+                        <img src="/wp-content/uploads/2020/07/concurrencia-libre.jpg" alt="" class="w-100">
                         <div class="compliance-elements-text d-flex justify-content-center align-items-center">
                             <h5 class="text-white">Concurrencia libre al mercado y leal competencia</h5>
                         </div>
@@ -98,7 +98,7 @@ get_template_part( 'template-parts/section', 'hero' );
             <div class="col-md-4">
                 <div class="row">
                     <div class="compliance-elements-img">
-                        <img src="http://localhost/ddb/wp-content/uploads/2020/06/prevencion-riesgos-lavado.jpg" alt="" class="w-100">
+                        <img src="/wp-content/uploads/2020/07/prevencion-riesgos-lavado.jpg" alt="" class="w-100">
                         <div class="compliance-elements-text d-flex justify-content-center align-items-center">
                             <h5 class="text-white">Prevención riesgos Lavado de Activos y Financiación del Terrorismo</h5>
                         </div>

@@ -100,13 +100,13 @@ get_header();?>
                 <span class="icon-text">Modelos conceptuales donde se identifique las fallas de la atención en salud y probabilidades de riesgo</span>   
             </div>
             <div class="col-md-3 text-center border-right border-light service">
-                <i class="fas fa-phone-volume"></i>
+                <i class="fas fa-plane"></i>
                 <div class="mt-3"></div>
                 <h6>IMPORTACIÓN Y EXPORTACIÓN</h6>
                 <span class="icon-text">Importación de Vitales no disponibles y exportación de productos farmacéuticos</span>   
             </div>
             <div class="col-md-3 text-center service">
-                <i class="fas fa-globe"></i>
+                <i class="fas fa-check"></i>
                 <div class="mt-3"></div>
                 <h6>CERTIFICADO NTC 6001</h6>
                 <span class="icon-text">Acreditados en NTC 6001 desde el 2014 como garantía de la calidad en todos nuestros procesos</span>   
@@ -124,7 +124,7 @@ get_header();?>
                         <h2>Conoce nuestro <span class="redDdb-text">portafolio de productos</span></h2>
                         <div class="portafolio-button mt-3">
                             <a href="">
-                                <img src="wp-content/uploads/2020/06/boton-portafolio.jpg" alt="" class="w-100">
+                                <img src="/wp-content/uploads/2020/07/boton-portafolio.jpg" alt="" class="w-100">
                             </a>                        
                         </div>
                     </div>
@@ -133,7 +133,7 @@ get_header();?>
                     <div class="col-md-4">
                         <a href="">
                             <div class="portfolio-main-sections-img">
-                                <img src="wp-content/uploads/2020/06/medicamentos-300.jpg" alt="" class="w-100">
+                                <img src="wp-content/uploads/2020/07/medicamentos-300.jpg" alt="" class="w-100">
                                 <div class="portfolio-main-sections-text d-flex justify-content-center align-items-center">
                                     <h5>Medicamentos</h5>
                                 </div>
@@ -143,7 +143,7 @@ get_header();?>
                     <div class="col-md-4">
                         <a href="">
                             <div class="portfolio-main-sections-img">
-                                <img src="wp-content/uploads/2020/06/dispositivos-medicos-300.jpg" alt="" class="w-100">
+                                <img src="wp-content/uploads/2020/07/dispositivos-medicos-300.jpg" alt="" class="w-100">
                                 <div class="portfolio-main-sections-text d-flex justify-content-center align-items-center">
                                     <h5>Dispositivos médicos</h5>
                                 </div>
@@ -153,7 +153,7 @@ get_header();?>
                     <div class="col-md-4">
                         <a href="">
                             <div class="portfolio-main-sections-img">
-                                <img src="wp-content/uploads/2020/06/kits-300.jpg" alt="" class="w-100">
+                                <img src="wp-content/uploads/2020/07/kits-300.jpg" alt="" class="w-100">
                                 <div class="portfolio-main-sections-text d-flex justify-content-center align-items-center">
                                     <h5>Kits</h5>
                                 </div>
@@ -171,22 +171,23 @@ get_header();?>
     <div class="container mb-5 pt-5 border-top border-danger">
         <div class="row d-flex justify-content-between align-items-center">
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/Logo-Farmalogica.jpg" alt="" class="img-fluid">
+
+                <img src="/wp-content/uploads/2020/07/Logo-Farmalogica.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/stendhal-logo.jpg" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/07/stendhal-logo.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/GOTHAPLAST-LOGO.jpg" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/07/GOTHAPLAST-LOGO.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/LOGO-SURGIPLAST-NEW-12-CMS-COLOR.jpg" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/07/LOGO-SURGIPLAST-NEW-12-CMS-COLOR.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/ICU_Logo_ES.jpg" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/07/ICU_Logo_ES.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/blaskov-logo.jpg" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/07/blaskov-logo.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -217,5 +218,28 @@ get_header();?>
     </div> 
 </section>
 
+
+
+<section class="section-trabaja-con-nosotros pt-5 pb-5 pl-5 pr-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-12">
+                        <h3>Únete a nuestro equipo</h3>
+                    </div>
+                    <p class="text-center">Postula tu hoja de vida y trabaja con nosotros</p>
+                </div>
+                
+            </div>
+            
+            <div class="col-md-6 text-center">
+                <a href="/trabaja-con-nosotros/">
+                    <span class="red-button">Aplicar</span>
+                </a>  
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php get_footer(); ?>

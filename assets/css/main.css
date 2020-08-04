@@ -858,6 +858,28 @@ footer .footer-copyright {
   font-size: 1.5em;
 }
 
+.whats-app {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  left: 15px;
+  z-index: 100;
+}
+
+.whats-app:hover {
+  color: #999;
+}
+
+.my-float {
+  margin: auto;
+}
+
 @media (max-width: 990px) and (min-width: 100px) {
   .page-hero-text {
     padding: 100px 0px 70px;
@@ -1081,44 +1103,44 @@ footer .footer-copyright {
   background: url("/wp-content/uploads/2020/07/Pack-Iconos.png") -855px -735px;
 }
 
-.woocommerce .single-product {
+.woocommerce .product {
   margin-top: 2em;
 }
 
-.woocommerce .single-product h1 {
+.woocommerce .product h1 {
   font-size: 1.5em;
   font-weight: 700;
 }
 
-.woocommerce .single-product .product .woocommerce-product-gallery {
-  width: 35% !important;
+.woocommerce .product .woocommerce-product-gallery {
+  display: none;
 }
 
-.woocommerce .single-product .product .summary {
-  width: 60% !important;
+.woocommerce .product .summary {
+  width: 100% !important;
 }
 
-.woocommerce .single-product .product .summary .product_meta .posted_in {
+.woocommerce .product .summary .product_meta .posted_in {
   display: block;
 }
 
-.woocommerce .single-product .product .summary .product_meta span {
+.woocommerce .product .summary .product_meta span {
   font-weight: 700;
 }
 
-.woocommerce .single-product .product .summary .product_meta span a {
+.woocommerce .product .summary .product_meta span a {
   color: #b70817 !important;
 }
 
-.woocommerce .single-product .product .summary .product_meta .wb-posted_in {
+.woocommerce .product .summary .product_meta .wb-posted_in {
   margin-top: 0;
 }
 
-.woocommerce .single-product .product .summary .product_meta .wb-posted_in a {
+.woocommerce .product .summary .product_meta .wb-posted_in a {
   color: #b70817;
 }
 
-.woocommerce .single-product .product .summary .woocommerce-product-details__short-description {
+.woocommerce .product .summary .woocommerce-product-details__short-description {
   font-size: 0.8em;
 }
 
@@ -1139,6 +1161,7 @@ footer .footer-copyright {
   padding: 11px 15px 14px 10px !important;
   transition: box-shadow 0.3s;
   transition: border 0.3s;
+  margin-bottom: 0px !important;
 }
 
 .woocommerce .products .product:hover {
@@ -1177,6 +1200,11 @@ footer .footer-copyright {
 .woocommerce .col2-set .col-2,
 .woocommerce-page .col2-set .col-2 {
   ax-width: unset;
+}
+
+.searchbar-shop {
+  padding: 10px 40px;
+  background: #b70817;
 }
 
 /**

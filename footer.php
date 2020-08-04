@@ -10,6 +10,11 @@
 <?php wp_footer(); ?>
 
 <footer>
+
+    <a  class="whats-app d-flex align-items-center justify-content-center" href="#" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
     <div class="container">
         <div class="row">
             <div class="col-md-4">

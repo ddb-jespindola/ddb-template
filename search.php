@@ -7,25 +7,24 @@
  * @package Screenr
  */
 
-get_header(); ?>
+get_header(); 
+get_template_part( 'template-parts/section', 'hero' ); ?>
 
+
+    <div class="mt-5">
 	<div id="content" class="site-content">
 
 		<div id="content-inside" class="container right-sidebar">
 			<section id="primary" class="content-area">
 				<main id="main" class="site-main" role="main">
-               
-               
-                
-    
-
+                <?php do_action( 'woocommerce_before_shop_loop' ); ?>       
 				<?php if ( have_posts() ) : ?>
 
 					<?php /* Start the Loop */ ?>
 					<?php while ( have_posts() ) : the_post(); ?>
-					<?php do_action( 'woocommerce_before_shop_loop' ); ?>
+					
                     
-                    <div class="woocommerce columns-4 ">
+                    <div class="woocommerce">
                     
                     <?php woocommerce_product_loop_start();?>
                     
@@ -38,7 +37,7 @@ get_header(); ?>
                         return;
                     }
                     ?>
-                    <li <?php wc_product_class( '', $product ); ?>>
+                    <div <?php wc_product_class( '', $product ); ?>>
                         <?php
                         /**
                          * Hook: woocommerce_before_shop_loop_item.
@@ -78,7 +77,7 @@ get_header(); ?>
                          */
                         do_action( 'woocommerce_after_shop_loop_item' );
                         ?>
-                    </li>
+                    </div>
 
 
 
@@ -100,7 +99,13 @@ get_header(); ?>
 
 				<?php else : ?>
 
-					<div>NADA</div>
+					<div class="container mt-5 mb-5">
+                        <div class="row justify-content-center">
+                            <div>
+                                <h2>No hay resultados :(</h2>
+                            </div>
+                        </div>
+                    </div>
 
 				<?php endif; ?>
 
@@ -110,5 +115,5 @@ get_header(); ?>
 
 		</div><!--#content-inside -->
 	</div><!-- #content -->
-
+    </div>
 <?php get_footer(); ?>

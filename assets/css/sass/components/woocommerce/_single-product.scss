@@ -1,17 +1,18 @@
 .woocommerce{
-    .single-product{
-        margin-top: 2em;
-        h1{
-            font-size: 1.5em;
-            font-weight: 700;
-        }
+    
         
         .product{
+            margin-top: 2em;
+            h1{
+                font-size: 1.5em;
+                font-weight: 700;
+            }
             .woocommerce-product-gallery{
-                width: 35% !important;
+                //width: 35% !important;
+                display: none;
             }
             .summary{
-                width: 60% !important;
+                width: 100% !important;
                 .product_meta{
                     .posted_in{
                         display: block;      
@@ -35,7 +36,7 @@
             }
         }
     }
-}
+
 
 
 

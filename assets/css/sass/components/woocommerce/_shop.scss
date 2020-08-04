@@ -6,7 +6,7 @@
             padding: 11px 15px 14px 10px !important;
             transition: box-shadow 0.3s;
             transition: border 0.3s;
-
+            margin-bottom: 0px !important;
 
             &:hover{
                 border: 1px solid $redDdb;
@@ -19,6 +19,7 @@
             span{
                 text-align: center;
             }
+
             h2{
                 font-size: 0.8em !important;
                 color: $grayDdb;
@@ -43,4 +44,10 @@
     
 .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1,.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
     ax-width: unset;
+}
+
+
+.searchbar-shop{
+    padding: 10px 40px;
+    background: $redDdb;
 }

@@ -51,3 +51,15 @@
     padding: 10px 40px;
     background: $redDdb;
 }
+
+
+.widget_product_categories{
+    margin-top: 10px;
+    list-style: none;
+    ul{
+        padding-left: 0px;
+        li{
+            list-style: none;
+        }
+    }
+}

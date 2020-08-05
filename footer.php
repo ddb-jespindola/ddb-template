@@ -11,7 +11,7 @@
 
 <footer>
 
-    <a  class="whats-app d-flex align-items-center justify-content-center" href="#" target="_blank">
+    <a  class="whats-app d-flex align-items-center justify-content-center" href="https://wa.me/+573125237420" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
 

@@ -12,68 +12,44 @@ get_header();?>
 <section class="container-fluid main slider-main">
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item slider-image-1 active">
-            <div class="container wrap-animation">
-                <div class="row">
-                    <div class="col-4 header-message">
-                        <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
-                        <div class="title-separator mt-4"></div>
-                        <div class="mt-4">
-                            <h3>
-                                <span class="header-sub-text">
-                                    Comprometidos con la salud de todos los colombianos
-                                </span>
-                            </h3>    
-                        </div>
-                    </div>
-                </div>    
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="/nuestra-empresa/">
+                <picture>
+                    <source srcset="/wp-content/uploads/2020/08/banner_nosotros_large_2.jpg" media="(min-width: 1000px)" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_nosotros_mobile.jpg" media="(min-width: 800px)" class="w-100">
+                    <img srcset="/wp-content/uploads/2020/08/banner_nosotros_mobile.jpg" alt="…" class="w-100">
+                </picture>
+                </a>
+            </div>
+            <div class="carousel-item ">
+                <a href="/catalogo-de-productos/">
+                <picture>
+                    <source srcset="/wp-content/uploads/2020/08/x3.jpg" media="(min-width: 1000px)" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/x_mobile.jpg" media="(min-width: 800px)" class="w-100">
+                    <img srcset="/wp-content/uploads/2020/08/x_mobile.jpg" alt="…" class="w-100">
+                </picture>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="/catalogo-de-productos/">
+                <picture>
+                    <source srcset="/wp-content/uploads/2020/08/banner_catalogo_large.jpg" media="(min-width: 1000px)" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_catalogo_mobile.jpg" media="(min-width: 800px)" class="w-100">
+                    <img srcset="/wp-content/uploads/2020/08/banner_catalogo_mobile.jpg" alt="…" class="w-100">
+                </picture>
+                </a>
             </div>
         </div>
-        <div class="carousel-item slider-image-1 ">
-            <div class="container wrap-animation">
-                <div class="row">
-                    <div class="col-4 header-message">
-                        <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
-                        <div class="title-separator mt-4"></div>
-                        <div class="mt-4">
-                            <h3>
-                                <span class="header-sub-text">
-                                    Comprometidos con la salud de todos los colombianos
-                                </span>
-                            </h3>    
-                        </div>
-                    </div>
-                </div>    
-            </div>
-        </div><div class="carousel-item slider-image-1 ">
-            <div class="container wrap-animation">
-                <div class="row">
-                    <div class="col-4 header-message">
-                        <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
-                        <div class="title-separator mt-4"></div>
-                        <div class="mt-4">
-                            <h3>
-                                <span class="header-sub-text">
-                                    Comprometidos con la salud de todos los colombianos
-                                </span>
-                            </h3>    
-                        </div>
-                    </div>
-                </div>    
-            </div>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-
 </section>
 
 <section class="section-with-background background-redddb">
@@ -115,56 +91,116 @@ get_header();?>
     </div>
 </section>
 
-<section class="section-main-products">
+<section class="section-distribucion section-trabaja-con-nosotros">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 offset-md-4">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Conoce nuestro <span class="redDdb-text">portafolio de productos</span></h2>
-                        <div class="portafolio-button mt-3">
-                            <a href="">
-                                <img src="/wp-content/uploads/2020/07/boton-portafolio.jpg" alt="" class="w-100">
-                            </a>                        
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-3">
+            <div class="col-md-12 text-center">
+                <h3>Conoce nuestro catálogo de productos</h3>
+            </div>
+        </div>
+    <div class="row mt-3">
                     <div class="col-md-4">
                         <a href="">
-                            <div class="portfolio-main-sections-img">
-                                <img src="wp-content/uploads/2020/07/medicamentos-300.jpg" alt="" class="w-100">
-                                <div class="portfolio-main-sections-text d-flex justify-content-center align-items-center">
-                                    <h5>Medicamentos</h5>
+                            <div class="distribution-elements-img">
+                                <img src="/wp-content/uploads/2020/07/medicamentos_1.jpg" alt="" class="w-100">
+                                <div class="distribution-elements-text d-flex justify-content-center align-items-center">
+                                    <h5>Productos farmacéuticos hospitalarios, ambulatorios, control especial y alto costo</h5>
                                 </div>
                             </div>
-                        </a>
+                        </a>    
                     </div>
                     <div class="col-md-4">
                         <a href="">
-                            <div class="portfolio-main-sections-img">
-                                <img src="wp-content/uploads/2020/07/dispositivos-medicos-300.jpg" alt="" class="w-100">
-                                <div class="portfolio-main-sections-text d-flex justify-content-center align-items-center">
+                            <div class="distribution-elements-img">
+                                <img src="/wp-content/uploads/2020/07/alimentos-nutriciones.jpg" alt="" class="w-100">
+                                <div class="distribution-elements-text d-flex justify-content-center align-items-center">
+                                    <h5>Alimentos y nutriciones</h5>
+                                </div>
+                            </div>
+                        </a>    
+                    </div>
+                    <div class="col-md-4">
+                        <a href="">
+                            <div class="distribution-elements-img">
+                                <img src="/wp-content/uploads/2020/07/dispositivos-medicos_1.jpg" alt="" class="w-100">
+                                <div class="distribution-elements-text d-flex justify-content-center align-items-center">
                                     <h5>Dispositivos médicos</h5>
                                 </div>
                             </div>
-                        </a>
+                        </a>    
+                    </div>
+                </div>
+                <div class="row mt-3">
+                <div class="col-md-4">
+                        <a href="">
+                            <div class="distribution-elements-img">
+                                <img src="/wp-content/uploads/2020/07/sustitutos-oseos_2.jpg" alt="" class="w-100">
+                                <div class="distribution-elements-text d-flex justify-content-center align-items-center">
+                                    <h5>Osteosíntesis y Sustitutos Óseos</h5>
+                                </div>
+                            </div>
+                        </a>    
                     </div>
                     <div class="col-md-4">
                         <a href="">
-                            <div class="portfolio-main-sections-img">
-                                <img src="wp-content/uploads/2020/07/kits-300.jpg" alt="" class="w-100">
-                                <div class="portfolio-main-sections-text d-flex justify-content-center align-items-center">
-                                    <h5>Kits</h5>
+                            <div class="distribution-elements-img">
+                                <img src="/wp-content/uploads/2020/07/productos-biologicos.jpg" alt="" class="w-100">
+                                <div class="distribution-elements-text d-flex justify-content-center align-items-center">
+                                    <h5>Productos biológicos</h5>
                                 </div>
                             </div>
-                        </a>
+                        </a>    
+                    </div>
+                    <div class="col-md-4">
+                        <a href="">
+                            <div class="distribution-elements-img">
+                                <img src="/wp-content/uploads/2020/07/kits-300.jpg" alt="" class="w-100">
+                                <div class="distribution-elements-text d-flex justify-content-center align-items-center">
+                                    <h5>Kits de Atención Social Institucional</h5>
+                                </div>
+                            </div>
+                        </a>    
                     </div>
                 </div>
-            </div>
-        </div>
+
     </div>
 </section>
+
+
+<!-- SECTION COUNTER -->
+<section class="numbers dark-blue-bg white-txt">
+    <div class="container">
+
+    
+		<div class="row marged flex">
+		<!-- item 01 -->
+			<div class="col-md-3 col-6 number-item">
+				<h2>+ <span class="value">3000</span></h2>
+				<h3>PRODUCTOS</h3>
+			</div>
+
+		<!-- item 02 -->
+			<div class="col-md-3 col-6 number-item">
+                <h2>+ <span class="value">200</span></h2>
+				<h3>CLIENTES</h3>
+			</div>
+
+		<!-- item 03 -->
+			<div class="col-md-3 col-6 number-item">
+                <h2>+ <span class="value">100</span></h2>
+				<h3>CIUDADES</h3>
+			</div>
+
+		<!-- item 04 -->
+			<div class="col-md-3 col-6 number-item">
+                <h2>+ <span class="value">100</span></h2>
+				<h3>PROVEEDORES</h3>
+			</div>
+        </div>
+        </div>
+	</section>
+<!-- END OF SECTION NUMBERS -->
+
 
 
 <section>

@@ -109,6 +109,8 @@
     .section-with-background{
         padding: 4em 0em;
         color: #ffffff;
+        border-top: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
 
         h3{
             font-size: 2em;
@@ -222,7 +224,7 @@
 
     .section-testimonial{
         background-color: rgba(255, 255, 255, 0);
-        background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.3) 100%), url(https://wirxpharmacy.com/wp-content/uploads/2019/12/pharmacy-testimonial.jpg);
+        background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.3) 100%), url(/wp-content/uploads/2020/08/testimonios.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         padding: 70px 30px;
@@ -337,3 +339,41 @@
         }
     }
 }
+
+
+/* SECTION  COUNTER */
+
+.numbers{
+	background: #001b4f;
+    background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.3) 100%), url('/wp-content/uploads/2020/08/counter_background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: #ffffff;
+	padding: 40px 20px;
+    border-top: 3px #ffffff solid;
+    border-bottom: 3px #ffffff solid;
+    box-shadow: 0px 6px 11px rgba(33, 33, 33, 0.53);
+}
+
+.numbers .flex{
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+.numbers .number-item{
+	width:45%;
+	padding:20px 0;
+	text-align:center;
+	font-size:1.4em;
+}
+.numbers .number-item h2{
+	font-weight:500;
+}
+
+.numbers .number-item h6{
+	font-weight:300;
+	text-transform:uppercase;
+	font-size:12px;
+}
+

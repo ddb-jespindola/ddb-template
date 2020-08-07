@@ -211,19 +211,19 @@ get_header();?>
                 <img src="/wp-content/uploads/2020/07/Logo-Farmalogica.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/07/stendhal-logo.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/07/stendhal-logo.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/07/GOTHAPLAST-LOGO.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/07/GOTHAPLAST-LOGO.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/07/LOGO-SURGIPLAST-NEW-12-CMS-COLOR.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/07/LOGO-SURGIPLAST-NEW-12-CMS-COLOR.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/07/ICU_Logo_ES.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/07/ICU_Logo_ES.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/07/blaskov-logo.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/07/blaskov-logo.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </div>

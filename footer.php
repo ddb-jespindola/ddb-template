@@ -28,10 +28,10 @@
                 <h5>Acceso rapido</h5>
                 <ul>
                     <li>
-                        <a href="">Medicamentos</a>
+                        <a href="/categoria-producto/medicamento/">Medicamentos</a>
                     </li>
                     <li>
-                        <a href="">Dispositivos médicos</a>
+                        <a href="/categoria-producto/medico-quirurgicos/">Dispositivos médicos</a>
                     </li>
                     <li>
                         <a href="">Kits</a>

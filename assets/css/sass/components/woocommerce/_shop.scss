@@ -21,9 +21,13 @@
             }
 
             h2{
-                font-size: 0.8em !important;
+                font-size: 1em !important;
+                text-transform: uppercase;
                 color: $grayDdb;
                 font-weight: 700;
+            }
+            .sku{
+                color: $redDdb;
             }
         }
     }
@@ -56,10 +60,24 @@
 .widget_product_categories{
     margin-top: 10px;
     list-style: none;
+    color: $blackDdb;
+    font-size: 1.5em;
+    font-weight: 600;
+
     ul{
         padding-left: 0px;
+        padding-top: 5px;
         li{
             list-style: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid $grayDdb;
+
+            a{
+                color: $redDdb;
+                font-size: 0.6em;
+                font-weight: normal;
+            }
         }
     }
 }

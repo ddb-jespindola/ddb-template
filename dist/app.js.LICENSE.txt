@@ -1,0 +1,21 @@
+/*! C:\xampp\htdocs\ddb\wp-content\themes\ddb\assets\css\sass\main.scss */
+
+/*! C:\xampp\htdocs\ddb\wp-content\themes\ddb\dist\app.js */
+
+/*! no static exports found */
+
+/*!*********************!*\
+    !*** ./dist/app.js ***!
+    \*********************/
+
+/*!***********************************!*\
+    !*** ./assets/css/sass/main.scss ***!
+    \***********************************/
+
+/*!*****************************************!*\
+      !*** multi ./src/app.js ./src/app.scss ***!
+      \*****************************************/
+
+/*!*******************************************************!*\
+    !*** multi ./dist/app.js ./assets/css/sass/main.scss ***!
+    \*******************************************************/

@@ -16,7 +16,7 @@ get_header();?>
             <div class="carousel-item active">
                 <a href="/nuestra-empresa/">
                 <picture>
-                    <source srcset="/wp-content/uploads/2020/08/banner_nosotros_large_2.jpg" media="(min-width: 1000px)" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_nosotros_large_3.jpg" media="(min-width: 1000px)" class="w-100">
                     <source srcset="/wp-content/uploads/2020/08/banner_nosotros_mobile.jpg" media="(min-width: 800px)" class="w-100">
                     <img srcset="/wp-content/uploads/2020/08/banner_nosotros_mobile.jpg" alt="…" class="w-100">
                 </picture>
@@ -55,33 +55,33 @@ get_header();?>
 <section class="section-with-background background-redddb">
     <div class="container">
         <div class="row d-flex justify-content-center text-center">
-            <div class="col-md-12 text-center" >
+            <div data-aos="fade-down" class="col-md-12 text-center" >
                 <h3>Comercialización y distribución de medicamentos</h3>
             </div>
-            <p class="mt-3">
+            <p data-aos="fade-down" class="mt-3">
             Nos especializamos en la comercialización y distribución de productos farmacéuticos éticos y genéricos, medicamentos de marca, dispositivos médicos y kits institucionales a entidades estatales y privadas
             </p>
         </div>
         <div class="row">
-            <div class="col-md-3 text-center border-right border-light service">
+            <div data-aos="fade-right" class="col-md-3 text-center border-right border-light service">
                 <i class="far fa-clock"></i>
                 <div class="mt-3"></div>
                 <h6>SERVICIO 7 DÍAS</h6>
                 <span class="icon-text">Entrega de medicamentos en las instituciones y redes de distribución especializada</span>   
             </div>
-            <div class="col-md-3 text-center border-right border-light service">
+            <div data-aos="fade-up" class="col-md-3 text-center border-right border-light service">
                 <i class="fas fa-chalkboard-teacher"></i>
                 <div class="mt-3"></div>
                 <h6>ASESORÍA EN CALIDAD</h6>
                 <span class="icon-text">Modelos conceptuales donde se identifique las fallas de la atención en salud y probabilidades de riesgo</span>   
             </div>
-            <div class="col-md-3 text-center border-right border-light service">
+            <div data-aos="fade-up" class="col-md-3 text-center border-right border-light service">
                 <i class="fas fa-plane"></i>
                 <div class="mt-3"></div>
                 <h6>IMPORTACIÓN Y EXPORTACIÓN</h6>
                 <span class="icon-text">Importación de Vitales no disponibles y exportación de productos farmacéuticos</span>   
             </div>
-            <div class="col-md-3 text-center service">
+            <div data-aos="fade-left" class="col-md-3 text-center service">
                 <i class="fas fa-check"></i>
                 <div class="mt-3"></div>
                 <h6>CERTIFICADO NTC 6001</h6>
@@ -94,13 +94,13 @@ get_header();?>
 <section class="section-distribucion section-trabaja-con-nosotros">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div data-aos="fade-down" class="col-md-12 text-center">
                 <h3>Conoce nuestro catálogo de productos</h3>
             </div>
         </div>
     <div class="row mt-3">
-                    <div class="col-md-4">
-                        <a href="">
+                    <div data-aos="fade-left" class="col-md-4">
+                        <a href="/categoria-producto/medicamento/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/medicamentos_1.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
@@ -109,8 +109,8 @@ get_header();?>
                             </div>
                         </a>    
                     </div>
-                    <div class="col-md-4">
-                        <a href="">
+                    <div data-aos="zoom-in" class="col-md-4">
+                        <a href="/categoria-producto/alimentos-nutricional/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/alimentos-nutriciones.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
@@ -119,8 +119,8 @@ get_header();?>
                             </div>
                         </a>    
                     </div>
-                    <div class="col-md-4">
-                        <a href="">
+                    <div data-aos="fade-right" class="col-md-4">
+                        <a href="/categoria-producto/medico-quirurgicos/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/dispositivos-medicos_1.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
@@ -131,8 +131,8 @@ get_header();?>
                     </div>
                 </div>
                 <div class="row mt-3">
-                <div class="col-md-4">
-                        <a href="">
+                <div data-aos="fade-left" class="col-md-4">
+                        <a href="/categoria-producto/sustitutos-oseos-biomateriales/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/sustitutos-oseos_2.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
@@ -141,8 +141,8 @@ get_header();?>
                             </div>
                         </a>    
                     </div>
-                    <div class="col-md-4">
-                        <a href="">
+                    <div data-aos="zoom-in" class="col-md-4">
+                        <a href="/categoria-producto/reactivo-diagnostico/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/productos-biologicos.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
@@ -151,8 +151,8 @@ get_header();?>
                             </div>
                         </a>    
                     </div>
-                    <div class="col-md-4">
-                        <a href="">
+                    <div data-aos="fade-right" class="col-md-4">
+                        <a href="/kits/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/kits-300.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
@@ -231,11 +231,11 @@ get_header();?>
 
 <section class="section-testimonial section-with-background">
     <div class="row ">
-        <div class="col-md-12 text-center">
+        <div data-aos="fade-down" class="col-md-12 text-center">
             <h3>Clientes satisfechos</h3>
         </div>
     </div>
-    <div class="row mt-5">
+    <div data-aos="fade-up" class="row mt-5">
         <div class="col-md-4 text-center">
             <p><i>"Cumplimiento con los tiempos de entrega y amabilidad en el servicio"</i></p>
             <p><strong>Camilo Perez</strong> </p>
@@ -259,7 +259,7 @@ get_header();?>
 <section class="section-trabaja-con-nosotros pt-5 pb-5 pl-5 pr-5">
     <div class="container">
         <div class="row text-center">
-            <div class="col-md-6">
+            <div data-aos="fade-right" class="col-md-6">
                 <div class="row text-center justify-content-center">
                     <div class="col-md-12">
                         <h3>Únete a nuestro equipo</h3>
@@ -269,7 +269,7 @@ get_header();?>
                 
             </div>
             
-            <div class="col-md-6 text-center">
+            <div data-aos="fade-left" class="col-md-6 text-center">
                 <a href="/trabaja-con-nosotros/">
                     <span class="red-button">Aplicar</span>
                 </a>  

@@ -26,7 +26,7 @@ get_template_part( 'template-parts/section', 'hero' );
                 
                 <div class="row ">
                     <div class="col-md-4">
-                        <a href="">
+                        <a href="/categoria-producto/medicamento/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/medicamentos_1.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
@@ -36,7 +36,7 @@ get_template_part( 'template-parts/section', 'hero' );
                         </a>    
                     </div>
                     <div class="col-md-4">
-                        <a href="">
+                        <a href="/categoria-producto/alimentos-nutricional/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/alimentos-nutriciones.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
@@ -46,7 +46,7 @@ get_template_part( 'template-parts/section', 'hero' );
                         </a>    
                     </div>
                     <div class="col-md-4">
-                        <a href="">
+                        <a href="/categoria-producto/medico-quirurgicos/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/dispositivos-medicos_1.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
@@ -58,7 +58,7 @@ get_template_part( 'template-parts/section', 'hero' );
                 </div>
                 <div class="row mt-3">
                 <div class="col-md-4">
-                        <a href="">
+                        <a href="/categoria-producto/sustitutos-oseos-biomateriales/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/sustitutos-oseos_2.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
@@ -68,7 +68,7 @@ get_template_part( 'template-parts/section', 'hero' );
                         </a>    
                     </div>
                     <div class="col-md-4">
-                        <a href="">
+                        <a href="/categoria-producto/reactivo-diagnostico/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/productos-biologicos.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">

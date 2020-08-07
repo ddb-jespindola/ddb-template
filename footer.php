@@ -72,7 +72,13 @@
                 © Copyright 2020 | DEPÓSITO DE DROGAS BOYACÁ | TODOS LOS DERECHOS RESERVADOS
             </div>
         </div>
-    </div>    
+    </div>  
+    
+    <!-- AOS scroll animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </footer>
 
 </body>

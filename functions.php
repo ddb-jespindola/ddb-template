@@ -233,7 +233,7 @@ add_action('woocommerce_shop_loop_item_title', 'simple_product_sku_before_loop_i
 function simple_product_sku_before_loop_item_title(){
 	global $product;
 	$type = $product->product_type;
-	$sku = $type == 'simple' ? '<div> SKU - ' . $product->get_sku() . '</div>' : '';
+	$sku = $type == 'simple' ? "<div class='sku'> SKU - " . $product->get_sku() . '</div>' : '';
 	echo $sku;
 }
 

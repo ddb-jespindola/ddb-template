@@ -1,7 +1,7 @@
 /**
  * AOS Scroll animation 
  */
-
+$('[data-aos]').parent().addClass('hideOverflowOnMobile');
  
 /**
  * Preloader

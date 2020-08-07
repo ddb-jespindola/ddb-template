@@ -15,6 +15,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Start of  Zendesk Widget script -->
+	<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=47e75e55-11dd-4ba3-8760-1a956672018f"> </script>
+	<!-- End of  Zendesk Widget script -->
 	<title>Document</title>
 	<?php wp_head(); ?>
 

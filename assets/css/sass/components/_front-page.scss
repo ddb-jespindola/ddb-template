@@ -344,6 +344,13 @@
             font-size: 1em;
         }
     }
+    /*
+    ** AOS fix bug mobile white space
+    */
+
+    .hideOverflowOnMobile {
+        overflow: hidden;
+    }
 }
 
 

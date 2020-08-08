@@ -13,7 +13,7 @@ get_template_part( 'template-parts/section', 'hero' );
     <div class="container">
         <div class="row">
             <div class="col-md-8 text-justify pr-5">
-                <h2 class="text-left page-section-title">...mucho más que medicamentos</h2>
+                <h2 class="text-left page-section-title">Mucho más que medicamentos</h2>
                 <p >
                     Depósito de Drogas Boyacá (DDB), es una compañía especializada en la comercialización y distribución de productos farmacéuticos éticos y genéricos a empresas sociales del estado, hospitales adscritos a la red distrital y numerosas clínicas, sociedades y fundaciones de orden privado o de economía mixta.
                 </p>
@@ -46,7 +46,7 @@ get_template_part( 'template-parts/section', 'hero' );
         <div class="row">
             <div class="col-md-12">
             <h1 class="text-center mb-4 page-section-title">Principios Corporativos</h1>
-        <div class="row principios-corporativos">
+        <div class="row">
             <div class="col-md-3 text-center">
                 <i class="fas fa-users-cog"></i>
                 <h3> Compromiso</h3>

@@ -52,7 +52,7 @@ get_header();?>
     </div>
 </section>
 
-<section class="section-with-background background-redddb">
+<section class="section-comercializacion-distribucion">
     <div class="container">
         <div class="row d-flex justify-content-center text-center">
             <div data-aos="fade-down" class="col-md-12 text-center" >
@@ -91,14 +91,48 @@ get_header();?>
     </div>
 </section>
 
+<!-- SECTION COUNTER -->
+<section class="numbers dark-blue-bg white-txt">
+    <div class="container">
+
+    
+		<div class="row marged flex">
+		<!-- item 01 -->
+			<div class="col-md-3 col-6 number-item">
+				<h2>+ <span class="value">3000</span></h2>
+				<h3>PRODUCTOS</h3>
+			</div>
+
+		<!-- item 02 -->
+			<div class="col-md-3 col-6 number-item">
+                <h2>+ <span class="value">200</span></h2>
+				<h3>CLIENTES</h3>
+			</div>
+
+		<!-- item 03 -->
+			<div class="col-md-3 col-6 number-item">
+                <h2>+ <span class="value">100</span></h2>
+				<h3>CIUDADES</h3>
+			</div>
+
+		<!-- item 04 -->
+			<div class="col-md-3 col-6 number-item">
+                <h2>+ <span class="value">100</span></h2>
+				<h3>PROVEEDORES</h3>
+			</div>
+        </div>
+        </div>
+	</section>
+<!-- END OF SECTION NUMBERS -->
+
 <section class="section-distribucion section-trabaja-con-nosotros">
     <div class="container">
         <div class="row">
             <div data-aos="fade-down" class="col-md-12 text-center">
-                <h3>Conoce nuestro catálogo de productos</h3>
+                <h3 class="grayDdb-text" >Conoce nuestro catálogo de productos</h3>
             </div>
         </div>
-    <div class="row mt-3">
+    <div class="row mt-5">
                     <div data-aos="fade-left" class="col-md-4">
                         <a href="/categoria-producto/medicamento/">
                             <div class="distribution-elements-img">
@@ -165,42 +199,6 @@ get_header();?>
 
     </div>
 </section>
-
-
-<!-- SECTION COUNTER -->
-<section class="numbers dark-blue-bg white-txt">
-    <div class="container">
-
-    
-		<div class="row marged flex">
-		<!-- item 01 -->
-			<div class="col-md-3 col-6 number-item">
-				<h2>+ <span class="value">3000</span></h2>
-				<h3>PRODUCTOS</h3>
-			</div>
-
-		<!-- item 02 -->
-			<div class="col-md-3 col-6 number-item">
-                <h2>+ <span class="value">200</span></h2>
-				<h3>CLIENTES</h3>
-			</div>
-
-		<!-- item 03 -->
-			<div class="col-md-3 col-6 number-item">
-                <h2>+ <span class="value">100</span></h2>
-				<h3>CIUDADES</h3>
-			</div>
-
-		<!-- item 04 -->
-			<div class="col-md-3 col-6 number-item">
-                <h2>+ <span class="value">100</span></h2>
-				<h3>PROVEEDORES</h3>
-			</div>
-        </div>
-        </div>
-	</section>
-<!-- END OF SECTION NUMBERS -->
-
 
 
 <section>

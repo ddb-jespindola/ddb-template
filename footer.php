@@ -34,7 +34,7 @@
                         <a href="/categoria-producto/medico-quirurgicos/">Dispositivos médicos</a>
                     </li>
                     <li>
-                        <a href="">Kits</a>
+                        <a href="/categoria-producto/kits-de-atencion-social-institucional/">Kits de atención social institucional</a>
                     </li>
                     <li>
                         <a href="/escribenos">Contacto</a>

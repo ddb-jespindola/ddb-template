@@ -78,7 +78,7 @@ get_template_part( 'template-parts/section', 'hero' );
                         </a>    
                     </div>
                     <div class="col-md-4">
-                        <a href="">
+                        <a href="/categoria-producto/kits-de-atencion-social-institucional/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/07/kits-300.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">

@@ -40,7 +40,7 @@ get_template_part( 'template-parts/section', 'hero' );
                     <span class="sprite-distribucion d-block"></span>
                 </div>    
                 <div class="pr-5">
-                    <h3>Dsitribución</h3>
+                    <h3>Distribución</h3>
                     <p>
                         Hemos creado alianzas con operadores logísticos que garantizan entregas puntuales, completas y acordes a los requerimientos de cada cliente y los productos solicitados asegurando la correcta manipulación y transporte de carga seca y productos de cadena de frío. 
                     </p>    

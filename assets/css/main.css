@@ -783,9 +783,57 @@ footer .footer-copyright {
   text-decoration: none;
 }
 
-.section-trabaja-con-nosotros {
+.section-catalogo {
   padding: 4em 0em;
   color: #646464;
+}
+
+.section-catalogo h3 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.section-catalogo h3:after {
+  transform: translateX(-50%);
+  content: "";
+  left: 50%;
+  bottom: 0;
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: #b70817;
+}
+
+.section-catalogo .description-text {
+  margin-top: 2em;
+}
+
+.section-catalogo .distribution-elements-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 35%;
+  text-align: center;
+  background: rgba(31, 31, 31, 0.7);
+  transition: height 0.2s ease-out;
+  color: #ffffff;
+}
+
+.section-catalogo .distribution-elements-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-catalogo .distribution-elements-img:hover > .distribution-elements-text {
+  height: 100%;
+}
+
+.section-trabaja-con-nosotros {
+  padding: 4em 0em;
+  color: #222;
+  background: #ececec;
 }
 
 .section-trabaja-con-nosotros h3 {
@@ -1016,6 +1064,14 @@ footer .footer-copyright {
   .page-hero-text h1:after {
     width: 5em;
   }
+}
+
+/**
+*Cookies Div
+*/
+
+#cookie-law-info-bar {
+  background: #e8e8e8 !important;
 }
 
 .wpcf7 {

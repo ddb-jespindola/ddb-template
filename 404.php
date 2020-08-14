@@ -10,26 +10,34 @@
  * @version 1.0
  */
 
-get_header(); ?>
+get_header(); 
+get_template_part( 'template-parts/section', 'hero' );
+?>
 
-<div class="wrap">
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<section class="mt-5 mb-5">
+    <div class="container">
+			<h2 class="text-center mb-5 page-section-title">Error 404</h2>
+        <div class="row">
+			<div class="col-md-12">
 
-			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'twentyseventeen' ); ?></h1>
-				</header><!-- .page-header -->
-				<div class="page-content">
-					<p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'twentyseventeen' ); ?></p>
-
-					<?php get_search_form(); ?>
-
+				<div class="page-content text-center">
+					<p>La página a la que intentas ingresar no existe</p>
+					
+					<div class="w-50 m-auto">
+						<a href="<?php echo home_url(); ?>">
+							<img src="/wp-content/uploads/2020/07/deposito-de-drogas-boyaca-logo.png" alt="" class="w-50">
+						</a>
+					</div>
+					
 				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
-		</main><!-- #main -->
-	</div><!-- #primary -->
-</div><!-- .wrap -->
+
+			</div>
+            
+        </div>
+    </div>
+</section>
+
+
 
 <?php
 get_footer();

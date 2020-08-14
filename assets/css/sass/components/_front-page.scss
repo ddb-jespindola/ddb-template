@@ -316,9 +316,59 @@
         }
     }
 
-    .section-trabaja-con-nosotros{
+
+
+    .section-catalogo{
         padding: 4em 0em;
         color: $grayDdb;
+
+        h3{
+            font-size: 2em;
+            font-weight: 700;
+            line-height: 1.3;
+
+            &:after{
+                transform: translateX(-50%);
+                content: '';
+                left: 50%;
+                bottom: 0;
+                position: absolute;
+                width: 100px;
+                height: 1px;
+                background: $redDdb;
+            }
+        }
+        .description-text{
+            margin-top: 2em;
+        }
+
+        .distribution-elements-text{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 35%;
+            text-align: center;
+            background: rgba(31, 31, 31, 0.7);
+            transition: height 0.2s ease-out; 
+            color: #ffffff;
+        }
+        
+        .distribution-elements-img {
+            position: relative;
+            overflow: hidden;
+        
+            &:hover > .distribution-elements-text {
+                height: 100%;
+            }
+        }
+    }
+
+
+    .section-trabaja-con-nosotros{
+        padding: 4em 0em;
+        color: $blackDdb;
+        background: #ececec;
 
         h3{
             font-size: 2em;

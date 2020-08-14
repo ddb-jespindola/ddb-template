@@ -105,19 +105,19 @@ get_header();?>
 
 		<!-- item 02 -->
 			<div class="col-md-3 col-6 number-item">
-                <h2>+ <span class="value">200</span></h2>
+                <h2>+ <span class="value">400</span></h2>
 				<h3>CLIENTES</h3>
 			</div>
 
 		<!-- item 03 -->
 			<div class="col-md-3 col-6 number-item">
-                <h2>+ <span class="value">100</span></h2>
-				<h3>CIUDADES</h3>
+                <h2>+ <span class="value">80</span></h2>
+				<h3>MUNICIPIOS</h3>
 			</div>
 
 		<!-- item 04 -->
 			<div class="col-md-3 col-6 number-item">
-                <h2>+ <span class="value">100</span></h2>
+                <h2>+ <span class="value">200</span></h2>
 				<h3>PROVEEDORES</h3>
 			</div>
         </div>
@@ -125,7 +125,9 @@ get_header();?>
 	</section>
 <!-- END OF SECTION NUMBERS -->
 
-<section class="section-distribucion section-trabaja-con-nosotros">
+
+<!-- SECTION CATALOGO -->
+<section class="section-catalogo">
     <div class="container">
         <div class="row">
             <div data-aos="fade-down" class="col-md-12 text-center">
@@ -202,7 +204,7 @@ get_header();?>
 
 
 <section>
-    <div class="container mb-5 pt-5 border-top border-danger">
+    <div class="container mb-5 pt-5 border-top border-secondary">
         <div class="row d-flex justify-content-between align-items-center">
             <div class="col-2 text-center gray-hover-effect">
 
@@ -227,7 +229,7 @@ get_header();?>
     </div>
 </section>
 
-<section class="section-testimonial section-with-background">
+<!-- <section class="section-testimonial section-with-background">
     <div class="row ">
         <div data-aos="fade-down" class="col-md-12 text-center">
             <h3>Clientes satisfechos</h3>
@@ -250,7 +252,7 @@ get_header();?>
             <p>Hospital San Rafael de Fusa</p>
         </div>
     </div> 
-</section>
+</section> -->
 
 
 

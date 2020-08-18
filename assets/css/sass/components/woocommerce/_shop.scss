@@ -56,27 +56,23 @@
     background: $redDdb;
 }
 
-
-.widget_product_categories{
-    margin-top: 10px;
-    list-style: none;
-    color: $blackDdb;
-    font-size: 1.5em;
-    font-weight: 600;
+.woocommerce-pagination{
+    margin-bottom: 1em;
+    background: $redDdb;
+    padding-top: 0.5em;
 
     ul{
-        padding-left: 0px;
-        padding-top: 5px;
-        li{
-            list-style: none;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            border-bottom: 1px solid $grayDdb;
+        border: none !important;
 
-            a{
-                color: $redDdb;
-                font-size: 0.6em;
-                font-weight: normal;
+        li{
+            border: none !important;
+
+            .page-numbers{
+                color: #ffffff;
+
+                &:hover{
+                    color: $redDdb !important;
+                }
             }
         }
     }

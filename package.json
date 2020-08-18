@@ -29,7 +29,7 @@
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
-  "description": "",
+  "description": "DDB Theme",
   "dependencies": {
     "aos": "^3.0.0-beta.6"
   }

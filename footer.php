@@ -45,6 +45,9 @@
                     <li>
                         <a href="/proteccion-de-datos/">Protección de datos</a>
                     </li>
+                    <li>
+                        <a href="/politicas-de-devolucion-ddb/">Políticas de devolución</a>
+                    </li>
                 </ul>
             </div>
             <div class="col-md-4">
@@ -80,6 +83,20 @@
         AOS.init();
     </script>
 </footer>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5f3015a55c885a1b7fb78fee/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
 </body>
 </html>

@@ -14,7 +14,7 @@ get_template_part( 'template-parts/section', 'hero' );
     <div class="container">
 
         <h2 class="text-center mb-5 page-section-title">Preguntas, Reclamos o Sugerencias</h2>
-        <p class="text-center mb-5">Responderemos sus requerimientos a la brevedad</p>
+        <p class="text-center mb-5">Responderemos tus requerimientos a la brevedad</p>
         <div class="row">
             <div class="col-md-7">
                 <h2>Formulario de contacto</h3>

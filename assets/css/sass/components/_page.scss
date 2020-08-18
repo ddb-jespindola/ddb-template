@@ -27,7 +27,6 @@
     }
 }
 
-
 .section-gestion-ambiental{
     background-image: url(/wp-content/uploads/2020/07/politica-ambiental_2.jpg);
     background-position: center center;
@@ -109,4 +108,30 @@
 
 #cookie-law-info-bar {
     background: #e8e8e8 !important;
+}
+
+.no-encontrado {
+    // background-image: linear-gradient(rgb(0 231 255 / 50%), rgb(0 255 255 / 30%)), url(https://www.comolademo.es/demos/colorear-foto.jpg);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // color: #ffffff;
+    h2{
+        font-size: 3em;
+        color: #11B897;
+    }
+    h3{
+        color: #11B897;
+    }
+    .bold-title{
+        font-weight: 700;
+    }
+
+    .contact-info{
+
+        a{
+            font-size: 3em;
+            font-weight: 700;
+        }
+    }
 }

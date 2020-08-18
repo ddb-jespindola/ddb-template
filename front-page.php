@@ -11,7 +11,12 @@ get_header();?>
 
 <section class="container-fluid main slider-main">
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <a href="/nuestra-empresa/">
@@ -25,27 +30,27 @@ get_header();?>
             <div class="carousel-item ">
                 <a href="/catalogo-de-productos/">
                 <picture>
-                    <source srcset="/wp-content/uploads/2020/08/x3.jpg" media="(min-width: 1000px)" class="w-100">
-                    <source srcset="/wp-content/uploads/2020/08/x_mobile.jpg" media="(min-width: 800px)" class="w-100">
-                    <img srcset="/wp-content/uploads/2020/08/x_mobile.jpg" alt="…" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_covid_large.jpg" media="(min-width: 1000px)" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_covid_mobile_1.jpg" media="(min-width: 800px)" class="w-100">
+                    <img srcset="/wp-content/uploads/2020/08/banner_covid_mobile_1.jpg" alt="…" class="w-100">
                 </picture>
                 </a>
             </div>
             <div class="carousel-item">
                 <a href="/catalogo-de-productos/">
                 <picture>
-                    <source srcset="/wp-content/uploads/2020/08/banner_catalogo_large.jpg" media="(min-width: 1000px)" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_catalogo_medium_1.jpg" media="(min-width: 1000px)" class="w-100">
                     <source srcset="/wp-content/uploads/2020/08/banner_catalogo_mobile.jpg" media="(min-width: 800px)" class="w-100">
                     <img srcset="/wp-content/uploads/2020/08/banner_catalogo_mobile.jpg" alt="…" class="w-100">
                 </picture>
                 </a>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -99,26 +104,26 @@ get_header();?>
 		<div class="row marged flex">
 		<!-- item 01 -->
 			<div class="col-md-3 col-6 number-item">
-				<h2>+ <span class="value">3000</span></h2>
-				<h3>PRODUCTOS</h3>
+				<h4>+ <span class="value">3000</span></h4>
+				<h4>PRODUCTOS</h4>
 			</div>
 
 		<!-- item 02 -->
 			<div class="col-md-3 col-6 number-item">
-                <h2>+ <span class="value">400</span></h2>
-				<h3>CLIENTES</h3>
+                <h4>+ <span class="value">400</span></h4>
+				<h4>CLIENTES</h4>
 			</div>
 
 		<!-- item 03 -->
 			<div class="col-md-3 col-6 number-item">
-                <h2>+ <span class="value">80</span></h2>
-				<h3>MUNICIPIOS</h3>
+                <h4>+ <span class="value">80</span></h4>
+				<h4>MUNICIPIOS</h4>
 			</div>
 
 		<!-- item 04 -->
 			<div class="col-md-3 col-6 number-item">
-                <h2>+ <span class="value">200</span></h2>
-				<h3>PROVEEDORES</h3>
+                <h4>+ <span class="value">200</span></h4>
+				<h4>PROVEEDORES</h4>
 			</div>
         </div>
         </div>

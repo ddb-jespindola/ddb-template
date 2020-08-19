@@ -20,7 +20,8 @@
             <div class="col-md-4">
                 <h5>Certificaciones</h5>
                 <div class="footer-logo">
-                        <img src="/wp-content/uploads/2020/06/Bureau-veritas-C0240563.png" alt="" class="footer-logo">
+                        <!-- <img src="/wp-content/uploads/2020/06/Bureau-veritas-C0240563.png" alt="" class="footer-logo"> -->
+                        <ul><li>CERTIFICADO NTC 6001</li></ul>
                 </div>
             </div>
             

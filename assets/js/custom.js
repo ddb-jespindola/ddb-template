@@ -30,8 +30,6 @@ if($('#search-form-main').hasClass("search-form-main-display")){
 //$('#search-form-main').animate({ top: "-10px" }, 'slow');
 })
 
-
-
 /**
  * Sticky menu
  * */
@@ -89,3 +87,10 @@ var viewed = false;
       }
     }
 }
+
+
+$('.dropdown-toggle').on('click', function(event){
+  // The event won't be propagated up to the document NODE and 
+  // therefore delegated events won't be fired
+  event.stopPropagation();
+});

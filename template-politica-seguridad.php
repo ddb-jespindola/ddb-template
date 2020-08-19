@@ -16,7 +16,7 @@ get_template_part( 'template-parts/section', 'hero' );
             <div class="col-md-4">
                 <img src="/wp-content/uploads/2020/07/politica-seguridad2.jpg" alt="" class="w-100">
             </div>
-            <div class="col-md-8 text-justify pr-5 pl-5">
+            <div class="col-md-8 text-justify pr-5">
                 <div class="row">
                     <p>
                     El compromiso de alta dirección garantiza la identificación, evaluación, control y/o eliminación de los riesgos presentes en todas las actividades desarrolladas en la organización, así como el mejoramiento continuo en su gestión de Prevención de Riesgos Laborales. El desarrollo de esta política se hará mediante la aplicación del SG-SST  y dentro del proceso de cumplimiento de la normatividad legal vigente y con las siguientes directrices:

@@ -19,7 +19,7 @@ get_template_part( 'template-parts/section', 'hero' );
                 </p>
                 <h2>Algunos de nuestros clientes</h2>
                 <div class="row mt-3">
-                    <div class="col-md-6 pr-5 pl-5">
+                    <div class="col-md-6 pr-5">
                     <ul class="list-arrow">
                         <li>Hospital Pablo Tobón Uribe - Medellín</li>
                         <li>Orden Hospitalaria San Juan de Dios</li>
@@ -35,7 +35,7 @@ get_template_part( 'template-parts/section', 'hero' );
                         <li>Clínica Palermo</li>
                     </ul>
                     </div>
-                    <div class="col-md-6 pr-5 pl-5">
+                    <div class="col-md-6 pr-5">
                     <ul class="list-arrow">
                         <li>Hospital Universitario San Ignacio</li>
                         <li>Centro Médico Imbanaco - Cali</li>

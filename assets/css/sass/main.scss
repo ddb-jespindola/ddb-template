@@ -61,14 +61,15 @@ body{
 .list-arrow{
     li{
         list-style: none;
+        padding-left: 1.5em;
 
         &:before{
-            content: "\f152";
+            content: "\f058";
             display: inline-block;
             margin: 2px 5px 0 0;
             color: $redDdb;
             font-family: "Font Awesome 5 Free";
-            font-size: 24px;
+            font-size: 20px;
             font-style: normal !important;
             font-weight: 400 !important;
             font-variant: normal !important;
@@ -86,7 +87,7 @@ body{
 }
 
 .dgwt-wcas-search-wrapp{
-    z-index: 999 !important;
+    z-index: 990 !important;
 }
 
 .red-button{

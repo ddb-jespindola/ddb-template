@@ -13,7 +13,7 @@ get_template_part( 'template-parts/section', 'hero' );
     <div class="container">
         <div class="row">
             
-            <div class="col-md-8 text-justify pr-5 pl-5">
+            <div class="col-md-8 text-justify pr-5">
                 <div class="row">
                     <p >
                     En sus actividades procura implementar medidas de prevención, reducción y control de la contaminación en fuentes por residuos peligrosos, residuos sólidos, materiales reciclables generados o en la utilización de agua o energía; de manera que se pueda garantizar que los trabajos que se realizan en las diferentes áreas de la organización tengan en cuenta estas medidas de reducción, con la adopción de esta política ambiental, se compromete a:

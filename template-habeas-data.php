@@ -150,22 +150,20 @@ get_template_part( 'template-parts/section', 'hero' );
             <p>Dirección: Transversal 93 # 51-98 Bodega 18 – Parque empresarial Puerta del Sol</p>
 
             <p>Correos corporativos</p>    
-            <p>Servicioalcliente@ddb.com.co</p>    
             <p>contacto@ddb.com.co</p>            
 
-            <p>PBX: 3432597</p> 
+            <p>PBX: (1) 743 25 97</p> 
 
-            <p>Página Web: www.ddb.co</p>    
+            <p>Página Web: www.ddb.com.co</p>    
 
             <p>Responsable de la retención de los datos personales:</p>
-            <p>Andrés Mauricio Núñez, Administrador T.I</p>            
-            <p>Mauricio@ddb.com.co</p>   
-            <p>PBX: 7432597 Ext 304</p>    
+            <p>Andrés Mauricio Núñez, Administrador T.I</p>
+            <p>mauricio@ddb.com.co</p>   
+            <p>PBX: (1) 743 25 97</p>    
 
             <p>Encargados de la recolección,  Actualización y modificación de los datos personales:</p> 
 
-            <p>Cartera@ddb.com.co</p>    
-            <p>sistemas@ddb.com.co</p>    				            
+            <p>cartera@ddb.com.co</p>    
         </div>    
         </div>
     </div>

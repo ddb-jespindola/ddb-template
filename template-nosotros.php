@@ -69,7 +69,6 @@ get_template_part( 'template-parts/section', 'hero' );
 
         </div>
     </class>
-
 </section>
 
 <?php

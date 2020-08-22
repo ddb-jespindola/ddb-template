@@ -56,7 +56,7 @@ get_template_part( 'template-parts/section', 'hero' );
 
             </div>
             <div class="col-md-4">
-                <img src="<?php echo(get_site_url() . '/wp-content/uploads/2020/07/mapa-colombia.png') ?>;" alt="" class="w-100">
+                <img src="/wp-content/uploads/2020/07/mapa-colombia.png" alt="" class="w-100">
             </div>
             
         </div>

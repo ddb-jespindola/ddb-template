@@ -21,27 +21,27 @@ get_header();?>
             <div class="carousel-item active">
                 <a href="/nuestra-empresa/">
                 <picture>
-                    <source srcset="/wp-content/uploads/2020/08/banner_nosotros_large_3.jpg" media="(min-width: 1000px)" class="w-100">
-                    <source srcset="/wp-content/uploads/2020/08/banner_nosotros_mobile.jpg" media="(min-width: 800px)" class="w-100">
-                    <img srcset="/wp-content/uploads/2020/08/banner_nosotros_mobile.jpg" alt="…" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_nosotros_large_4.jpg" media="(min-width: 1000px)" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_nosotros_mobile_1.jpg" media="(min-width: 800px)" class="w-100">
+                    <img srcset="/wp-content/uploads/2020/08/banner_nosotros_mobile_1.jpg" alt="…" class="w-100">
                 </picture>
                 </a>
             </div>
             <div class="carousel-item ">
                 <a href="/catalogo-de-productos/">
                 <picture>
-                    <source srcset="/wp-content/uploads/2020/08/banner_covid_large.jpg" media="(min-width: 1000px)" class="w-100">
-                    <source srcset="/wp-content/uploads/2020/08/banner_covid_mobile_1.jpg" media="(min-width: 800px)" class="w-100">
-                    <img srcset="/wp-content/uploads/2020/08/banner_covid_mobile_1.jpg" alt="…" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_covid_large_1.jpg" media="(min-width: 1000px)" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_covid_mobile_2.jpg" media="(min-width: 800px)" class="w-100">
+                    <img srcset="/wp-content/uploads/2020/08/banner_covid_mobile_2.jpg" alt="…" class="w-100">
                 </picture>
                 </a>
             </div>
             <div class="carousel-item">
                 <a href="/catalogo-de-productos/">
                 <picture>
-                    <source srcset="/wp-content/uploads/2020/08/banner_catalogo_medium_1.jpg" media="(min-width: 1000px)" class="w-100">
-                    <source srcset="/wp-content/uploads/2020/08/banner_catalogo_mobile.jpg" media="(min-width: 800px)" class="w-100">
-                    <img srcset="/wp-content/uploads/2020/08/banner_catalogo_mobile.jpg" alt="…" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_catalogo_medium_2.jpg" media="(min-width: 1000px)" class="w-100">
+                    <source srcset="/wp-content/uploads/2020/08/banner_catalogo_mobile_1-1.jpg" media="(min-width: 800px)" class="w-100">
+                    <img srcset="/wp-content/uploads/2020/08/banner_catalogo_mobile_1-1.jpg" alt="…" class="w-100">
                 </picture>
                 </a>
             </div>
@@ -143,7 +143,7 @@ get_header();?>
                     <div data-aos="fade-left" class="col-md-4">
                         <a href="/categoria-producto/medicamento/">
                             <div class="distribution-elements-img">
-                                <img src="/wp-content/uploads/2020/07/medicamentos_1.jpg" alt="" class="w-100">
+                                <img src="/wp-content/uploads/2020/08/medicamentos_2.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
                                     <h5>Productos farmacéuticos hospitalarios, ambulatorios, control especial y alto costo</h5>
                                 </div>
@@ -153,7 +153,7 @@ get_header();?>
                     <div data-aos="zoom-in" class="col-md-4">
                         <a href="/categoria-producto/alimentos-nutricional/">
                             <div class="distribution-elements-img">
-                                <img src="/wp-content/uploads/2020/07/alimentos-nutriciones.jpg" alt="" class="w-100">
+                                <img src="/wp-content/uploads/2020/08/alimentos-nutriciones_1.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
                                     <h5>Alimentos y nutriciones</h5>
                                 </div>
@@ -163,7 +163,7 @@ get_header();?>
                     <div data-aos="fade-right" class="col-md-4">
                         <a href="/categoria-producto/medico-quirurgicos/">
                             <div class="distribution-elements-img">
-                                <img src="/wp-content/uploads/2020/07/dispositivos-medicos_1.jpg" alt="" class="w-100">
+                                <img src="/wp-content/uploads/2020/08/dispositivos-medicos_2.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
                                     <h5>Dispositivos médicos</h5>
                                 </div>
@@ -175,7 +175,7 @@ get_header();?>
                 <div data-aos="fade-left" class="col-md-4">
                         <a href="/categoria-producto/sustitutos-oseos-biomateriales/">
                             <div class="distribution-elements-img">
-                                <img src="/wp-content/uploads/2020/07/sustitutos-oseos_2.jpg" alt="" class="w-100">
+                                <img src="/wp-content/uploads/2020/08/sustitutos-oseos_3.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
                                     <h5>Osteosíntesis y Sustitutos Óseos</h5>
                                 </div>
@@ -185,7 +185,7 @@ get_header();?>
                     <div data-aos="zoom-in" class="col-md-4">
                         <a href="/categoria-producto/reactivo-diagnostico/">
                             <div class="distribution-elements-img">
-                                <img src="/wp-content/uploads/2020/07/productos-biologicos.jpg" alt="" class="w-100">
+                                <img src="/wp-content/uploads/2020/08/productos-biologicos_1.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
                                     <h5>Productos biológicos</h5>
                                 </div>
@@ -195,7 +195,7 @@ get_header();?>
                     <div data-aos="fade-right" class="col-md-4">
                         <a href="/categoria-producto/kits-de-atencion-social-institucional/">
                             <div class="distribution-elements-img">
-                                <img src="/wp-content/uploads/2020/07/kits-300.jpg" alt="" class="w-100">
+                                <img src="/wp-content/uploads/2020/08/kits_1.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">
                                     <h5>Kits de Atención Social Institucional</h5>
                                 </div>
@@ -213,22 +213,22 @@ get_header();?>
         <div class="row d-flex justify-content-between align-items-center">
             <div class="col-2 text-center gray-hover-effect">
 
-                <img src="/wp-content/uploads/2020/07/Logo-Farmalogica.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/08/Logo-farmalogica_1.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="/wp-content/uploads/2020/07/stendhal-logo.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/08/Logo-stendhal.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="/wp-content/uploads/2020/07/GOTHAPLAST-LOGO.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/08/Logo-gotha-plast.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="/wp-content/uploads/2020/07/LOGO-SURGIPLAST-NEW-12-CMS-COLOR.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/08/Logo-surgiplast.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="/wp-content/uploads/2020/07/ICU_Logo_ES.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/08/Logo-icumedical.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="/wp-content/uploads/2020/07/blaskov-logo.jpg" alt="" class="img-fluid">
+                <img src="/wp-content/uploads/2020/08/Logo-blaskov.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </div>

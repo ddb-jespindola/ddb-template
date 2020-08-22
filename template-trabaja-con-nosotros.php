@@ -21,7 +21,7 @@ get_template_part( 'template-parts/section', 'hero' );
             <div class="col-md-6 ">
                 
                 <div>
-                   <img src="/wp-content/uploads/2020/07/trabaja-con-nosotros.jpg" alt="" class="w-100">
+                   <img src="/wp-content/uploads/2020/08/trabaja-con-nosotros_1.jpg" alt="" class="w-100">
                 </div>
             </div>
             <div class="col-md-6">

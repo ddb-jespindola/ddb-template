@@ -26,7 +26,7 @@
             </div>
             
             <div class="col-md-4">
-                <h5>Acceso rapido</h5>
+                <h5>Acceso rápido</h5>
                 <ul>
                     <li>
                         <a href="/categoria-producto/medicamento/">Medicamentos</a>

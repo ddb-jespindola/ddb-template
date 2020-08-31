@@ -17,12 +17,20 @@
 
     <div class="container">
         <div class="row">
+            
             <div class="col-md-4">
-                <h5>Certificaciones</h5>
-                <div class="footer-logo">
-                        <!-- <img src="/wp-content/uploads/2020/06/Bureau-veritas-C0240563.png" alt="" class="footer-logo"> -->
-                        <ul><li>CERTIFICADO NTC 6001</li></ul>
-                </div>
+                <h5>Contacto</h5>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank">
+                            Transversal 93 # 51-98 
+                            Parque Empresarial Puerta del Sol Bodega 18  . Bogotá-Colombia</a>
+                    </li>
+                    <li><i class="far fa-clock"></i>Lun-Vie 7am-4pm | Sab 8am-1pm</li>
+                    <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
+                    <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
+                    
+                    <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
+                </ul>
             </div>
             
             <div class="col-md-4">
@@ -51,20 +59,15 @@
                     </li>
                 </ul>
             </div>
+
             <div class="col-md-4">
-                <h5>Contacto</h5>
-                <ul>
-                    <li><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank">
-                            Transversal 93 # 51-98 
-                            Parque Empresarial Puerta del Sol Bodega 18  . Bogotá-Colombia</a>
-                    </li>
-                    <li><i class="far fa-clock"></i>Lun-Vie 7am-4pm | Sab 8am-1pm</li>
-                    <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
-                    <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
-                    
-                    <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
-                </ul>
+                <h5>Certificaciones</h5>
+                <div class="footer-logo">
+                        <!-- <img src="/wp-content/uploads/2020/06/Bureau-veritas-C0240563.png" alt="" class="footer-logo"> -->
+                        <ul><img src="/wp-content/uploads/2020/08/Bureau-Veritas-NTC-6001-2017.jpg" alt="" class="footer-logo"> </ul>
+                </div>
             </div>
+
         </div>
         <div class="row ">
             <div class="col-md-12 text-center social-footer">

@@ -94,8 +94,8 @@ get_header();
             <div data-aos="fade-right" class="col-md-3 text-center service">
                 <i class="fas fa-check"></i>
                 <div class="mt-3"></div>
-                <h6>CERTIFICADO NTC 6001</h6>
-                <span class="icon-text">Acreditados en NTC 6001 desde el 2014 como garantía de la calidad en todos nuestros procesos</span>   
+                <h6>CERTIFICADO NTC 6001:2017</h6>
+                <span class="icon-text">Acreditados por BVQI Colombia desde el 2014 como garantía de la calidad en todos nuestros procesos</span>   
             </div>
         </div>
     </div>

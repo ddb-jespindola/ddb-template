@@ -46,7 +46,7 @@
                         <a href="/categoria-producto/kits-de-atencion-social-institucional/">Kits de atención social institucional</a>
                     </li>
                     <li>
-                        <a href="/escribenos">Contacto</a>
+                        <a href="/contacto/">Contacto</a>
                     </li>
                     <li>
                         <a href="/trabaja-con-nosotros/">Trabaja con nosotros</a>

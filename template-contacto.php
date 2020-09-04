@@ -21,7 +21,7 @@ get_template_part( 'template-parts/section', 'hero' );
                 <?php echo do_shortcode('[contact-form-7 id="273" title="Formulario de contacto 1"]'); ?>
             </div>
 
-            <div class="col-md-5 contact-info" itemscope itemtype="https://schema.org/LocalBusiness https://schema.org/Pharmacy">
+            <div class="col-md-5 contact-info" itemscope itemtype="https://schema.org/Pharmacy http://schema.org/PostalAddress">
 
                 <h2>Datos de contacto</h3>
                 <ul class="mt-4">
@@ -37,7 +37,7 @@ get_template_part( 'template-parts/section', 'hero' );
                     <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597"><span itemprop="telephone">(1) 743 25 97</span></a></li>
                     <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272"><span itemprop="telephone">(+57) 300 748 42 72</span></a></li>
                     
-                    <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co" itemprop="email">info@ddb.com.co</a></li>
+                    <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co"><span itemprop="email">info@ddb.com.co</span></a></li>
                 </ul>
             </div>
         </div>

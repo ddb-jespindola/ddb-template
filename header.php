@@ -28,31 +28,34 @@
 </div>
 
 
-<header class="header">
+<header class="header" itemscope itemtype="https://schema.org/Pharmacy http://schema.org/PostalAddress">
 	<div class="top-bar">
 		<div class="container d-flex justify-content-center align-items-center">
 			<div>
 				<span class="pr-3">
 					<i class="far fa-clock"></i>
 					Lun-Vie 7am - 4pm | Sab 8am - 1pm
+					<meta itemprop="openingHours" content="Mo-Fr 07:00-16:00"/>
+					<meta itemprop="openingHours" content="Sa 08:00-13:00"/>
 				</span>
 				<span class="border-left border-light pl-3 pr-3">
 					<i class="fas fa-phone"></i>	
-					<a href="tel:(1)7432597">(1) 743 25 97</a>
+					<a href="tel:(1)7432597"><span itemprop="telephone">(1) 743 25 97</span></a>
 				</span>
 				<span class="pr-3">
-					<i class="fas fa-phone"></i>	
-					<a href="tel:(+57)3007484272">(+57) 300 748 42 72</a>
+					<i class="fas fa-phone"></i>
+					<a href="tel:(+57)3007484272"><span itemprop="telephone">(+57) 300 748 42 72</span></a>
 				</span>
 				<span class="border-left border-light pl-3 pr-3">
 					<i class="far fa-envelope"></i>
-					<a href="mailto:info@ddb.com.co">info@ddb.com.co</a>
+					<a href="mailto:info@ddb.com.co"><span itemprop="email">info@ddb.com.co</span></a>
 				</span>
 				<span class="border-left border-light pl-3">
 					<i class="fas fa-map-marker-alt"></i>
 					<a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank">
-						Tv. 93 # 51-98 Bodega 18 Bogotá
+						<span itemprop="address"><span itemprop="streetAddress">Tv. 93 # 51-98</span> Bodega 18 <span itemprop="addressLocality">Bogotá</span></span>
 					</a>
+					<span itemprop="name" class="d-none">Depósito de Drogas Boyacá</span>
 				</span>
 			</div>
 
@@ -66,7 +69,7 @@
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div>
 				<a class="navbar-brand" href="<?php echo home_url(); ?>">
-					<img src="/wp-content/uploads/2020/07/deposito-de-drogas-boyaca-logo.png" alt="" class="nav-logo">
+					<img itemprop="image" src="/wp-content/uploads/2020/07/deposito-de-drogas-boyaca-logo.png" alt="" class="nav-logo">
 				</a>
 			</div>
 			

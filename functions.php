@@ -272,13 +272,18 @@ add_filter('woocommerce_show_page_title', '__return_false');
 function get_short_desc() {
   global $product;
   $short_desc = $product->get_short_description();
-  $short_desc = substr($short_desc, 0, 100);
+  $short_desc = substr($short_desc, 0, 80);
   return $short_desc;
 }
 function get_attr_presentacion(){
   global $product;
   $attribute = $product->get_attribute('presentacion');
-  $attribute = substr($attribute, 0, 70);
+  $attribute = substr($attribute, 0, 50);
+  return  $attribute;
+}
+function get_attr_invima(){
+  global $product;
+  $attribute = 'INVIMA ' . $product->get_attribute('invima');
   return  $attribute;
 }
 
@@ -286,6 +291,7 @@ function get_attr_presentacion(){
 function register_custom_yoast_variables() {
   wpseo_register_var_replacement( '%%shortdesc%%', 'get_short_desc', 'advanced', 'woocommerce short description' );
   wpseo_register_var_replacement( '%%presentacion%%', 'get_attr_presentacion', 'advanced', 'woocommerce attribute presentacion' );
+  wpseo_register_var_replacement( '%%invima%%', 'get_attr_invima', 'advanced', 'woocommerce attribute invima' );
 }
 // Add action
 add_action('wpseo_register_extra_replacements', 'register_custom_yoast_variables');

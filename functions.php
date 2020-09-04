@@ -264,3 +264,19 @@ $args['description'] = '';
   return $args;
 }
 add_filter('woocommerce_show_page_title', '__return_false');
+
+/**
+ * Add short description as Yoast Variable 
+ */
+// define the custom replacement callback
+function get_short_desc() {
+  global $product;
+  $short_desc = $product->get_short_description();
+  return $short_desc;
+}
+// define the action for register yoast_variable replacments
+function register_custom_yoast_variables() {
+  wpseo_register_var_replacement( '%%shortdesc%%', 'get_short_desc', 'advanced', 'woocommerce short description' );
+}
+// Add action
+add_action('wpseo_register_extra_replacements', 'register_custom_yoast_variables');

@@ -272,11 +272,22 @@ add_filter('woocommerce_show_page_title', '__return_false');
 function get_short_desc() {
   global $product;
   $short_desc = $product->get_short_description();
+  $short_desc = substr($short_desc, 0, 100);
   return $short_desc;
 }
+function get_attr_presentacion(){
+  global $product;
+  $attribute = $product->get_attribute('presentacion');
+  $attribute = substr($attribute, 0, 70);
+  return  $attribute;
+}
+
 // define the action for register yoast_variable replacments
 function register_custom_yoast_variables() {
   wpseo_register_var_replacement( '%%shortdesc%%', 'get_short_desc', 'advanced', 'woocommerce short description' );
+  wpseo_register_var_replacement( '%%presentacion%%', 'get_attr_presentacion', 'advanced', 'woocommerce attribute presentacion' );
 }
 // Add action
 add_action('wpseo_register_extra_replacements', 'register_custom_yoast_variables');
+
+

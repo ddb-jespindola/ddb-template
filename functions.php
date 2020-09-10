@@ -296,4 +296,68 @@ function register_custom_yoast_variables() {
 // Add action
 add_action('wpseo_register_extra_replacements', 'register_custom_yoast_variables');
 
+/**
+ * Add Schema info of products
+ */
+add_action('woocommerce_before_single_product', 'schema_info_product', 10);
 
+function schema_info_product() {
+  global $product;
+  $name = $product->get_name();
+  $sku = $product->get_sku();
+  $short_desc = $product->get_short_description();
+  $image = 'https://ddb.com.co/wp-content/uploads/2020/08/placeholder_ddb.jpg';
+
+  $presentacion = $product->get_attribute('presentacion');
+  $invima = $product->get_attribute('invima');
+  $fabricante = $product->get_attribute('fabricante');
+  $titular_marca = $product->get_attribute('titular');
+  $ean = $product->get_attribute('ean');
+  $url = get_permalink( $product->get_id() );
+
+  $nterms = get_the_terms( $post->ID, 'product_tag'  );
+  $terms = get_the_terms( $product->ID, 'product_cat' );
+  foreach ($terms  as $term  ) {
+      $product_cat_name = $term->name;
+      break;
+  }
+  foreach ($nterms  as $term  ) {
+    $product_tag_name = $term->name;
+    break;
+}
+  $tag = $product_tag_name = $term->name;
+  $category = $product_cat_name;
+
+  echo '<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "Product",
+        "name": "' . $name . '",
+        "description": "' . $name . ' - ' . $presentacion . '",
+        "image": "' . $image . '",
+        "brand": {
+           "@type": "Organization",
+            "name": "' . $tag . '"
+        },  
+        "category": "' . $category . '", 
+        "gtin13": "' . $ean . '", 
+        "manufacturer": {
+            "@type": "Organization",
+            "name": "' . $fabricante . '"
+        },
+        
+        "sku": "' . $sku . '",
+        "alternateName": "'. $short_desc .'",
+        "productID": "' . $invima . '",
+
+        "offers": {
+          "@type": "Offer",
+          "url": " ' . $url . ' ",
+          "priceCurrency": "COP",
+          "price": "",
+          "availability": "https://schema.org/InStoreOnly",
+          "itemCondition": "https://schema.org/NewCondition"
+        }
+    }
+    </script>';
+}

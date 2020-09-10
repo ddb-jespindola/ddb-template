@@ -22,40 +22,95 @@
 
 <body>
 
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org",
+    "@type":"Pharmacy",
+    "name":"Deposito de Drogas Boyaca",
+    "url":"https://ddb.com.co/",
+    "address":{
+        "@type":"PostalAddress",
+        "addressCountry": "Colombia",
+        "addressLocality":"Bogotá",
+        "postalCode":"111071",
+        "streetAddress":"Tv. 93 # 51-98 Bodega 18"
+    },"image":{
+        "@type":"ImageObject",
+        "url":"https://ddb.com.co/wp-content/uploads/2020/07/deposito-de-drogas-boyaca-logo.png"
+    },
+    "geo":{
+        "@type":"GeoCoordinates",
+        "latitude":"4.6860751",
+        "longitude":"-74.1213518"
+        },
+    "priceRange":"0.000000 - 47734769.000000",
+    "openingHoursSpecification":[
+        {"@type":"OpeningHoursSpecification",
+        "dayOfWeek":"http://schema.org/Monday",
+        "opens":"07:00",
+        "closes":"16:00"
+        },{
+            "@type":"OpeningHoursSpecification",
+            "dayOfWeek":"http://schema.org/Tuesday",
+            "opens":"07:00",
+            "closes":"16:00"
+        },{
+            "@type":"OpeningHoursSpecification",
+            "dayOfWeek":"http://schema.org/Wednesday",
+            "opens":"07:00",
+            "closes":"16:00"
+        },{
+            "@type":"OpeningHoursSpecification",
+            "dayOfWeek":"http://schema.org/Thursday",
+            "opens":"07:00",
+            "closes":"16:00"
+        },{
+            "@type":"OpeningHoursSpecification",
+            "dayOfWeek":"http://schema.org/Friday",
+            "opens":"07:00",
+            "closes":"16:00"
+        },{
+            "@type":"OpeningHoursSpecification",
+            "dayOfWeek":"http://schema.org/Saturday",
+            "opens":"08:00",
+            "closes":"13:00"
+        }],
+        "telephone":"(1)7432597"
+        }
+</script>
+        
+
 <div id="preloader">
 		<div id="status">
 	  </div> 
 </div>
 
 
-<header class="header" itemscope itemtype="https://schema.org/Pharmacy http://schema.org/PostalAddress">
+<header class="header">
 	<div class="top-bar">
 		<div class="container d-flex justify-content-center align-items-center">
 			<div>
 				<span class="pr-3">
 					<i class="far fa-clock"></i>
 					Lun-Vie 7am - 4pm | Sab 8am - 1pm
-					<meta itemprop="openingHours" content="Mo-Fr 07:00-16:00"/>
-					<meta itemprop="openingHours" content="Sa 08:00-13:00"/>
 				</span>
 				<span class="border-left border-light pl-3 pr-3">
 					<i class="fas fa-phone"></i>	
-					<a href="tel:(1)7432597"><span itemprop="telephone">(1) 743 25 97</span></a>
+					<a href="tel:(1)7432597">(1) 743 25 97</a>
 				</span>
 				<span class="pr-3">
 					<i class="fas fa-phone"></i>
-					<a href="tel:(+57)3007484272"><span itemprop="telephone">(+57) 300 748 42 72</span></a>
+					<a href="tel:(+57)3007484272">(+57) 300 748 42 72</a>
 				</span>
 				<span class="border-left border-light pl-3 pr-3">
 					<i class="far fa-envelope"></i>
-					<a href="mailto:info@ddb.com.co"><span itemprop="email">info@ddb.com.co</span></a>
+					<a href="mailto:info@ddb.com.co">info@ddb.com.co</a>
 				</span>
 				<span class="border-left border-light pl-3">
 					<i class="fas fa-map-marker-alt"></i>
 					<a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank">
-						<span itemprop="address"><span itemprop="streetAddress">Tv. 93 # 51-98</span> Bodega 18 <span itemprop="addressLocality">Bogotá</span></span>
+						Tv. 93 # 51-98 Bodega 18 Bogotá
 					</a>
-					<span itemprop="name" class="d-none">Depósito de Drogas Boyacá</span>
 				</span>
 			</div>
 
@@ -69,7 +124,7 @@
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div>
 				<a class="navbar-brand" href="<?php echo home_url(); ?>">
-					<img itemprop="image" src="/wp-content/uploads/2020/07/deposito-de-drogas-boyaca-logo.png" alt="" class="nav-logo">
+					<img src="/wp-content/uploads/2020/07/deposito-de-drogas-boyaca-logo.png" alt="" class="nav-logo">
 				</a>
 			</div>
 			

@@ -75,7 +75,8 @@
             "opens":"08:00",
             "closes":"13:00"
         }],
-        "telephone":"(1)7432597"
+        "telephone":"(1)7432597",
+		"email": "info@ddb.com.co"
         }
 </script>
         

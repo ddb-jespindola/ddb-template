@@ -348,7 +348,7 @@ function schema_info_product() {
         },
         "nonProprietaryName": " '. $short_desc .' ", /*Nombre generico*/
         "proprietaryName": " ' . $name . ' ",
-        "description":" ' . $short_desc . ' ",
+        "description": "' . $name . ' - ' . $presentacion . '",
         "identifier": " ' . $invima . ' ",/*Invima*/
         "image": " ' . $image . ' ",
         "name": " ' . $name . ' ",

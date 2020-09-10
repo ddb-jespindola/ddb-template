@@ -255,6 +255,7 @@ add_filter( 'loop_shop_per_page', function ( $cols ) {
   return 10;
 }, 20 );
 
+
 /**
  * Remove generic message of Woocommerce
  */
@@ -265,10 +266,10 @@ $args['description'] = '';
 }
 add_filter('woocommerce_show_page_title', '__return_false');
 
+
 /**
- * Add short description as Yoast Variable 
+ * Register SEO yoast_variables 
  */
-// define the custom replacement callback
 function get_short_desc() {
   global $product;
   $short_desc = $product->get_short_description();
@@ -286,18 +287,16 @@ function get_attr_invima(){
   $attribute = 'INVIMA ' . $product->get_attribute('invima');
   return  $attribute;
 }
-
-// define the action for register yoast_variable replacments
 function register_custom_yoast_variables() {
   wpseo_register_var_replacement( '%%shortdesc%%', 'get_short_desc', 'advanced', 'woocommerce short description' );
   wpseo_register_var_replacement( '%%presentacion%%', 'get_attr_presentacion', 'advanced', 'woocommerce attribute presentacion' );
   wpseo_register_var_replacement( '%%invima%%', 'get_attr_invima', 'advanced', 'woocommerce attribute invima' );
 }
-// Add action
 add_action('wpseo_register_extra_replacements', 'register_custom_yoast_variables');
 
+
 /**
- * Add Schema info of products
+ * Add SEO Schema info of products
  */
 add_action('woocommerce_before_single_product', 'schema_info_product', 10);
 
@@ -306,9 +305,12 @@ function schema_info_product() {
   $name = $product->get_name();
   $sku = $product->get_sku();
   $short_desc = $product->get_short_description();
+  $description = $product->get_description();
   $image = 'https://ddb.com.co/wp-content/uploads/2020/08/placeholder_ddb.jpg';
 
   $presentacion = $product->get_attribute('presentacion');
+  $via_administracion = $product->get_attribute('via-administracion');
+  $forma_farmac = $product->get_attribute('forma-farmaceutica');
   $invima = $product->get_attribute('invima');
   $fabricante = $product->get_attribute('fabricante');
   $titular_marca = $product->get_attribute('titular');
@@ -327,6 +329,33 @@ function schema_info_product() {
 }
   $tag = $product_tag_name = $term->name;
   $category = $product_cat_name;
+  $price = $product->get_price();
+  
+  // Add Drug Schema tag only for Medicamentos Tag
+  if ($category == "Medicamento") {
+
+    echo '<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "Drug",
+        "activeIngredient": " ' . $short_desc . ' ",
+        "administrationRoute": " ' . $via_administracion . ' ",
+        "dosageForm": " ' . $forma_farmac . ' ",
+        "foodWarning": " ' . $description . ' ",/*Contraindicaciones*/
+        "manufacturer": {
+            "@type": "Organization",
+            "name": "' . $fabricante . '"
+        },
+        "nonProprietaryName": " '. $short_desc .' ", /*Nombre generico*/
+        "proprietaryName": " ' . $name . ' ",
+        "description":" ' . $short_desc . ' ",
+        "identifier": " ' . $invima . ' ",/*Invima*/
+        "image": " ' . $image . ' ",
+        "name": " ' . $name . ' ",
+        "medicineSystem": "https://schema.org/WesternConventional"
+    }
+    </script>';
+  }
 
   echo '<script type="application/ld+json">
     {

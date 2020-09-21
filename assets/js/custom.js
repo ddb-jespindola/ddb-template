@@ -12,28 +12,21 @@ $(window).on('load', function() { // makes sure the whole site is loaded
   $('body').delay(50).css({'overflow':'visible'});
 })
 
-
 $(".search-button-main").on('click', function(){
-// $("#bs-example-navbar-collapse-1").fadeOut()
-// $('#search-form-main').fadeIn()
-//$(this).fadeOut('fast')
-//$('#search-form-main').fadeIn({queue: false, duration: 'slow'});
-if($('#search-form-main').hasClass("search-form-main-display")){
-  $('#search-form-main').removeClass("search-form-main-display")
-  $('.search-button-main i').addClass("fa-search")
-  $('.search-button-main i').removeClass("fa-times")
-}else{
-  $('#search-form-main').addClass("search-form-main-display")
-  $('.search-button-main i').removeClass("fa-search")
-  $('.search-button-main i').addClass("fa-times")
-}
-//$('#search-form-main').animate({ top: "-10px" }, 'slow');
+  if($('#search-form-main').hasClass("search-form-main-display")){
+    $('#search-form-main').removeClass("search-form-main-display")
+    $('.search-button-main i').addClass("fa-search")
+    $('.search-button-main i').removeClass("fa-times")
+  }else{
+    $('#search-form-main').addClass("search-form-main-display")
+    $('.search-button-main i').removeClass("fa-search")
+    $('.search-button-main i').addClass("fa-times")
+  }
 })
 
 /**
- * Sticky menu
- * */
-
+* Sticky menu
+*/
 $(document).ready(function(){
     $(window).bind('scroll', function() {
           if ($(window).scrollTop() > 100) {
@@ -50,25 +43,18 @@ $(document).ready(function(){
      });
  });
 
- 
-/**
+ /**
  * CONTADOR HOME
  */
-
 $(window).scroll(testScroll);
 var viewed = false;
-
-
   function isScrolledIntoView(elem) {
       var docViewTop = $(window).scrollTop();
       var docViewBottom = docViewTop + $(window).height();
-
       var elemTop = $(elem).offset().top;
       var elemBottom = elemTop + $(elem).height();
-
       return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
   }
-
   function testScroll() {
     if (typeof $('.numbers').offset() !== 'undefined') {
       if (isScrolledIntoView($(".numbers")) && !viewed) {
@@ -87,3 +73,4 @@ var viewed = false;
       }
     }
 }
+

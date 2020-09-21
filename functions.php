@@ -190,19 +190,6 @@ function woo_minimum_order_amount() {
   add_action( 'woocommerce_checkout_process', 'woo_minimum_order_amount' );
   add_action( 'woocommerce_before_cart' , 'woo_minimum_order_amount' );
 
-
-/*
-* Change product button on shop - text
-*/
-  add_filter( 'woocommerce_product_add_to_cart_text', function( $text ) {
-    if ( 'Read more' == $text ) {
-        $text = __( 'More Info', 'woocommerce' );
-    }
-
-    return $text;
-} );
-
-
 /**
  * Change the placeholder image
  */
@@ -239,7 +226,9 @@ function simple_product_sku_before_loop_item_title(){
 }
 
 
-
+/**
+ * Add search box to products page
+ */
 add_action( 'woocommerce_before_shop_loop', 'test_loop_start', 5 );
 function test_loop_start(){
     echo "<div class='mt-3 mb-3 searchbar-shop'>". do_shortcode('[wcas-search-form]') ."</div>";
@@ -266,7 +255,19 @@ $args['description'] = '';
 }
 add_filter('woocommerce_show_page_title', '__return_false');
 
+/**
+ * ADD contact info after product
+ */
+function contact_button() { 
+  get_template_part( 'template-parts/woocommerce/section', 'contact-button' );
+};   
+// add the action 
+add_action( 'woocommerce_product_meta_end', 'contact_button', 10 ); 
 
+
+//===================================================
+//              SEO SETTINGS
+//===================================================
 /**
  * Register SEO yoast_variables 
  */
@@ -294,10 +295,12 @@ function register_custom_yoast_variables() {
 }
 add_action('wpseo_register_extra_replacements', 'register_custom_yoast_variables');
 
+/**-----------------
+* ADD SEO SCHEMA INFO
+*-------------------
+*/
 
-/**
- * Add SEO Schema info of products
- */
+// Add SEO Schema info of products
 add_action('woocommerce_before_single_product', 'schema_info_product', 10);
 
 function schema_info_product() {
@@ -374,11 +377,9 @@ function schema_info_product() {
             "@type": "Organization",
             "name": "' . $fabricante . '"
         },
-        
         "sku": "' . $sku . '",
         "alternateName": "'. $short_desc .'",
         "productID": "' . $invima . '",
-
         "offers": {
           "@type": "Offer",
           "url": " ' . $url . ' ",

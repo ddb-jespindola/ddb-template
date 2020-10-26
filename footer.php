@@ -21,7 +21,7 @@
             <div class="col-md-4">
                 <h5>Contacto</h5>
                 <ul>
-                    <li><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank">
+                    <li><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank"  rel="noreferrer">
                             Transversal 93 # 51-98 
                             Parque Empresarial Puerta del Sol Bodega 18  . Bogotá-Colombia</a>
                     </li>
@@ -71,7 +71,7 @@
         </div>
         <div class="row ">
             <div class="col-md-12 text-center social-footer">
-            <a href="https://www.linkedin.com/company/dep%C3%B3sito-de-drogas-boyac%C3%A1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/company/dep%C3%B3sito-de-drogas-boyac%C3%A1/" target="_blank"  rel="noreferrer"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
         <div class="row footer-copyright">

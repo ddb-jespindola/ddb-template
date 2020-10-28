@@ -2,11 +2,7 @@
 /**
  * DDB functions and definitions
  *
- * 1- Load CSS styles
- * 2- Load JS
- * 3- Register menus
- */
-
+ 
 
  /**
   * 1 - LOAD CSS STYLES
@@ -256,7 +252,7 @@ $args['description'] = '';
 add_filter('woocommerce_show_page_title', '__return_false');
 
 /**
- * ADD contact info after product
+ * ADD button "¿Deseas cotizar el producto?"
  */
 function contact_button() { 
   get_template_part( 'template-parts/woocommerce/section', 'contact-button' );

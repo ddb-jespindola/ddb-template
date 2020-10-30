@@ -1,7 +1,6 @@
 .page-section-title{
-    font-size: 3rem;
-    letter-spacing: -1px;
-    font-weight: 700;
+    font-size: 2.4em;
+    font-weight: 500;
 }
 
 .section-nosotros{
@@ -19,7 +18,6 @@
     background-repeat: no-repeat;
     padding: 70px 30px;
     background-size: cover;
-    //background-attachment: fixed;
     color: #ffffff;
     i{
         font-size: 3em;
@@ -100,6 +98,9 @@
             }
         }
     }    
+    .page-section-title{
+        font-size: 2em;
+    }
 }
 
 /**

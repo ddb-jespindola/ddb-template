@@ -163,8 +163,8 @@
         box-shadow: 0 6px 11px rgba(33,33,33,.53);
 
         h3{
-            font-size: 2em;
-            font-weight: 700;
+            font-size: 2.4em;
+            font-weight: 500;
             line-height: 1.3;
 
             &:after{
@@ -184,10 +184,10 @@
 
         p{
             line-height: 1.5;
-            font-weight: 400;
+            font-weight: 300;
             font-style: normal;
-            font-size: 1.1em;
-            margin-top: 1em;
+            font-size: 1.3em;
+            margin-top: 1.6em;
         }
         .service{
             margin-top: 2em;
@@ -323,8 +323,8 @@
         color: $grayDdb;
 
         h3{
-            font-size: 2em;
-            font-weight: 700;
+            font-size: 2.4em;
+            font-weight: 500;
             line-height: 1.3;
 
             &:after{
@@ -456,6 +456,24 @@
 
     .hideOverflowOnMobile {
         overflow: hidden;
+    }
+
+    .section-comercializacion-distribucion{
+        padding: 2em 0em;
+        h3{
+            font-size: 2em;
+        }
+        p{
+            font-size: 1em;
+            padding: 0 25px;
+        }
+    }
+
+    .section-catalogo{
+        padding: 2em 0em;
+        h3{
+            font-size: 2em;
+        }
     }
 }
 

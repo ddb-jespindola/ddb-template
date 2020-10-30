@@ -261,6 +261,37 @@ function contact_button() {
 add_action( 'woocommerce_product_meta_end', 'contact_button', 10 ); 
 
 
+//============================================
+//      DISABLE UNUSED WOOCOMMERCE CSS
+//============================================
+
+/**
+ * Disable WooCommerce block styles (back-end).
+ */
+function slug_disable_woocommerce_block_editor_styles() {
+  wp_deregister_style( 'wc-block-editor' );
+  wp_deregister_style( 'wc-block-style' );
+}
+add_action( 'enqueue_block_assets', 'slug_disable_woocommerce_block_editor_styles', 1, 1 );
+
+
+/**
+ * Disable WooCommerce block styles (front-end).
+ */
+function slug_disable_woocommerce_block_styles() {
+  wp_dequeue_style( 'wc-block-style' );
+}
+add_action( 'wp_enqueue_scripts', 'slug_disable_woocommerce_block_styles' );
+
+//============================================
+//============================================
+
+
+
+
+
+
+
 //===================================================
 //              SEO SETTINGS
 //===================================================

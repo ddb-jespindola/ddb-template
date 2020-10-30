@@ -120,13 +120,12 @@
 
                 .nav-link {
                     color: $grayDdb;
-                    font-family: Lato;
-                    font-weight: 700;
                     font-size: 0.8em;
                     line-height: 1;
                     text-transform: uppercase;
                     padding: 3.5em 1em;
                     transition: 0.5s;
+                    font-weight: 400 !important;
                     
                     &:hover{
                         color: $redDdb;

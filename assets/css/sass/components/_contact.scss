@@ -43,10 +43,12 @@
         margin-bottom: 10px;
         font: 16px Arial, Helvetica, sans-serif;
         height: 45px;
+        color: #a7a7a7;
     }
     textarea{
         //resize:none;
         overflow: hidden;
+        height: 100px;
     }
     input[type="button"], 
     input[type="submit"],

@@ -136,3 +136,36 @@
         }
     }
 }
+
+/*=========================================
+* ---------------PAGE 404---------------
+*=========================================*/
+
+
+.missing-page-background{
+    min-height: 500px;
+    background-image: url(/wp-content/uploads/2020/10/404-image.jpg);
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.missing-page-button{
+    background: $redDdb;
+    color: #ffffff;
+    padding: 10px 62px;
+    border-radius: 5px;
+    font-weight: 500;
+
+    &:hover{
+        background: $grayDdb;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+}
+
+.missing-page-title {
+    position: relative;
+    top: 30px;
+}

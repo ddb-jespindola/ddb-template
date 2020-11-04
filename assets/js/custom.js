@@ -74,3 +74,49 @@ var viewed = false;
     }
 }
 
+/***
+ *  LAZY LOAD BACKGROUND IMAGES
+ */
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyBackgrounds = [].slice.call(document.querySelectorAll(".numbers"));
+
+  if ("IntersectionObserver" in window) {
+    let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          lazyBackgroundObserver.unobserve(entry.target);
+        }
+      });
+    });
+
+    lazyBackgrounds.forEach(function(lazyBackground) {
+      lazyBackgroundObserver.observe(lazyBackground);
+    });
+  }
+});
+
+/***
+ *  LAZY LOAD ALL IMAGES
+ */
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const imageObserver = new IntersectionObserver((entries, imgObserver) => {
+      entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+              const lazyImage = entry.target
+              console.log("lazy loading ", lazyImage)
+              lazyImage.src = lazyImage.dataset.src
+          }
+      })
+  });
+  const arr = document.querySelectorAll('img.lazy')
+  arr.forEach((v) => {
+      imageObserver.observe(v);
+  })
+})

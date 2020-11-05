@@ -19,7 +19,7 @@ get_template_part( 'template-parts/section', 'hero' );
 
             <div class="col-md-5 contact-info">
                 <ul class="mt-4">
-                    <li><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank">
+                    <li><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank" rel="noreferrer">
                         Transversal 93 # 51-98 Parque Empresarial Puerta del Sol Bodega 18  . Bogotá, Colombia</a>
                     </li>
                     <li><i class="fas fa-mail-bulk"></i>CP 111071</li>

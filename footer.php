@@ -64,7 +64,7 @@
                 <h5>Certificaciones</h5>
                 <div class="footer-logo">
                         <!-- <img src="/wp-content/uploads/2020/06/Bureau-veritas-C0240563.png" alt="" class="footer-logo"> -->
-                        <ul><img src="/wp-content/uploads/2020/08/Bureau-Veritas-NTC-6001-2017.jpg" alt="" class="footer-logo"  loading="lazy"> </ul>
+                        <ul><img src="/wp-content/uploads/2020/11/LOGO_BUREAU_VERITAS_DDB.jpg" alt="" class="footer-logo"  loading="lazy"> </ul>
                 </div>
             </div>
 

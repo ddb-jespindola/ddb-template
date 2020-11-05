@@ -448,6 +448,11 @@
             font-size: 1em;
         }
     }
+
+    .numbers.visible{
+        background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.3) 100%), url('/wp-content/uploads/2020/11/counter_background-mobile.jpg') !important;
+    }
+
     /*
     ** AOS fix bug mobile white space
     */
@@ -480,7 +485,6 @@
 
 .numbers{
 	background: #001b4f;
-    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

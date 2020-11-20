@@ -32,6 +32,15 @@ get_header();
                 </picture>
                 </a>
             </div>
+            <div class="carousel-item">
+                <a href="/etiqueta-producto/medical-kt/">
+                <picture>
+                    <source srcset="/wp-content/uploads/2020/11/limpieza_banner-2.jpg" media="(min-width: 1000px)" class="w-100" loading="lazy">
+                    <source srcset="/wp-content/uploads/2020/11/banner_limpieza_mobile.jpg" media="(min-width: 800px)" class="w-100" loading="lazy">
+                    <img srcset="/wp-content/uploads/2020/11/banner_limpieza_mobile.jpg" src="/wp-content/uploads/2020/11/banner_limpieza_mobile.jpg" alt="…" class="w-100" loading="lazy">
+                </picture>
+                </a>
+            </div>
             <div class="carousel-item ">
                 <a href="/catalogo-de-productos/">
                 <picture>
@@ -41,7 +50,7 @@ get_header();
                 </picture>
                 </a>
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
                 <a href="/catalogo-de-productos/">
                 <picture>
                     <source srcset="/wp-content/uploads/2020/08/banner_catalogo_medium_2.jpg" media="(min-width: 1000px)" class="w-100" loading="lazy">
@@ -49,7 +58,7 @@ get_header();
                     <img srcset="/wp-content/uploads/2020/08/banner_catalogo_mobile_1-1.jpg" src="/wp-content/uploads/2020/08/banner_catalogo_mobile_1-1.jpg" alt="…" class="w-100" loading="lazy">
                 </picture>
                 </a>
-            </div>
+            </div> -->
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

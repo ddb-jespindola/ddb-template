@@ -33,7 +33,7 @@ get_header();
                 </a>
             </div>
             <div class="carousel-item">
-                <a href="/etiqueta-producto/medical-kt/">
+                <a href="/etiqueta-producto/medical-kit-ltda/">
                 <picture>
                     <source srcset="/wp-content/uploads/2020/11/limpieza_banner-2.jpg" media="(min-width: 1000px)" class="w-100" loading="lazy">
                     <source srcset="/wp-content/uploads/2020/11/banner_limpieza_mobile.jpg" media="(min-width: 800px)" class="w-100" loading="lazy">

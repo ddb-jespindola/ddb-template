@@ -74,33 +74,33 @@ get_header();
 <section class="section-comercializacion-distribucion">
     <div class="container">
         <div class="row d-flex justify-content-center text-center">
-            <div data-aos="fade-down" class="col-md-12 text-center" >
+            <div class="col-md-12 text-center" >
                 <h3>Comercialización y distribución de medicamentos</h3>
             </div>
-            <p data-aos="fade-down" class="mt-3">
+            <p class="mt-3">
             Nos especializamos en la comercialización y distribución de productos farmacéuticos éticos y genéricos, medicamentos de marca, dispositivos médicos y kits institucionales a entidades estatales y privadas
             </p>
         </div>
         <div class="row">
-            <div data-aos="fade-left" class="col-md-3 text-center border-right border-light service">
+            <div class="col-md-3 text-center border-right border-light service">
                 <i class="far fa-clock"></i>
                 <div class="mt-3"></div>
                 <h6>SERVICIO 7 DÍAS</h6>
                 <span class="icon-text">Entrega de medicamentos en las instituciones y redes de distribución especializada</span>   
             </div>
-            <div data-aos="fade-up" class="col-md-3 text-center border-right border-light service">
+            <div class="col-md-3 text-center border-right border-light service">
                 <i class="fas fa-chalkboard-teacher"></i>
                 <div class="mt-3"></div>
                 <h6>ASESORÍA EN CALIDAD</h6>
                 <span class="icon-text">Modelos conceptuales donde se identifique las fallas de la atención en salud y probabilidades de riesgo</span>   
             </div>
-            <div data-aos="fade-up" class="col-md-3 text-center border-right border-light service">
+            <div class="col-md-3 text-center border-right border-light service">
                 <i class="fas fa-plane"></i>
                 <div class="mt-3"></div>
                 <h6>IMPORTACIÓN Y EXPORTACIÓN</h6>
                 <span class="icon-text">Importación de Vitales no disponibles y exportación de productos farmacéuticos</span>   
             </div>
-            <div data-aos="fade-right" class="col-md-3 text-center service">
+            <div class="col-md-3 text-center service">
                 <i class="fas fa-check"></i>
                 <div class="mt-3"></div>
                 <h6>CERTIFICADO NTC 6001:2017</h6>

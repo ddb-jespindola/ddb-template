@@ -78,6 +78,19 @@
         width: 100%;
     }
 
+    .wpcf7-list-item{
+        margin: 0 0 0 0;
+    }
+
+    #cf-gdpr{
+        font-size: 0.9em;
+        color: #000000;
+        margin-top: -1em;
+        a{
+            color: $redDdb;
+        }
+    }
+
     
 }
 
@@ -119,3 +132,10 @@
         }
     }
 }
+
+
+//------------INPUT CHECKBOX CUSTOMIZATION--------------//
+
+  
+//---------- END INPUT CHECKBOX CUSTOMIZATION-----------------
+

@@ -25,8 +25,8 @@
 <script type="application/ld+json">
 {
     "@context":"http://schema.org",
-    "@type":"Pharmacy",
-    "name":"Deposito de Drogas Boyaca",
+    "@type":"MedicalBusiness",
+    "name":"Depósito de Drogas Boyacá",
     "url":"https://ddb.com.co/",
     "address":{
         "@type":"PostalAddress",

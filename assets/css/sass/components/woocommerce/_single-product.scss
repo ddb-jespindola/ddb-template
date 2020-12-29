@@ -1,5 +1,4 @@
 .woocommerce{
-
     div.product {
             padding: 20px 20px;
             box-shadow: 0px 6px 4px rgb(33 33 33 / 26%);
@@ -66,6 +65,14 @@
     }
 }
 
+.not-available-product {
+    display: table;
+    padding: 10px;
+    margin-top: 10px;
+    background: #b70817;
+    color: #ffffff;
+    font-weight: 500;
+}
 
 @media (max-width:990px) and (min-width:100px) {
     .single-product-contact-mobile{
@@ -88,3 +95,4 @@
         height: auto;
     }
 }
+

@@ -248,14 +248,39 @@ $args['description'] = '';
 }
 add_filter('woocommerce_show_page_title', '__return_false');
 
-/**
- * ADD button "¿Deseas cotizar el producto?"
- */
-function contact_button() { 
-  get_template_part( 'template-parts/woocommerce/section', 'contact-button' );
-};   
+
+
+//--------------------------------------------------------------------
+//***********PRODUCTOS NO DISPONIBLES********************************/
+//--------------------------------------------------------------------
+/* Si un producto esta inactivo se muestra el mensaje de "Producto no disponible"
+** Se oculta el boton de cotizar producto
+*/
+function available_message() { 
+  global $product;
+  $stock = $product->get_stock_quantity();
+  if ($stock == 0) {
+    echo "<div class='not-available-product'>Producto no disponible</div>";  
+  }else{
+    get_template_part( 'template-parts/woocommerce/section', 'contact-button' );
+  }
+};
 // add the action 
-add_action( 'woocommerce_product_meta_end', 'contact_button', 10 ); 
+add_action( 'woocommerce_product_meta_end', 'available_message', 20 ); 
+
+// // Botón "¿Deseas cotizar el producto?"
+// function contact_button() { 
+//   global $product;
+//   $stock = $product->get_stock_quantity();
+//   if ($stock > 0) {
+//     get_template_part( 'template-parts/woocommerce/section', 'contact-button' );
+//   }
+// };
+// add_action( 'woocommerce_product_meta_end', 'contact_button', 10 ); 
+
+//--------------------------------------------------------------------
+   
+
 
 
 //============================================

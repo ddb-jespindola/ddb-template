@@ -46,7 +46,7 @@ get_template_part( 'template-parts/section', 'hero' );
                         </a>    
                     </div>
                     <div class="col-md-4">
-                        <a href="/categoria-producto/medico-quirurgicos/">
+                        <a href="/categoria-producto/medico-quirurgicos-2/">
                             <div class="distribution-elements-img">
                                 <img src="/wp-content/uploads/2020/08/dispositivos-medicos_2.jpg" alt="" class="w-100">
                                 <div class="distribution-elements-text d-flex justify-content-center align-items-center">

@@ -40,7 +40,7 @@
                         <a href="/categoria-producto/medicamento/">Medicamentos</a>
                     </li>
                     <li>
-                        <a href="/categoria-producto/medico-quirurgicos/">Dispositivos médicos</a>
+                        <a href="/categoria-producto/medico-quirurgicos-2/">Dispositivos médicos</a>
                     </li>
                     <li>
                         <a href="/categoria-producto/kits-de-atencion-social-institucional/">Kits de atención social institucional</a>

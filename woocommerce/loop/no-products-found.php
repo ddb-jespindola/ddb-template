@@ -52,12 +52,12 @@ defined( 'ABSPATH' ) || exit;
                             300 748 42 72
                         </a>
                     </div>
-                    <div class="">
+                    <!-- <div class="">
                         <a href="https://wa.me/+573125237420" target="_blank">
                             <i class="fa fa-whatsapp my-float"></i>
                             312 523 74 20
                         </a>
-                    </div>
+                    </div> -->
                 </div>                
 
             </div>

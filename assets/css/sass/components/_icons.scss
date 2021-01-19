@@ -1,0 +1,17 @@
+
+
+.clase_inicio{
+    background-image: url( $data-svg-prefix + map-get( $icons, 'linkedin' ) );
+    width: 100px;
+    height: 100px;
+}
+// .icon {
+//     display: block;
+//     text-indent: -9999px;
+//     width: 100px;
+//     height: 82px;
+//     background: url(kiwi.svg);
+//     background-size: 100px 82px;
+//   }
+
+'<svg xmlns="http://www.w3.org/2000/svg" width="30.544" height="25.294" viewBox="0 0 30.544 25.294"><g transform="translate(-991.366 -1287.5)"><path d="M1454.5,1298.922l6.881,6.881-6.881,6.881" transform="translate(2312.404 -157.556) rotate(90)" fill="none" stroke="%23fff" stroke-width="3"/><path d="M8853.866,5633.57v9.724h27.544v-9.724" transform="translate(-7861 -4332)" fill="none" stroke="%23fff" stroke-linejoin="round" stroke-width="3"/><line y2="14" transform="translate(1006.5 1287.5)" fill="none" stroke="%23fff" stroke-width="3"/></g></svg>',

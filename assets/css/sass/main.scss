@@ -154,3 +154,11 @@ body{
     }
 
 }
+
+
+.icon-airplane{
+    background: url( $data-svg-prefix + map-get( $icons, 'airplane' ) );
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}

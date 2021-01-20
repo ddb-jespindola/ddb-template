@@ -322,4 +322,11 @@ get_header();
     </div>
 </section>
 
+
+<!-- <div class="container">
+    <div class="row">
+        <span class="icon-airplane"></span>
+    </div>
+</div> -->
+
 <?php get_footer(); ?>

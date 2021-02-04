@@ -15,7 +15,6 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #333;
-    font-display: auto;
 }
 
 .background-redddb{
@@ -85,8 +84,6 @@ body{
             list-style-type: none !important;
             position: absolute;
             left: 40px;
-            font-display: fallback;
-            
         }
     }
 }

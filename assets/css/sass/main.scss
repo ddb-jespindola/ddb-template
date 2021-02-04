@@ -5,6 +5,7 @@
 @import 'components/page';
 @import 'components/contact';
 @import 'components/sprites';
+@import 'components/functions';
 
 @import 'components/woocommerce/single-product';
 @import 'components/woocommerce/shop';
@@ -14,6 +15,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #333;
+    font-display: auto;
 }
 
 .background-redddb{
@@ -33,7 +35,7 @@ body{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
-        
+
     &:hover {
         filter: grayscale(0%);
         -webkit-filter: grayscale(0%);
@@ -83,6 +85,7 @@ body{
             list-style-type: none !important;
             position: absolute;
             left: 40px;
+            font-display: fallback;
             
         }
     }
@@ -155,10 +158,9 @@ body{
 
 }
 
-
 .icon-airplane{
-    background: url( $data-svg-prefix + map-get( $icons, 'airplane' ) );
     background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+    background-position: center;
+    //background-image: url("data:image/svg+xml,");
+    background-image: get-icon( 'airplane', red );
 }

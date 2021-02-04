@@ -93,6 +93,7 @@
 			<div>
 				<span class="pr-3">
 					<i class="far fa-clock"></i>
+					<!-- <span class="ddb-icon icon-airplane"></span> -->
 					Lun-Vie 7am - 4pm | Sab 8am - 1pm
 				</span>
 				<span class="border-left border-light pl-3 pr-3">

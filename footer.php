@@ -29,7 +29,7 @@
                     <li><span class="ddb-icon icon-phone-white"></span><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
                     <li><span class="ddb-icon icon-phone-white"></span><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
                     
-                    <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
+                    <li><span class="ddb-icon icon-mail-white"></span><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
                 </ul>
             </div>
             

@@ -42,33 +42,39 @@ get_template_part( 'template-parts/section', 'hero' );
 </section>
 
 <section class="principios-corporativos ">
-    <class class="container">
+    <div class="container">
         <div class="row">
-            <div class="col-md-12">
-            <h1 class="text-center mb-4 page-section-title">Principios Corporativos</h1>
-        <div class="row">
-            <div class="col-md-3 text-center">
-                <i class="fas fa-users-cog"></i>
-                <h3> Compromiso</h3>
-            </div>                
-            <div class="col-md-3 text-center">
-                <i class="fas fa-users"></i>
-                <h3>Respeto</h3>
+            <div class="col-md-3">
+                <h1 class="mb-4 ">Principios Corporativos</h1>
             </div>
-            <div class="col-md-3 text-center">
-                <i class="fas fa-user-plus"></i>
-                <h3>Responsabilidad</h3>
-            </div>
-            <div class="col-md-3 text-center">
-                <i class="fas fa-hand-sparkles"></i>
-                <h3>Transparencia</h3>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <!-- <i class="fas fa-users-cog"></i> -->
+                        <span class="ddb-icon icon-compromiso-gray"></span>
+                        <h3> Compromiso</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <!-- <i class="fas fa-users"></i> -->
+                        <span class="ddb-icon icon-respeto-gray"></span>
+                        <h3>Respeto</h3>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6 text-center">
+                        <!-- <i class="fas fa-user-plus"></i> -->
+                        <span class="ddb-icon icon-responsabilidad-gray"></span>
+                        <h3>Responsabilidad</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <!-- <i class="fas fa-hand-sparkles"></i> -->
+                        <span class="ddb-icon icon-search-gray"></span>
+                        <h3>Transparencia</h3>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-            </div>
-
-        </div>
-    </class>
+    </div>
 </section>
 
 <?php

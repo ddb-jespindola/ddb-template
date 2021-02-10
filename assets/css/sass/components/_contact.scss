@@ -43,7 +43,7 @@
         margin-bottom: 10px;
         font: 16px Arial, Helvetica, sans-serif;
         height: 45px;
-        color: #a7a7a7;
+        color: $grayDdb;
     }
     textarea{
         //resize:none;
@@ -90,8 +90,6 @@
             color: $redDdb;
         }
     }
-
-    
 }
 
 .contact-info{
@@ -131,11 +129,15 @@
             text-decoration: none;
         }
     }
+    .ddb-icon{
+        margin-right: 5px;
+        height: 18px;
+        width: 18px;
+    }
 }
 
 
 //------------INPUT CHECKBOX CUSTOMIZATION--------------//
-
   
 //---------- END INPUT CHECKBOX CUSTOMIZATION-----------------
 

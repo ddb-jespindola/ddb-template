@@ -1,6 +1,3 @@
-@function xxx(){
-    @return '#fff';
-}
 
 @function str-replace( $string, $search, $replace: '' ) {
     $index: str-index( $string, $search );
@@ -12,10 +9,10 @@
 
 @function get-icon( $icon, $color: #fff ) {
 
-    $icon:        map-get( $icons, $icon );
+    $icon: map-get( $icons, $icon );
     $placeholder: '%%COLOR%%';
   
     $data-uri: str-replace( url( $data-svg-prefix + $icon ), $placeholder, $color );
-    //@return str-replace( $data-uri, '#', '%23' );
+    @return str-replace( $data-uri, '#', '%23' );
     @return $data-uri;
   }

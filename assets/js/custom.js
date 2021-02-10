@@ -12,15 +12,25 @@ $(window).on('load', function() { // makes sure the whole site is loaded
   $('body').delay(50).css({'overflow':'visible'});
 })
 
-$(".search-button-main").on('click', function(){
+/**
+ * Search-Header Button
+ * 
+
+ */
+$(".search-button-main").click( function(){
+  console.log('Hola')
+  
   if($('#search-form-main').hasClass("search-form-main-display")){
     $('#search-form-main').removeClass("search-form-main-display")
-    $('.search-button-main i').addClass("fa-search")
-    $('.search-button-main i').removeClass("fa-times")
+    $('.search-button-main span').addClass("icon-search-white")
+    $('.search-button-main span').removeClass("icon-exit-white")
+    $('.main-menu-ddb').attr("style", "display: flex !important")
   }else{
     $('#search-form-main').addClass("search-form-main-display")
-    $('.search-button-main i').removeClass("fa-search")
-    $('.search-button-main i').addClass("fa-times")
+    $('.search-button-main span').removeClass("icon-search-white")
+    $('.search-button-main span').addClass("icon-exit-white")
+    $('.main-menu-ddb').attr("style", "display: none !important")
+    //$('#bs-example-navbar-collapse-1').hide()
   }
 })
 
@@ -100,11 +110,6 @@ document.addEventListener("DOMContentLoaded", function() {
 /***
  *  LAZY LOAD ALL IMAGES
  */
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
   const imageObserver = new IntersectionObserver((entries, imgObserver) => {
       entries.forEach((entry) => {

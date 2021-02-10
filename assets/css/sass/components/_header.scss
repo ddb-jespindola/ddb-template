@@ -60,6 +60,7 @@
 
 
 @media screen and (min-width: 990px){
+    
     .sticky {
         position: fixed ;
         width: 100% ;
@@ -234,29 +235,14 @@
             color: #ffffff;
             height: 50px;
             width: 50px;
+
+            .ddb-icon{
+                width: 20px;
+                height: 20px;
+                display: block;
+            }
         }
 
-        #search-form-main{
-            display: none;
-        }
-        .search-form-main-display{
-            display: block !important;
-            position: absolute;
-            top: 100px;
-            right: 7em;
-            //padding: 1em;
-            height: 55px;
-            border-radius: 0 0 5px 5px;
-            padding: 5px 8px 0px 8px;
-            background: #ffffff;
-            animation: search 1s;
-            
-        }
-          @keyframes search {
-            0% { opacity: 0; height : 0;}
-            25%{ height: 55px;}
-            100%{ opacity: 1; }
-          }
         // .search-animate{        
         //     animation-name: search;
         //     animation-duration: 0.3s;
@@ -292,8 +278,7 @@
             margin-right: 3px;
         }
          .ddb-icon{
-             width: 12px;
-             height: 12px;
+             margin-right: 5px;
          }
 
         .header-social{
@@ -355,3 +340,27 @@
  
 }
 
+
+
+#search-form-main{
+    display: none;
+}
+.search-form-main-display{
+    display: block !important;
+    //position: absolute;
+    top: 100px;
+    width: 500px;
+    right: 7em;
+    //padding: 1em;
+    height: 100%;
+    border-radius: 0 0 5px 5px;
+    //padding: 8px 8px 0px 8px;
+    background: #ffffff;
+    animation: search 0.5s;
+    
+}
+  @keyframes search {
+    0% { opacity: 0; height : 0;}
+    //25%{ height: 55px;}
+    100%{ opacity: 1; }
+  }

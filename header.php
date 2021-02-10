@@ -90,30 +90,34 @@
 <header class="header">
 	<div class="top-bar">
 		<div class="container d-flex justify-content-center align-items-center">
-			<div>
-				<span class="pr-3">
-					<i class="far fa-clock"></i>
-					<!-- <span class="ddb-icon icon-airplane"></span> -->
-					Lun-Vie 7am - 4pm | Sab 8am - 1pm
-				</span>
-				<span class="border-left border-light pl-3 pr-3">
-					<i class="fas fa-phone"></i>	
+			<div class="d-flex justify-content-center align-items-center">
+				<div class="pr-3 d-flex align-items-center">
+					<!-- <i class="far fa-clock"></i> -->
+					<span class="ddb-icon icon-clock-white"></span>
+					<span>Lun-Vie 7am - 4pm | Sab 8am - 1pm</span>
+				</div>
+				<div class="border-left border-light pl-3 pr-3 d-flex align-items-center">
+					<span class="ddb-icon icon-phone-white"></span>
+					<!-- <i class="fas fa-phone"></i>	 -->
 					<a href="tel:(1)7432597">(1) 743 25 97</a>
-				</span>
-				<span class="pr-3">
-					<i class="fas fa-phone"></i>
+				</div>
+				<div class="pr-3 d-flex align-items-center">
+					<!-- <i class="fas fa-phone"></i> -->
+					<span class="ddb-icon icon-phone-white"></span>
 					<a href="tel:(+57)3007484272">(+57) 300 748 42 72</a>
-				</span>
-				<span class="border-left border-light pl-3 pr-3">
-					<i class="far fa-envelope"></i>
+				</div>
+				<div class="border-left border-light pl-3 pr-3 d-flex align-items-center">
+					<!-- <i class="far fa-envelope"></i> -->
+					<span class="ddb-icon icon-mail-white"></span>
 					<a href="mailto:info@ddb.com.co">info@ddb.com.co</a>
-				</span>
-				<span class="border-left border-light pl-3">
-					<i class="fas fa-map-marker-alt"></i>
+				</div>
+				<div class="border-left border-light pl-3 d-flex align-items-center">
+					<!-- <i class="fas fa-map-marker-alt"></i> -->
+					<span class="ddb-icon icon-location-white"></span>
 					<a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank" rel="noreferrer">
 						Tv. 93 # 51-98 Bodega 18 Bogotá
 					</a>
-				</span>
+				</div>
 			</div>
 
 		</div>
@@ -144,24 +148,27 @@
 					'theme_location'    => 'primary',
 					'depth'             => 3,
 					'container'         => 'nav',
-					'container_class'   => 'collapse navbar-collapse',
+					'container_class'   => 'collapse navbar-collapse main-menu-ddb',
 					'container_id'      => 'bs-example-navbar-collapse-1',
 					'menu_class'        => 'nav navbar-nav text-right',
 					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 					'walker'            => new WP_Bootstrap_Navwalker(),
 				));
 				?>
+
+				<div id="search-form-main">
+					<?php echo do_shortcode('[wcas-search-form]'); ?>
+				</div>
 				
 				<div>
-					<span class="search-button-main d-flex align-items-center justify-content-center">
-					<i class="fas fa-search"></i>
-					</span>
+					<div class="search-button-main d-flex align-items-center justify-content-center">
+						<!-- <i class="fas fa-search"></i> -->
+						<span class="ddb-icon icon-search-white"></span>
+					</div>
 				</div>
 				
 			</div>
-			<div id="search-form-main">
-				<?php echo do_shortcode('[wcas-search-form]'); ?>
-			</div>
+			
 			
 
 		</div>

@@ -6,6 +6,7 @@
 @import 'components/contact';
 @import 'components/sprites';
 @import 'components/functions';
+@import 'components/icons';
 
 @import 'components/woocommerce/single-product';
 @import 'components/woocommerce/shop';
@@ -66,24 +67,35 @@ body{
     li{
         list-style: none;
         padding-left: 1.5em;
+        position: relative;
 
         &:before{
-            content: "\f058";
+            // content: "\f058";
+            // display: inline-block;
+            // margin: 2px 5px 0 0;
+            // color: $redDdb;
+            // font-family: "Font Awesome 5 Free";
+            // font-size: 20px;
+            // font-style: normal !important;
+            // font-weight: 400 !important;
+            // font-variant: normal !important;
+            // text-transform: none !important;
+            // line-height: 1;
+            // -webkit-font-smoothing: antialiased;
+            // -moz-osx-font-smoothing: grayscale;
+            // list-style-type: none !important;
+            // position: absolute;
+            // left: 40px;
+            content: "";
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: get-icon( 'circle-check', $redDdb);
+            width: 1.1em;
+            height: 1.1em;
             display: inline-block;
-            margin: 2px 5px 0 0;
-            color: $redDdb;
-            font-family: "Font Awesome 5 Free";
-            font-size: 20px;
-            font-style: normal !important;
-            font-weight: 400 !important;
-            font-variant: normal !important;
-            text-transform: none !important;
-            line-height: 1;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            list-style-type: none !important;
+            left: 0px;
+            top: 2px;
             position: absolute;
-            left: 40px;
         }
     }
 }
@@ -155,9 +167,6 @@ body{
 
 }
 
-.icon-airplane{
-    background-repeat: no-repeat;
-    background-position: center;
-    //background-image: url("data:image/svg+xml,");
-    background-image: get-icon( 'airplane', red );
+.menu-hide{
+    visibility: hidden !important;
 }

@@ -83,25 +83,29 @@ get_header();
         </div>
         <div class="row">
             <div class="col-md-3 text-center border-right border-light service">
-                <i class="far fa-clock"></i>
+                <!-- <i class="far fa-clock"></i> -->
+                <span class="ddb-icon icon-clock-red m-auto"></span>
                 <div class="mt-3"></div>
                 <h6>SERVICIO 7 DÍAS</h6>
                 <span class="icon-text">Entrega de medicamentos en las instituciones y redes de distribución especializada</span>   
             </div>
             <div class="col-md-3 text-center border-right border-light service">
-                <i class="fas fa-chalkboard-teacher"></i>
+                <!-- <i class="fas fa-chalkboard-teacher"></i> -->
+                <span class="ddb-icon icon-agent-red m-auto"></span>
                 <div class="mt-3"></div>
                 <h6>ASESORÍA EN CALIDAD</h6>
                 <span class="icon-text">Modelos conceptuales donde se identifique las fallas de la atención en salud y probabilidades de riesgo</span>   
             </div>
             <div class="col-md-3 text-center border-right border-light service">
-                <i class="fas fa-plane"></i>
+                <!-- <i class="fas fa-plane"></i> -->
+                <span class="ddb-icon icon-export-red m-auto"></span>
                 <div class="mt-3"></div>
                 <h6>IMPORTACIÓN Y EXPORTACIÓN</h6>
                 <span class="icon-text">Importación de Vitales no disponibles y exportación de productos farmacéuticos</span>   
             </div>
             <div class="col-md-3 text-center service">
-                <i class="fas fa-check"></i>
+                <!-- <i class="fas fa-check"></i> -->
+                <span class="ddb-icon icon-certificate-red m-auto"></span>
                 <div class="mt-3"></div>
                 <h6>CERTIFICADO NTC 6001:2017</h6>
                 <span class="icon-text">Acreditados por BVQI Colombia desde el 2014 como garantía de la calidad en todos nuestros procesos</span>   
@@ -298,8 +302,6 @@ get_header();
     </div> 
 </section> -->
 
-
-
 <section class="section-trabaja-con-nosotros pt-5 pb-5 pl-5 pr-5">
     <div class="container">
         <div class="row text-center">
@@ -321,11 +323,5 @@ get_header();
         </div>
     </div>
 </section>
-
-<!-- <div class="container">
-    <div class="row">
-        <span class="icon-airplane"></span>
-    </div>
-</div> -->
 
 <?php get_footer(); ?>

@@ -4,7 +4,7 @@
  *
  
 
- /**
+
   * 1 - LOAD CSS STYLES
   */
 function load_css()
@@ -48,7 +48,6 @@ register_nav_menus(
 );
 
 // Sidebars
-
 function my_sidebars(){
     register_sidebar(
         array(
@@ -215,7 +214,11 @@ function simple_product_sku_before_loop_item_title(){
 	global $product;
 	$type = $product->product_type;
 	$sku = $type == 'simple' ? "<div class='sku'> SKU - " . $product->get_sku() . '</div>' : '';
-	echo $sku;
+  $presentacion = $product->get_attribute('presentacion');
+  $presentacion = trim($presentacion) <> '' ? substr(ucfirst(strtolower($presentacion)), 0, 50) : '';
+  $presentacion = $type == 'simple' ? "<div class='list-presentation'>" . $presentacion . '</div>' : '';
+  echo $sku;
+  echo $presentacion;
 }
 
 

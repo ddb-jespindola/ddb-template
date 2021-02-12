@@ -130,3 +130,20 @@
     background-position: center;
     background-image: get-icon( 'search', $grayDdb );
 }
+
+.icon-contacto-gray{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: get-icon( 'contacto', $grayDdb );
+}
+
+
+/*
+*----------------- Turqoise----------------
+*/
+
+.icon-exit-blue{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: get-icon( 'exit', #42bbca );
+}

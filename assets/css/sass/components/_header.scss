@@ -25,14 +25,21 @@
 }
 /*----------------* Preloader end ------------------------------*/
 
+header{
+    input{ 
+        border: 2px solid $redDdb !important;
+        height: 50px !important;
+    }
+}
+
 .hero-image-header{
     background: $redDdb;
-    background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 100%),url('/wp-content/uploads/2020/08/hero_cabecera.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    //background-attachment: fixed;
-    color: #ffffff;
+    // background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 100%),url('/wp-content/uploads/2020/08/hero_cabecera.jpg');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    background-image: url(/wp-content/uploads/2021/02/cube-background.png); 
+    color: #4e4e4e;
     //height: 40vh;
     //margin-bottom: 4em;
 }
@@ -68,6 +75,7 @@
         transition: position 0.7s ease;
         background: #ffffff  !important;
         box-shadow: 0px 6px 11px rgba(33, 33, 33, 0.53);
+        min-height: 86px !important;
         
         .container {
             .collapse{
@@ -105,7 +113,7 @@
             top: 0;
             transition: background-color 0.7s ease;
             background-color: rgba(93, 93, 93, 0) ;
-            //margin: 0 -2em;
+            min-height: 115px;
             padding: 0 1em;
             .nav-logo{
                 transition: max-height 0.2s ease-in;
@@ -252,6 +260,7 @@
         //     0%   {top:0px; opacity: 1;}
         //     100% {top:-10px; opacity: 0;}
         // }
+
 
         
     }

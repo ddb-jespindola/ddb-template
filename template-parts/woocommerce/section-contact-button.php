@@ -7,12 +7,15 @@
 
 <div class="wc-product-contact-info d-flex justify-content-start single-product-contact" id="wc-sing-lecontact-info-screen" data-toggle="modal" data-target="#modal"> 
     <div class="btn-img-call">
-        <i class="fas fa-headset"></i>
+        <!-- <i class="fas fa-headset"></i> -->
+        <span class="ddb-icon icon-contacto-gray"></span>
     </div>
     <div class="txt-call-btn">
         <span class="gray-txt">¿Deseas cotizar el producto?</span>
         <span class="green-txt">Contáctanos</span>
-        <span class="green-txt"><i class="fas fa-plus"></i></span>
+        <span class="green-txt">
+          <!-- <i class="fas fa-plus"></i></span> -->
+          <span class="ddb-icon icon-exit-blue m-auto"></span>
         
     </div>
 </div>
@@ -48,7 +51,8 @@
 
 <div class="wc-product-contact-info d-flex justify-content-start single-product-contact-mobile" id="wc-sing-lecontact-info-screen" data-toggle="modal" data-target="#mobileModal"> 
     <div class="btn-img-call">
-        <i class="fas fa-headset"></i>
+        <!-- <i class="fas fa-headset"></i> -->
+        <span class="ddb-icon icon-contacto-gray m-auto"></span>
     </div>
     <div class="txt-call-btn">
         <span class="gray-txt">¿Deseas cotizar el producto?</span>

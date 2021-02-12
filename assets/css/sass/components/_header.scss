@@ -1,69 +1,6 @@
 @import 'variables';
 
-/*----------------------- Preloader -----------------------*/
-#preloader {
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#ffffff; /* change if the mask should have another color then white */
-    z-index:99999; /* makes sure it stays on top */
-}
-#status {
-    width:150px;
-    height:150px;
-    position:absolute;
-    left:45%; /* centers the loading animation horizontally one the screen */
-    top:45%; /* centers the loading animation vertically one the screen */
-    background-image:url("/wp-content/uploads/2020/06/spinner.gif");
-    z-index:9999; /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size: contain, cover;
-    //margin:-10px 0 0 -36px; /* is width and height divided by two */
-}
-/*----------------* Preloader end ------------------------------*/
 
-header{
-    input{ 
-        border: 2px solid $redDdb !important;
-        height: 50px !important;
-    }
-}
-
-.hero-image-header{
-    background: $redDdb;
-    // background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 100%),url('/wp-content/uploads/2020/08/hero_cabecera.jpg');
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    background-image: url(/wp-content/uploads/2021/02/cube-background.png); 
-    color: #4e4e4e;
-    //height: 40vh;
-    //margin-bottom: 4em;
-}
-
-.page-hero-text{
-    padding: 50px 0px 70px;
-    background-position: left top;
-    height: auto;
-    h1{
-        font-size: 2.5em;
-        text-transform: uppercase;
-        font-weight: 700;
-        &:after{
-            transform: translateX(-50%);
-            content: '';
-            left: 50%;
-            bottom: 0;
-            position: absolute;
-            width: 10em;
-            height: 2px;
-            background: $redDdb;
-        }
-    }
-}
 
 
 @media screen and (min-width: 990px){
@@ -260,9 +197,6 @@ header{
         //     0%   {top:0px; opacity: 1;}
         //     100% {top:-10px; opacity: 0;}
         // }
-
-
-        
     }
 
     .top-bar{
@@ -346,10 +280,86 @@ header{
     .search-button-main{
         display: none !important;
     }
+
+    .page-hero-text{
+        text-align: center;
+        padding: 40px 0px 40px !important;
+        h1{
+            font-size: 2em !important;
+        }
+        &:after{
+            width: 1em !important;
+        }
+    }
  
 }
 
+/*----------------------- Preloader -----------------------*/
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#ffffff; /* change if the mask should have another color then white */
+    z-index:99999; /* makes sure it stays on top */
+}
+#status {
+    width:150px;
+    height:150px;
+    position:absolute;
+    left:45%; /* centers the loading animation horizontally one the screen */
+    top:45%; /* centers the loading animation vertically one the screen */
+    background-image:url("/wp-content/uploads/2020/06/spinner.gif");
+    z-index:9999; /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: contain, cover;
+    //margin:-10px 0 0 -36px; /* is width and height divided by two */
+}
+/*----------------* Preloader end ------------------------------*/
 
+header{
+    input{ 
+        border: 2px solid $redDdb !important;
+        height: 50px !important;
+    }
+}
+
+.hero-image-header{
+    background: $redDdb;
+    // background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 100%),url('/wp-content/uploads/2020/08/hero_cabecera.jpg');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    //color: #fff;
+    background-image: url(/wp-content/uploads/2021/02/cube-background.png); 
+    background-repeat: repeat;
+    color: #4e4e4e;
+    //height: 40vh;
+    //margin-bottom: 4em;
+}
+
+.page-hero-text{
+    padding: 50px 0px 70px;
+    background-position: left top;
+    height: auto;
+    h1{
+        font-size: 2.5em;
+        text-transform: uppercase;
+        font-weight: 700;
+        &:after{
+            transform: translateX(-50%);
+            content: '';
+            left: 50%;
+            bottom: 0;
+            position: absolute;
+            width: 10em;
+            height: 2px;
+            background: $redDdb;
+        }
+    }
+}
 
 #search-form-main{
     display: none;

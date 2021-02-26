@@ -31,8 +31,9 @@
                 </div>
                 <div>
                     <ul class="ddb-list-modal">
-                        <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
-                        <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
+                        <!-- <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
+                        <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li> -->
+                        <li><i class="fas fa-phone"></i><a href="tel:+573125237420">(+57) 3125237420</a></li>
                         <!-- <li><a  href="https://wa.me/+573125237420" target="_blank"><i class="fa fa-whatsapp my-float text-success"></i>(+57) 312 523 74 20</a></li>
                         <li><a  href="https://wa.me/+573007484272" target="_blank"><i class="fa fa-whatsapp my-float text-success"></i>(+57) 300 748 42 72</a></li> -->
                         <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
@@ -73,8 +74,9 @@
                 </div>
                 <div>
                     <ul class="ddb-list-modal">
-                        <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
-                        <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
+                        <!-- <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
+                        <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li> -->
+                        <li><i class="fas fa-phone"></i><a href="tel:+573125237420">(+57) 3125237420</a></li>
                         <!-- <li><a  href="https://wa.me/+573125237420" target="_blank"><i class="fa fa-whatsapp my-float text-success"></i>(+57) 312 523 74 20</a></li>
                         <li><a  href="https://wa.me/+573007484272" target="_blank"><i class="fa fa-whatsapp my-float text-success"></i>(+57) 300 748 42 72</a></li> -->
                         <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>

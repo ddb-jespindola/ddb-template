@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             
-            <div class="col-md-4">
+            <address class="col-md-4">
                 <h5>Contacto</h5>
                 <ul>
                     <li><span class="ddb-icon icon-location-white"></span><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank"  rel="noreferrer">
@@ -26,12 +26,13 @@
                             Parque Empresarial Puerta del Sol Bodega 18  . Bogotá-Colombia</a>
                     </li>
                     <li><span class="ddb-icon icon-clock-white"></span>Lun-Vie 7am-4pm | Sab 8am-1pm</li>
-                    <li><span class="ddb-icon icon-phone-white"></span><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
+                    <!-- <li><span class="ddb-icon icon-phone-white"></span><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
+                    <li><span class="ddb-icon icon-phone-white"></span><a href="tel:+573125237420">(+57) 3125237420</a></li> -->
                     <li><span class="ddb-icon icon-phone-white"></span><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
                     
                     <li><span class="ddb-icon icon-mail-white"></span><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
                 </ul>
-            </div>
+    </address>
             
             <div class="col-md-4">
                 <h5>Acceso rápido</h5>

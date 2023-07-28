@@ -13,7 +13,7 @@ get_template_part( 'template-parts/section', 'hero' );
     <div class="container">
         <div class="row border mt-3 mb-3">
             <div class="col-md-12 text-center pt-5 pb-5">
-            Si quieres hacer parte de nuestro equipo de trabajo, registra tu hoja de vida y estaremos en contacto según la disponibilidad de nuestras vacantes
+            SI quieres hacer parte de nuestro equipo de trabajo, registra tu hoja de vida y estaremos en contacto según la disponibilidad de nuestras vacantes
             </div>
         </div>
         

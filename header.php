@@ -94,12 +94,15 @@
 				<div class="pr-3 d-flex align-items-center">
 					<!-- <i class="far fa-clock"></i> -->
 					<span class="ddb-icon icon-clock-white"></span>
-					<span>Lun-Vie 7am - 4pm | Sab 8am - 1pm</span>
+					<span>Lun-Vie 8am - 5pm | Sab 8am - 1pm</span>
 				</div>
 				<div class="border-left border-light pl-3 pr-3 d-flex align-items-center">
 					<span class="ddb-icon icon-phone-white"></span>
-					<!-- <i class="fas fa-phone"></i>	 -->
-					<a href="tel:+573125237420">(+57) 3125237420</a>
+					<a href="tel:+576017432597" style="padding-right:10px">(601) 743 25 97</a>
+					<span class="ddb-icon icon-phone-white"></span>
+					<a href="tel:+573125237420" style="padding-right:10px">(+57) 312 523 74 20</a>
+					<span class="ddb-icon icon-phone-white"></span>
+					<a href="tel:+573007484272" style="padding-right:10px">(+57) 300 748 42 72</a>
 				</div>
 				<!-- <div class="pr-3 d-flex align-items-center"> -->
 					<!-- <i class="fas fa-phone"></i> -->
@@ -176,4 +179,3 @@
 		
 </header>
 <div class="nav-placeholder"></div>
-

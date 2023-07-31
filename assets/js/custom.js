@@ -12,28 +12,31 @@ $(window).on('load', function() { // makes sure the whole site is loaded
   $('body').delay(50).css({'overflow':'visible'});
 })
 
+/**
+ * Search-Header Button
+ * 
 
-$(".search-button-main").on('click', function(){
-// $("#bs-example-navbar-collapse-1").fadeOut()
-// $('#search-form-main').fadeIn()
-//$(this).fadeOut('fast')
-//$('#search-form-main').fadeIn({queue: false, duration: 'slow'});
-if($('#search-form-main').hasClass("search-form-main-display")){
-  $('#search-form-main').removeClass("search-form-main-display")
-  $('.search-button-main i').addClass("fa-search")
-  $('.search-button-main i').removeClass("fa-times")
-}else{
-  $('#search-form-main').addClass("search-form-main-display")
-  $('.search-button-main i').removeClass("fa-search")
-  $('.search-button-main i').addClass("fa-times")
-}
-//$('#search-form-main').animate({ top: "-10px" }, 'slow');
+ */
+$(".search-button-main").click( function(){
+  console.log('Hola')
+  
+  if($('#search-form-main').hasClass("search-form-main-display")){
+    $('#search-form-main').removeClass("search-form-main-display")
+    $('.search-button-main span').addClass("icon-search-white")
+    $('.search-button-main span').removeClass("icon-exit-white")
+    $('.main-menu-ddb').attr("style", "display: flex !important")
+  }else{
+    $('#search-form-main').addClass("search-form-main-display")
+    $('.search-button-main span').removeClass("icon-search-white")
+    $('.search-button-main span').addClass("icon-exit-white")
+    $('.main-menu-ddb').attr("style", "display: none !important")
+    //$('#bs-example-navbar-collapse-1').hide()
+  }
 })
 
 /**
- * Sticky menu
- * */
-
+* Sticky menu
+*/
 $(document).ready(function(){
     $(window).bind('scroll', function() {
           if ($(window).scrollTop() > 100) {
@@ -50,25 +53,18 @@ $(document).ready(function(){
      });
  });
 
- 
-/**
+ /**
  * CONTADOR HOME
  */
-
 $(window).scroll(testScroll);
 var viewed = false;
-
-
   function isScrolledIntoView(elem) {
       var docViewTop = $(window).scrollTop();
       var docViewBottom = docViewTop + $(window).height();
-
       var elemTop = $(elem).offset().top;
       var elemBottom = elemTop + $(elem).height();
-
       return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
   }
-
   function testScroll() {
     if (typeof $('.numbers').offset() !== 'undefined') {
       if (isScrolledIntoView($(".numbers")) && !viewed) {
@@ -87,3 +83,45 @@ var viewed = false;
       }
     }
 }
+
+/***
+ *  LAZY LOAD BACKGROUND IMAGES
+ */
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyBackgrounds = [].slice.call(document.querySelectorAll(".numbers"));
+
+  if ("IntersectionObserver" in window) {
+    let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          lazyBackgroundObserver.unobserve(entry.target);
+        }
+      });
+    });
+
+    lazyBackgrounds.forEach(function(lazyBackground) {
+      lazyBackgroundObserver.observe(lazyBackground);
+    });
+  }
+});
+
+/***
+ *  LAZY LOAD ALL IMAGES
+ */
+document.addEventListener("DOMContentLoaded", function() {
+  const imageObserver = new IntersectionObserver((entries, imgObserver) => {
+      entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+              const lazyImage = entry.target
+              console.log("lazy loading ", lazyImage)
+              lazyImage.src = lazyImage.dataset.src
+          }
+      })
+  });
+  const arr = document.querySelectorAll('img.lazy')
+  arr.forEach((v) => {
+      imageObserver.observe(v);
+  })
+})

@@ -13,10 +13,10 @@ get_template_part( 'template-parts/section', 'hero' );
     <div class="container">
         <div class="row">
         <div class="mx-auto mb-3">
-            <h2 class="text-left page-section-title">Nuestro trabajo también salva vidas</h2>
+            <h2 class="page-section-title text-center">Nuestro trabajo también salva vidas</h2>
         </div>
-            <div class="col-md-12 pr-5">
-                <div class="row background-redddb text-white mb-3">
+            <div class="col-md-12">
+                <div class="row background-redddb text-white mb-3 text-center">
                     <div class="col-md-12 text-center pt-1 pb-1">
                         <h3>Servicios</h3>
                     </div>

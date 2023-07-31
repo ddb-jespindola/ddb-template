@@ -2,13 +2,9 @@
 /**
  * DDB functions and definitions
  *
- * 1- Load CSS styles
- * 2- Load JS
- * 3- Register menus
- */
+ 
 
 
- /**
   * 1 - LOAD CSS STYLES
   */
 function load_css()
@@ -29,10 +25,7 @@ function load_js()
     wp_enqueue_script('jquery');
     wp_register_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap/bootstrap.min.js', 'jquery', false, true);
     wp_enqueue_script('bootstrap');
-
     wp_enqueue_script('my-custom-script', get_template_directory_uri() .'/assets/js/jquery-3.5.1.js', array('jquery'), null, true);
-
-
     wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), null, true);
 }
 add_action('wp_enqueue_scripts', 'load_js');
@@ -55,7 +48,6 @@ register_nav_menus(
 );
 
 // Sidebars
-
 function my_sidebars(){
     register_sidebar(
         array(
@@ -190,19 +182,6 @@ function woo_minimum_order_amount() {
   add_action( 'woocommerce_checkout_process', 'woo_minimum_order_amount' );
   add_action( 'woocommerce_before_cart' , 'woo_minimum_order_amount' );
 
-
-/*
-* Change product button on shop - text
-*/
-  add_filter( 'woocommerce_product_add_to_cart_text', function( $text ) {
-    if ( 'Read more' == $text ) {
-        $text = __( 'More Info', 'woocommerce' );
-    }
-
-    return $text;
-} );
-
-
 /**
  * Change the placeholder image
  */
@@ -235,11 +214,17 @@ function simple_product_sku_before_loop_item_title(){
 	global $product;
 	$type = $product->product_type;
 	$sku = $type == 'simple' ? "<div class='sku'> SKU - " . $product->get_sku() . '</div>' : '';
-	echo $sku;
+  $presentacion = $product->get_attribute('presentacion');
+  $presentacion = trim($presentacion) <> '' ? substr(ucfirst(strtolower($presentacion)), 0, 50) : '';
+  $presentacion = $type == 'simple' ? "<div class='list-presentation'>" . $presentacion . '</div>' : '';
+  echo $sku;
+  echo $presentacion;
 }
 
 
-
+/**
+ * Add search box to products page
+ */
 add_action( 'woocommerce_before_shop_loop', 'test_loop_start', 5 );
 function test_loop_start(){
     echo "<div class='mt-3 mb-3 searchbar-shop'>". do_shortcode('[wcas-search-form]') ."</div>";
@@ -255,6 +240,7 @@ add_filter( 'loop_shop_per_page', function ( $cols ) {
   return 10;
 }, 20 );
 
+
 /**
  * Remove generic message of Woocommerce
  */
@@ -264,3 +250,196 @@ $args['description'] = '';
   return $args;
 }
 add_filter('woocommerce_show_page_title', '__return_false');
+
+
+
+//--------------------------------------------------------------------
+//***********PRODUCTOS NO DISPONIBLES********************************/
+//--------------------------------------------------------------------
+/* Si un producto esta inactivo se muestra el mensaje de "Producto no disponible"
+** Se oculta el boton de cotizar producto
+*/
+function available_message() { 
+  global $product;
+  $stock = $product->get_stock_quantity();
+  if ($stock == 0) {
+    echo "<div class='not-available-product'>Producto no disponible</div>";  
+  }else{
+    get_template_part( 'template-parts/woocommerce/section', 'contact-button' );
+  }
+};
+// add the action 
+add_action( 'woocommerce_product_meta_end', 'available_message', 20 ); 
+
+// // Botón "¿Deseas cotizar el producto?"
+// function contact_button() { 
+//   global $product;
+//   $stock = $product->get_stock_quantity();
+//   if ($stock > 0) {
+//     get_template_part( 'template-parts/woocommerce/section', 'contact-button' );
+//   }
+// };
+// add_action( 'woocommerce_product_meta_end', 'contact_button', 10 ); 
+
+//--------------------------------------------------------------------
+   
+
+
+
+//============================================
+//      DISABLE UNUSED WOOCOMMERCE CSS
+//============================================
+
+/**
+ * Disable WooCommerce block styles (back-end).
+ */
+function slug_disable_woocommerce_block_editor_styles() {
+  wp_deregister_style( 'wc-block-editor' );
+  wp_deregister_style( 'wc-block-style' );
+}
+add_action( 'enqueue_block_assets', 'slug_disable_woocommerce_block_editor_styles', 1, 1 );
+
+
+/**
+ * Disable WooCommerce block styles (front-end).
+ */
+function slug_disable_woocommerce_block_styles() {
+  wp_dequeue_style( 'wc-block-style' );
+}
+add_action( 'wp_enqueue_scripts', 'slug_disable_woocommerce_block_styles' );
+
+//============================================
+//============================================
+
+
+
+
+
+
+
+//===================================================
+//              SEO SETTINGS
+//===================================================
+/**
+ * Register SEO yoast_variables 
+ */
+function get_short_desc() {
+  global $product;
+  $short_desc = $product->get_short_description();
+  $short_desc = substr($short_desc, 0, 80);
+  return $short_desc;
+}
+function get_attr_presentacion(){
+  global $product;
+  $attribute = $product->get_attribute('presentacion');
+  $attribute = substr($attribute, 0, 50);
+  return  $attribute;
+}
+function get_attr_invima(){
+  global $product;
+  $attribute = 'INVIMA ' . $product->get_attribute('invima');
+  return  $attribute;
+}
+function register_custom_yoast_variables() {
+  wpseo_register_var_replacement( '%%shortdesc%%', 'get_short_desc', 'advanced', 'woocommerce short description' );
+  wpseo_register_var_replacement( '%%presentacion%%', 'get_attr_presentacion', 'advanced', 'woocommerce attribute presentacion' );
+  wpseo_register_var_replacement( '%%invima%%', 'get_attr_invima', 'advanced', 'woocommerce attribute invima' );
+}
+add_action('wpseo_register_extra_replacements', 'register_custom_yoast_variables');
+
+/**-----------------
+* ADD SEO SCHEMA INFO
+*-------------------
+*/
+
+// Add SEO Schema info of products
+add_action('woocommerce_before_single_product', 'schema_info_product', 10);
+
+function schema_info_product() {
+  global $product;
+  $name = $product->get_name();
+  $sku = $product->get_sku();
+  $short_desc = $product->get_short_description();
+  $description = $product->get_description();
+  $image = 'https://ddb.com.co/wp-content/uploads/2020/08/placeholder_ddb.jpg';
+
+  $presentacion = $product->get_attribute('presentacion');
+  $via_administracion = $product->get_attribute('via-administracion');
+  $forma_farmac = $product->get_attribute('forma-farmaceutica');
+  $invima = $product->get_attribute('invima');
+  $fabricante = $product->get_attribute('fabricante');
+  $titular_marca = $product->get_attribute('titular');
+  $ean = $product->get_attribute('ean');
+  $url = get_permalink( $product->get_id() );
+
+  $nterms = get_the_terms( $post->ID, 'product_tag'  );
+  $terms = get_the_terms( $product->ID, 'product_cat' );
+  foreach ($terms  as $term  ) {
+      $product_cat_name = $term->name;
+      break;
+  }
+  foreach ($nterms  as $term  ) {
+    $product_tag_name = $term->name;
+    break;
+}
+  $tag = $product_tag_name = $term->name;
+  $category = $product_cat_name;
+  $price = $product->get_price();
+  
+  // Add Drug Schema tag only for Medicamentos Tag
+  if ($category == "Medicamento") {
+
+    echo '<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "Drug",
+        "activeIngredient": " ' . $short_desc . ' ",
+        "administrationRoute": " ' . $via_administracion . ' ",
+        "dosageForm": " ' . $forma_farmac . ' ",
+        "foodWarning": " ' . $description . ' ",/*Contraindicaciones*/
+        "manufacturer": {
+            "@type": "Organization",
+            "name": "' . $fabricante . '"
+        },
+        "nonProprietaryName": " '. $short_desc .' ", /*Nombre generico*/
+        "proprietaryName": " ' . $name . ' ",
+        "description": "' . $name . ' - ' . $presentacion . '",
+        "identifier": " ' . $invima . ' ",/*Invima*/
+        "image": " ' . $image . ' ",
+        "name": " ' . $name . ' ",
+        "medicineSystem": "https://schema.org/WesternConventional"
+    }
+    </script>';
+  }
+
+  echo '<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "Product",
+        "name": "' . $name . '",
+        "description": "' . $name . ' - ' . $presentacion . '",
+        "image": "' . $image . '",
+        "brand": {
+           "@type": "Organization",
+            "name": "' . $tag . '"
+        },  
+        "category": "' . $category . '", 
+        "gtin13": "' . $ean . '", 
+        "manufacturer": {
+            "@type": "Organization",
+            "name": "' . $fabricante . '"
+        },
+        "sku": "' . $sku . '",
+        "alternateName": "'. $short_desc .'",
+        "productID": "' . $invima . '",
+        "offers": {
+          "@type": "Offer",
+          "url": " ' . $url . ' ",
+          "priceCurrency": "COP",
+          "price": "",
+          "availability": "https://schema.org/InStoreOnly",
+          "itemCondition": "https://schema.org/NewCondition"
+        }
+    }
+    </script>';
+}

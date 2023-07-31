@@ -5,14 +5,23 @@
 @import 'components/page';
 @import 'components/contact';
 @import 'components/sprites';
+@import 'components/functions';
+@import 'components/icons';
 
 @import 'components/woocommerce/single-product';
 @import 'components/woocommerce/shop';
 @import 'components/woocommerce/widgets';
 
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #333;
 }
+
+address{
+    margin-bottom: 0 !important;
+}
+
 .background-redddb{
     background: $redDdb;
 }
@@ -30,7 +39,7 @@ body{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
-        
+
     &:hover {
         filter: grayscale(0%);
         -webkit-filter: grayscale(0%);
@@ -62,26 +71,35 @@ body{
     li{
         list-style: none;
         padding-left: 1.5em;
+        position: relative;
 
         &:before{
-            content: "\f058";
+            // content: "\f058";
+            // display: inline-block;
+            // margin: 2px 5px 0 0;
+            // color: $redDdb;
+            // font-family: "Font Awesome 5 Free";
+            // font-size: 20px;
+            // font-style: normal !important;
+            // font-weight: 400 !important;
+            // font-variant: normal !important;
+            // text-transform: none !important;
+            // line-height: 1;
+            // -webkit-font-smoothing: antialiased;
+            // -moz-osx-font-smoothing: grayscale;
+            // list-style-type: none !important;
+            // position: absolute;
+            // left: 40px;
+            content: "";
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: get-icon( 'circle-check', $redDdb);
+            width: 1.1em;
+            height: 1.1em;
             display: inline-block;
-            margin: 2px 5px 0 0;
-            color: $redDdb;
-            font-family: "Font Awesome 5 Free";
-            font-size: 20px;
-            font-style: normal !important;
-            font-weight: 400 !important;
-            font-variant: normal !important;
-            text-transform: none !important;
-            speak: none;
-            line-height: 1;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            list-style-type: none !important;
+            left: 0px;
+            top: 2px;
             position: absolute;
-            left: 40px;
-            
         }
     }
 }
@@ -101,4 +119,58 @@ body{
     &:hover{
         background: $blackDdb;
     }
+}
+
+.ddb-modal-box{
+    padding: 15px 20px;
+    h4{
+        font-weight: 600;
+        color: $grayDdb;
+    }
+}
+.ddb-list-modal{
+    list-style: none;
+    padding-right: 25%;
+    li{
+        border-bottom: 1px solid #b9b9b9;
+        padding: 6px 0px 6px 20%;
+        i{
+            //color: $redDdb;
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+        a{
+            color: $grayDdb;
+            font-weight: 600;
+        }
+    }
+}
+
+/**
+* Bootstrap Styles
+*/
+
+.modal-dialog {
+    max-width: 700px;
+}
+
+.modal-content{
+    border-radius: 10px;
+    border: none;
+}
+
+#modal{
+    .modal-body{
+        background-image: url(/wp-content/uploads/2020/10/contact-product-popup-2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 350px;
+        border-radius: 10px;
+    }
+
+}
+
+.menu-hide{
+    visibility: hidden !important;
 }

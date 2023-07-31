@@ -29,6 +29,9 @@
             .sku{
                 color: $redDdb;
             }
+            .list-presentation{
+                color: $grayDdb;
+            }
         }
     }
 }
@@ -47,13 +50,13 @@
 }
     
 .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1,.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
-    ax-width: unset;
+    max-width: unset;
 }
 
 
 .searchbar-shop{
     padding: 10px 40px;
-    background: $redDdb;
+    background: $grayDdb;
 }
 
 .woocommerce-pagination{

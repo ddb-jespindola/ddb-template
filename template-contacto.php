@@ -12,27 +12,23 @@ get_template_part( 'template-parts/section', 'hero' );
 
 <section class="section-without-background mt-5 mb-5">
     <div class="container">
-
-        <h2 class="text-center mb-5 page-section-title">Preguntas, Reclamos o Sugerencias</h2>
-        <p class="text-center mb-5">Responderemos tus requerimientos a la brevedad</p>
         <div class="row">
             <div class="col-md-7">
-                <h2>Formulario de contacto</h3>
                 <?php echo do_shortcode('[contact-form-7 id="273" title="Formulario de contacto 1"]'); ?>
             </div>
-            
-            <div class="col-md-5 contact-info ">
-                <h2>Datos de contacto</h3>
+
+            <div class="col-md-5 contact-info">
                 <ul class="mt-4">
-                    <li><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank">
-                            Transversal 93 # 51-98 
-                            Parque Empresarial Puerta del Sol Bodega 18  . Bogotá-Colombia</a>
+                    <li><span class="ddb-icon icon-location-red"></span><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank" rel="noreferrer">
+                        Transversal 93 # 51-98 Parque Empresarial Puerta del Sol Bodega 18  . Bogotá, Colombia</a>
                     </li>
-                    <li><i class="far fa-clock"></i>Lun-Vie 7am-4pm | Sab 8am-1pm</li>
-                    <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
-                    <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
-                    
-                    <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
+                    <li><span class="ddb-icon icon-postal-red"></span>CP 111071</li>
+                    <li><span class="ddb-icon icon-clock-red"></span>Lun-Vie 8am-5pm | Sab 8am-1pm
+                    </li>
+                    <li><span class="ddb-icon icon-phone-red"></span><a href="tel:(+571)7432597">(601) 743 25 97</a></li>
+                    <li><span class="ddb-icon icon-phone-red"></span><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
+                    <li><span class="ddb-icon icon-phone-red"></span><a href="tel:(+57)3007484272">(+57) 312 523 74 20</a></li>
+                    <li><span class="ddb-icon icon-mail-red"></span><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
                 </ul>
             </div>
         </div>

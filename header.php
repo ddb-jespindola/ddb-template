@@ -96,18 +96,19 @@
 					<span class="ddb-icon icon-clock-white"></span>
 					<span>Lun-Vie 8am - 5pm | Sab 8am - 1pm</span>
 				</div>
-				<span class="border-left border-light pl-3 pr-3">
-				<span class="ddb-icon icon-phone-white"></span>
-					<a href="tel:(1)7432597">(601) 743 25 97</a>
-				</span>
-				<span class="pr-3">
+				<div class="border-left border-light pl-3 pr-3 d-flex align-items-center">
 					<span class="ddb-icon icon-phone-white"></span>
-					<a href="tel:(+57)3007484272">(+57) 300 748 42 72</a>
-				</span>
-				<span class="pr-3">
+					<a href="tel:+576017432597" style="padding-right:10px">(601) 743 25 97</a>
 					<span class="ddb-icon icon-phone-white"></span>
-					<a href="tel:(+57)3007484272">(+57) 312 523 74 20</a>
-				</span>
+					<a href="tel:+573125237420" style="padding-right:10px">(+57) 312 523 74 20</a>
+					<span class="ddb-icon icon-phone-white"></span>
+					<a href="tel:+573007484272" style="padding-right:10px">(+57) 300 748 42 72</a>
+				</div>
+				<!-- <div class="pr-3 d-flex align-items-center"> -->
+					<!-- <i class="fas fa-phone"></i> -->
+					<!-- <span class="ddb-icon icon-phone-white"></span>
+					<a href="tel:(+57)3007484272">(+57) 300 748 42 72</a> -->
+				<!-- </div> -->
 				<div class="border-left border-light pl-3 pr-3 d-flex align-items-center">
 					<!-- <i class="far fa-envelope"></i> -->
 					<span class="ddb-icon icon-mail-white"></span>

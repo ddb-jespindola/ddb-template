@@ -11,27 +11,28 @@
 
 <footer>
 
-    <a  class="whats-app d-flex align-items-center justify-content-center" href="https://wa.me/+573125237420" target="_blank">
+    <!-- <a  class="whats-app d-flex align-items-center justify-content-center" href="https://wa.me/+573125237420" target="_blank" rel="noreferrer">
         <i class="fa fa-whatsapp my-float"></i>
-    </a>
+    </a> -->
 
     <div class="container">
         <div class="row">
             
-            <div class="col-md-4">
+            <address class="col-md-4">
                 <h5>Contacto</h5>
                 <ul>
-                    <li><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank">
+                    <li><span class="ddb-icon icon-location-white"></span><a href="https://www.google.com/maps/place/Dep%C3%B3sito+de+Drogas+Boyac%C3%A1/@4.6860751,-74.1213518,15z/data=!4m2!3m1!1s0x0:0x11fb3f84b9c80ffb?sa=X&ved=2ahUKEwilhevoqa_rAhUCjlkKHS7VAxgQ_BIwCnoECBUQCA" target="_blank"  rel="noreferrer">
                             Transversal 93 # 51-98 
                             Parque Empresarial Puerta del Sol Bodega 18  . Bogotá-Colombia</a>
                     </li>
-                    <li><i class="far fa-clock"></i>Lun-Vie 7am-4pm | Sab 8am-1pm</li>
-                    <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
-                    <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
+                    <li><span class="ddb-icon icon-clock-white"></span>Lun-Vie 7am-4pm | Sab 8am-1pm</li>
+                    <li><span class="ddb-icon icon-phone-white"></span><a href="tel:(+571)7432597">(601) 743 25 97</a></li> 
+                    <li><span class="ddb-icon icon-phone-white"></span><a href="tel:+573125237420">(+57) 312 523 74 20</a></li>
+                    <li><span class="ddb-icon icon-phone-white"></span><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
                     
-                    <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
+                    <li><span class="ddb-icon icon-mail-white"></span><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
                 </ul>
-            </div>
+    </address>
             
             <div class="col-md-4">
                 <h5>Acceso rápido</h5>
@@ -40,13 +41,13 @@
                         <a href="/categoria-producto/medicamento/">Medicamentos</a>
                     </li>
                     <li>
-                        <a href="/categoria-producto/medico-quirurgicos/">Dispositivos médicos</a>
+                        <a href="/categoria-producto/medico-quirurgicos-2/">Dispositivos médicos</a>
                     </li>
                     <li>
                         <a href="/categoria-producto/kits-de-atencion-social-institucional/">Kits de atención social institucional</a>
                     </li>
                     <li>
-                        <a href="/escribenos">Contacto</a>
+                        <a href="/contacto/">Contacto</a>
                     </li>
                     <li>
                         <a href="/trabaja-con-nosotros/">Trabaja con nosotros</a>
@@ -64,14 +65,17 @@
                 <h5>Certificaciones</h5>
                 <div class="footer-logo">
                         <!-- <img src="/wp-content/uploads/2020/06/Bureau-veritas-C0240563.png" alt="" class="footer-logo"> -->
-                        <ul><img src="/wp-content/uploads/2020/08/Bureau-Veritas-NTC-6001-2017.jpg" alt="" class="footer-logo"> </ul>
+                        <ul><img src="/wp-content/uploads/2020/11/LOGO_BUREAU_VERITAS_DDB.jpg" alt="" class="footer-logo"  loading="lazy"> </ul>
                 </div>
             </div>
 
         </div>
         <div class="row ">
             <div class="col-md-12 text-center social-footer">
-            <a href="https://www.linkedin.com/company/dep%C3%B3sito-de-drogas-boyac%C3%A1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/company/dep%C3%B3sito-de-drogas-boyac%C3%A1/" target="_blank"  rel="noreferrer">
+                <!-- <i class="fab fa-linkedin"></i> -->
+                <span class="ddb-icon icon-linkedin-white m-auto social-button"></span>
+            </a>
             </div>
         </div>
         <div class="row footer-copyright">
@@ -84,11 +88,13 @@
     <!-- AOS scroll animations -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            once: true
+        });
     </script>
 </footer>
 
-<!--Start of Tawk.to Script-->
+<!-- Start of Tawk.to Script -->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){

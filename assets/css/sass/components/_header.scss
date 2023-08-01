@@ -1,65 +1,10 @@
 @import 'variables';
 
-/*----------------------- Preloader -----------------------*/
-#preloader {
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#ffffff; /* change if the mask should have another color then white */
-    z-index:99999; /* makes sure it stays on top */
-}
-#status {
-    width:150px;
-    height:150px;
-    position:absolute;
-    left:45%; /* centers the loading animation horizontally one the screen */
-    top:45%; /* centers the loading animation vertically one the screen */
-    background-image:url("/wp-content/uploads/2020/06/spinner.gif");
-    z-index:9999; /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size: contain, cover;
-    //margin:-10px 0 0 -36px; /* is width and height divided by two */
-}
-/*----------------* Preloader end ------------------------------*/
 
-.hero-image-header{
-    background: $redDdb;
-    background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 100%),url('/wp-content/uploads/2020/08/hero_cabecera.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    //background-attachment: fixed;
-    color: #ffffff;
-    //height: 40vh;
-    //margin-bottom: 4em;
-}
-
-.page-hero-text{
-    padding: 50px 0px 70px;
-    background-position: left top;
-    height: auto;
-    h1{
-        font-size: 2.5em;
-        text-transform: uppercase;
-        font-weight: 700;
-        &:after{
-            transform: translateX(-50%);
-            content: '';
-            left: 50%;
-            bottom: 0;
-            position: absolute;
-            width: 10em;
-            height: 2px;
-            background: $redDdb;
-        }
-    }
-}
 
 
 @media screen and (min-width: 990px){
+    
     .sticky {
         position: fixed ;
         width: 100% ;
@@ -67,6 +12,7 @@
         transition: position 0.7s ease;
         background: #ffffff  !important;
         box-shadow: 0px 6px 11px rgba(33, 33, 33, 0.53);
+        min-height: 86px !important;
         
         .container {
             .collapse{
@@ -104,11 +50,11 @@
             top: 0;
             transition: background-color 0.7s ease;
             background-color: rgba(93, 93, 93, 0) ;
-            //margin: 0 -2em;
+            min-height: 115px;
             padding: 0 1em;
             .nav-logo{
                 transition: max-height 0.2s ease-in;
-                max-height: 70px;
+                max-height: 80px;
                 margin: 0.5em 0;
             }
             .navbar-nav {
@@ -120,13 +66,12 @@
 
                 .nav-link {
                     color: $grayDdb;
-                    font-family: Lato;
-                    font-weight: 700;
-                    font-size: 0.8em;
+                    font-size: 0.9em;
                     line-height: 1;
                     text-transform: uppercase;
                     padding: 3.5em 1em;
                     transition: 0.5s;
+                    font-weight: 400 !important;
                     
                     &:hover{
                         color: $redDdb;
@@ -206,12 +151,11 @@
             }
             .dropdown-menu{
                 margin-top: 0;
-                font-family: Lato;
                 font-weight: 400;
                 letter-spacing: 0px;
                 font-style: normal;
                 text-transform: uppercase;
-                font-size: 14px;
+                font-size: 0.9em;
                 background: #efefefeb;
                 border-radius: 0;
                 padding: 0px;
@@ -236,29 +180,14 @@
             color: #ffffff;
             height: 50px;
             width: 50px;
+
+            .ddb-icon{
+                width: 20px;
+                height: 20px;
+                display: block;
+            }
         }
 
-        #search-form-main{
-            display: none;
-        }
-        .search-form-main-display{
-            display: block !important;
-            position: absolute;
-            top: 100px;
-            right: 7em;
-            //padding: 1em;
-            height: 55px;
-            border-radius: 0 0 5px 5px;
-            padding: 5px 8px 0px 8px;
-            background: #ffffff;
-            animation: search 1s;
-            
-        }
-          @keyframes search {
-            0% { opacity: 0; height : 0;}
-            25%{ height: 55px;}
-            100%{ opacity: 1; }
-          }
         // .search-animate{        
         //     animation-name: search;
         //     animation-duration: 0.3s;
@@ -268,8 +197,6 @@
         //     0%   {top:0px; opacity: 1;}
         //     100% {top:-10px; opacity: 0;}
         // }
-
-        
     }
 
     .top-bar{
@@ -293,6 +220,9 @@
             color: #ffffff;
             margin-right: 3px;
         }
+         .ddb-icon{
+             margin-right: 5px;
+         }
 
         .header-social{
             i{
@@ -350,6 +280,106 @@
     .search-button-main{
         display: none !important;
     }
+
+    .page-hero-text{
+        text-align: center;
+        padding: 50px 0px !important;
+        h1{
+            font-size: 1.7em !important;
+        }
+        &:after{
+            width: 1em !important;
+        }
+    }
  
 }
 
+/*----------------------- Preloader -----------------------*/
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#ffffff; /* change if the mask should have another color then white */
+    z-index:99999; /* makes sure it stays on top */
+}
+#status {
+    width:150px;
+    height:150px;
+    position:absolute;
+    left:45%; /* centers the loading animation horizontally one the screen */
+    top:45%; /* centers the loading animation vertically one the screen */
+    background-image:url("/wp-content/uploads/2020/06/spinner.gif");
+    z-index:9999; /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: contain, cover;
+    //margin:-10px 0 0 -36px; /* is width and height divided by two */
+}
+/*----------------* Preloader end ------------------------------*/
+
+header{
+    input{ 
+        border: 2px solid $redDdb !important;
+        height: 50px !important;
+    }
+}
+
+.hero-image-header{
+    background: $redDdb;
+    // background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 100%),url('/wp-content/uploads/2020/08/hero_cabecera.jpg');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    //color: #fff;
+    background-image: url(/wp-content/uploads/2021/02/cube-background.png); 
+    background-repeat: repeat;
+    color: #4e4e4e;
+    //height: 40vh;
+    //margin-bottom: 4em;
+}
+
+.page-hero-text{
+    padding: 60px 0px 60px;
+    background-position: left top;
+    height: auto;
+    h1{
+        font-size: 2.5em;
+        text-transform: uppercase;
+        font-weight: 700;
+        &:after{
+            transform: translateX(-50%);
+            content: '';
+            left: 50%;
+            bottom: 0;
+            position: absolute;
+            width: 10em;
+            height: 2px;
+            background: $redDdb;
+        }
+    }
+}
+
+#search-form-main{
+    display: none;
+}
+.search-form-main-display{
+    display: block !important;
+    //position: absolute;
+    top: 100px;
+    width: 500px;
+    right: 7em;
+    //padding: 1em;
+    height: 100%;
+    border-radius: 0 0 5px 5px;
+    //padding: 8px 8px 0px 8px;
+    background: #ffffff;
+    animation: search 0.5s;
+    
+}
+  @keyframes search {
+    0% { opacity: 0; height : 0;}
+    //25%{ height: 55px;}
+    100%{ opacity: 1; }
+  }

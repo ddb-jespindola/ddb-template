@@ -16,7 +16,7 @@ get_template_part( 'template-parts/section', 'hero' );
             SI quieres hacer parte de nuestro equipo de trabajo, registra tu hoja de vida y estaremos en contacto según la disponibilidad de nuestras vacantes
             </div>
             <div class="col-md-12 text-center pt-5 pb-5">
-            Advertencia sobre estafas para postulantes:
+            Advertencia sobre estafas para postulantes: DDB no pide dinero.
             </div>
         </div>
         

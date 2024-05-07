@@ -15,6 +15,12 @@ get_template_part( 'template-parts/section', 'hero' );
             <div class="col-md-12 text-center pt-5 pb-5">
             SI quieres hacer parte de nuestro equipo de trabajo, registra tu hoja de vida y estaremos en contacto según la disponibilidad de nuestras vacantes
             </div>
+            <div class="alert alert-warning" role="alert">
+            ADVERTENCIA! ESTAFA POR FALSA CONVOCATORIA A PROCESOS DE SELECCIÓN.
+            DEPOSITO DE DROGAS BOYACÁ informa que personas inescrupulosas estan utilizando nuestro nombre para realizar falsos procesos y cobros ilegales.
+            Hacemos un llamado a la ciudadanía para que no caiga en este tipo de estafas pues, nosotros no realizamos nungún tipo de cobro por estos procesos, examenes médicos y no tenemos intermediarios.
+            Si onoce algun intento de estafa por favor comunicarlo en nuestro formulario de contacto.
+            </div>
         </div>
         
         <div class="row">

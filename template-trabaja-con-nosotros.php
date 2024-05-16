@@ -19,7 +19,7 @@ get_template_part( 'template-parts/section', 'hero' );
             ADVERTENCIA! ESTAFA POR FALSA CONVOCATORIA A PROCESOS DE SELECCIÓN.
             DEPOSITO DE DROGAS BOYACÁ informa que personas inescrupulosas estan utilizando nuestro nombre para realizar falsos procesos y cobros ilegales.
             Hacemos un llamado a la ciudadanía para que no caiga en este tipo de estafas pues, nosotros no realizamos nungún tipo de cobro por estos procesos, examenes médicos y no tenemos intermediarios.
-            Si onoce algun intento de estafa por favor comunicarlo en nuestro formulario de contacto.
+            Si conoce algun intento de estafa por favor comunicarlo en nuestro formulario de contacto.
             </div>
         </div>
         

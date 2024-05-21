@@ -53,9 +53,9 @@ get_header();
             <div class="carousel-item ">
                 <a href="/catalogo-de-productos/">
                 <picture>
-                    <source srcset="/wp-content/uploads/2024/05/Banner-DKT.jpg" media="(min-width: 1000px)" class="w-100" loading="lazy">
-                    <source srcset="/wp-content/uploads/2024/05/Banner-DKT.jpg" media="(min-width: 800px)" class="w-100" loading="lazy">
-                    <img srcset="/wp-content/uploads/2024/05/Banner-DKT.jpg" src="/wp-content/uploads/2024/05/Banner-DKT.jpg" alt="…" class="w-100" loading="lazy">
+                    <source srcset="/wp-content/uploads/2024/05/BANER-DKT2.png" media="(min-width: 1000px)" class="w-100" loading="lazy">
+                    <source srcset="/wp-content/uploads/2024/05/BANER-DKT2.png" media="(min-width: 800px)" class="w-100" loading="lazy">
+                    <img srcset="/wp-content/uploads/2024/05/BANER-DKT2.png" src="/wp-content/uploads/2024/05/BANER-DKT2.png" alt="…" class="w-100" loading="lazy">
                 </picture>
                 </a>
             </div>

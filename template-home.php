@@ -189,16 +189,6 @@ get_header();
         </div>
         <div class="row mt-5">
             <div data-aos="fade-left" class="col-md-4">
-<<<<<<< HEAD
-                <div class="distribution-elements-img">
-                    <!-- <img src="/wp-content/uploads/2020/08/medicamentos_2.jpg" alt="" class="w-100"  loading="lazy"> -->
-                    <picture>
-                        <source srcset="/wp-content/uploads/2020/11/medicamentos-desktop.jpg"
-                            media="(min-width: 1000px)" class="w-100" loading="lazy">
-                        <img srcset="/wp-content/uploads/2020/11/medicamentos-mobile.jpg" alt="…" class="w-100"
-                            loading="lazy">
-                    </picture>
-=======
                 <a href="/categoria-producto/medicamento/">
                     <div class="distribution-elements-img">
                         <!-- <img src="/wp-content/uploads/2020/08/medicamentos_2.jpg" alt="" class="w-100"  loading="lazy"> -->
@@ -208,43 +198,11 @@ get_header();
                             <img srcset="/wp-content/uploads/2020/11/medicamentos-mobile.jpg" alt="…" class="w-100"
                                 loading="lazy">
                         </picture>
->>>>>>> 55827b1128802150c0e9076858ebab44866f8560
 
                         <div class="distribution-elements-text d-flex justify-content-center align-items-center">
                             <h5>Productos farmacéuticos hospitalarios, ambulatorios, control especial y alto costo</h5>
                         </div>
                     </div>
-<<<<<<< HEAD
-                </div>
-            </div>
-            <div data-aos="zoom-in" class="col-md-4">
-                <div class="distribution-elements-img">
-                    <!-- <img src="/wp-content/uploads/2020/08/alimentos-nutriciones_1.jpg" alt="" class="w-100"  loading="lazy"> -->
-                    <picture>
-                        <source srcset="/wp-content/uploads/2020/11/alimentos-desktop.jpg" media="(min-width: 1000px)"
-                            class="w-100" loading="lazy">
-                        <img srcset="/wp-content/uploads/2020/11/alimentos-mobile.jpg" alt="…" class="w-100"
-                            loading="lazy">
-                    </picture>
-                    <div class="distribution-elements-text d-flex justify-content-center align-items-center">
-                        <h5>Alimentos y nutriciones</h5>
-                    </div>
-                </div>
-            </div>
-            <div data-aos="fade-right" class="col-md-4">
-                <div class="distribution-elements-img">
-                    <!-- <img src="/wp-content/uploads/2020/08/dispositivos-medicos_2.jpg" alt="" class="w-100"  loading="lazy"> -->
-                    <picture>
-                        <source srcset="/wp-content/uploads/2020/11/dispositivos-desktop.jpg"
-                            media="(min-width: 1000px)" class="w-100" loading="lazy">
-                        <img srcset="/wp-content/uploads/2020/11/dispositivos-mobile.jpg" alt="…" class="w-100"
-                            loading="lazy">
-                    </picture>
-                    <div class="distribution-elements-text d-flex justify-content-center align-items-center">
-                        <h5>Dispositivos médicos</h5>
-                    </div>
-                </div>
-=======
                 </a>
             </div>
             <div data-aos="zoom-in" class="col-md-4">
@@ -278,53 +236,10 @@ get_header();
                         </div>
                     </div>
                 </a>
->>>>>>> 55827b1128802150c0e9076858ebab44866f8560
             </div>
         </div>
         <div class="row mt-3">
             <div data-aos="fade-left" class="col-md-4">
-<<<<<<< HEAD
-
-                <div class="distribution-elements-img">
-                    <!-- <img src="/wp-content/uploads/2020/08/sustitutos-oseos_3.jpg" alt="" class="w-100"  loading="lazy"> -->
-                    <picture>
-                        <source srcset="/wp-content/uploads/2020/11/osteosintesis-desktop.jpg"
-                            media="(min-width: 1000px)" class="w-100" loading="lazy">
-                        <img srcset="/wp-content/uploads/2020/11/osteosintesis-mobile.jpg" alt="…" class="w-100"
-                            loading="lazy">
-                    </picture>
-                    <div class="distribution-elements-text d-flex justify-content-center align-items-center">
-                        <h5>Osteosíntesis y Sustitutos Óseos</h5>
-                    </div>
-                </div>
-            </div>
-            <div data-aos="zoom-in" class="col-md-4">
-                <div class="distribution-elements-img">
-                    <!-- <img src="/wp-content/uploads/2020/08/productos-biologicos_1.jpg" alt="" class="w-100"  loading="lazy"> -->
-                    <picture>
-                        <source srcset="/wp-content/uploads/2020/11/laboratorio-desktop.jpg" media="(min-width: 1000px)"
-                            class="w-100" loading="lazy">
-                        <img srcset="/wp-content/uploads/2020/11/laboratorio-mobile.jpg" alt="…" class="w-100"
-                            loading="lazy">
-                    </picture>
-                    <div class="distribution-elements-text d-flex justify-content-center align-items-center">
-                        <h5>Productos biológicos</h5>
-                    </div>
-                </div>
-            </div>
-            <div data-aos="fade-right" class="col-md-4">
-                <div class="distribution-elements-img">
-                    <!-- <img src="/wp-content/uploads/2020/08/kits_1.jpg" alt="" class="w-100"  loading="lazy"> -->
-                    <picture>
-                        <source srcset="/wp-content/uploads/2020/11/kits-desktop.jpg" media="(min-width: 1000px)"
-                            class="w-100" loading="lazy">
-                        <img srcset="/wp-content/uploads/2020/11/kits-mobile.jpg" alt="…" class="w-100" loading="lazy">
-                    </picture>
-                    <div class="distribution-elements-text d-flex justify-content-center align-items-center">
-                        <h5>Kits de Atención Social Institucional</h5>
-                    </div>
-                </div>
-=======
                 <a href="/categoria-producto/sustitutos-oseos-biomateriales/">
                     <div class="distribution-elements-img">
                         <!-- <img src="/wp-content/uploads/2020/08/sustitutos-oseos_3.jpg" alt="" class="w-100"  loading="lazy"> -->
@@ -371,17 +286,10 @@ get_header();
                         </div>
                     </div>
                 </a>
->>>>>>> 55827b1128802150c0e9076858ebab44866f8560
             </div>
         </div>
     </div>
 </section>
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 55827b1128802150c0e9076858ebab44866f8560
 
 <!-- <section class="section-testimonial section-with-background">
     <div class="row ">

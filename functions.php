@@ -283,7 +283,32 @@ add_action( 'woocommerce_product_meta_end', 'available_message', 20 );
 
 //--------------------------------------------------------------------
    
+//--------------------------------------------------------------------
+//***********Quitar etiquetas en Single Product********************************/
+//--------------------------------------------------------------------
+/**
+ * @snippet       Hide SKU, Cats, Tags @ Single Product Page - WooCommerce
+ * @how-to        businessbloomer.com/woocommerce-customization
+ */
+   
+  remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 
+  
+  add_action( 'woocommerce_single_product_summary', 'bbloomer_show_cats_and_sku_again_single_product', 40 );
+  
+  function bbloomer_show_cats_and_sku_again_single_product() {
+    global $product;
+    ?>
+<div class="product_meta">
+    <?php if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
+    <span class="sku_wrapper"><?php esc_html_e( 'SKU:', 'woocommerce' ); ?> <span
+            class="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'woocommerce' ); ?></span></span>
+    <?php endif; ?>
+    <?php echo wc_get_product_category_list( $product->get_id(), ', ', '<span class="posted_in">' . _n( 'Categoría:', 'Categories:', count( $product->get_category_ids() ), 'woocommerce' ) . ' ', '</span>' ); ?>
+</div>
+<?php
+  }
+//--------------------------------------------------------------------
 
 
 //============================================
@@ -372,7 +397,7 @@ function schema_info_product() {
   $ean = $product->get_attribute('ean');
   $url = get_permalink( $product->get_id() );
 
-  $nterms = get_the_terms( $post->ID, 'product_tag'  );
+  $nterms = get_the_terms( $product->ID, 'product_tag'  );
   $terms = get_the_terms( $product->ID, 'product_cat' );
   foreach ($terms  as $term  ) {
       $product_cat_name = $term->name;

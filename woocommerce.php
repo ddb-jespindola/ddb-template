@@ -24,8 +24,8 @@ get_template_part( 'template-parts/section', 'hero' );
                             <!-- <li class=" pb-3"><i class="fas fa-phone"></i><a class="text-decoration-none text-black"
                                     href="tel:+573125237420">(+57)3125237420</a></li> -->
                             <li class=" pb-3"><span>Whatsapp: </span> <a class="text-decoration-none text-black"
-                                    href="https://wa.me/+573332714025" target="_blank"><i
-                                        class="fa fa-whatsapp my-float text-success"></i>(+57) 3332714025</a>
+                                    href="https://wa.me/+3125237420" target="_blank"><i
+                                        class="fa fa-whatsapp my-float text-success"></i>(+57) 3125237420</a>
                             </li>
                             <li class=" pb-3"><span>Correo electrónico: </span> <i class="far fa-envelope"></i><a
                                     class="text-decoration-none text-black"
